@@ -23,4 +23,5 @@ echo ""
 echo "Gracias por descargar MgToLs pasate"
 echo "por mi canal ayi subo cosas interesantes:"
 echo "https://youtu.be/o731VMFjMNw"
+rm MgToLs.zip
 rm MgToLs.sh
