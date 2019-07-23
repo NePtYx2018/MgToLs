@@ -10,6 +10,11 @@ echo ""
 echo "Lo sentimos por hacerte esperar,pero MgToLs se"
 echo "esta descomprimiendo..."
 unzip MgToLs.zip
+mkdir $HOME/Status
+mv MgToLs $HOME/Status
+rm -fr $HOME/MgToLs
+mv $HOME/Status/MgToLs $HOME/
+rm -fr $HOME/Status
 clear
 echo ' _   _      ____  _ __   __'
 echo '| \ | | ___|  _ \| |\ \ / /_  __'
@@ -22,5 +27,5 @@ echo ""
 echo "Gracias por descargar MgToLs pasate por"
 echo "mi canal ayi subo cosas interesantes:"
 echo "[https://youtu.be/UrOBPSU6u-8]"
-rm MgToLs.zip
-rm MgToLs.sh
+echo ""
+
