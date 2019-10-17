@@ -15,6 +15,7 @@ mv MgToLs $HOME/Status
 rm -fr $HOME/MgToLs
 mv $HOME/Status/MgToLs $HOME/
 rm -fr $HOME/Status
+bash $HOME/MgToLs/requirements.txt
 clear
 echo ' _   _      ____  _ __   __'
 echo '| \ | | ___|  _ \| |\ \ / /_  __'
