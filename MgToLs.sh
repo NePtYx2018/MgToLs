@@ -1,3 +1,4 @@
+pkg install unrar -y
 clear
 echo ' _   _      ____  _ __   __'
 echo '| \ | | ___|  _ \| |\ \ / /_  __'
@@ -8,8 +9,15 @@ echo '////////////////////////////////'
 echo '\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'
 echo ""
 echo "Lo sentimos por hacerte esperar,pero MgToLs se"
-echo "esta descomprimiendo..."
-unzip MgToLs.zip
+echo "esta descomprimiendo!!."
+unrar x MgToLs1.rar
+unrar x MgToLs2.rar
+mv MgToLs1 MgToLs
+cd MgToLs2
+mv .*/ ../MgToLs/
+cd ..
+rm -fr MgToLs1.rar
+rm -fr MgToLs2.rar
 mkdir $HOME/Status
 mv MgToLs $HOME/Status
 rm -fr $HOME/MgToLs
