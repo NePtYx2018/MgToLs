@@ -15,3 +15,4 @@ cual podras contactarte con el creador y mas personas que usen el programa.
 
 Gracias por usar MgToLs y por descargarlo cualquier fallo diganmelo por MSG!
 
+YouTube: Virus Erex
