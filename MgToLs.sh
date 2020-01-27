@@ -12,12 +12,17 @@ echo "Lo sentimos por hacerte esperar,pero MgToLs se"
 echo "esta descomprimiendo!!."
 unrar x MgToLs1.rar
 unrar x MgToLs2.rar
+unrar x MgToLs3.rar
 mv MgToLs1 MgToLs
 cd MgToLs2
 mv .*/ ../MgToLs/
 cd ..
+cd MgToLs3
+mv .*/ ../MgToLs/
+cd ..
 rm -fr MgToLs1.rar
 rm -fr MgToLs2.rar
+rm -fr MgToLs3.rar
 mkdir $HOME/Status
 mv MgToLs $HOME/Status
 rm -fr $HOME/MgToLs
