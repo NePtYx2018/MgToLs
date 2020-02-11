@@ -9,7 +9,7 @@ echo '////////////////////////////////'
 echo '\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'
 echo ""
 echo "Lo sentimos por hacerte esperar,pero MgToLs se"
-echo "esta descomprimiendo!!."
+echo "esta descargando para luego ser descomprimido!!."
 wget https://midget-twine.000webhostapp.com/MgToLs.rar
 unrar x MgToLs.rar
 
