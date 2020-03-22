@@ -1,4 +1,5 @@
 pkg install unrar -y
+pkg install wget -y
 clear
 echo ' _   _      ____  _ __   __'
 echo '| \ | | ___|  _ \| |\ \ / /_  __'
