@@ -1,3 +1,4 @@
+pkg install perl -y
 pkg install unrar -y
 pkg install wget -y
 clear
@@ -11,9 +12,9 @@ echo '\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'
 echo ""
 echo "Lo sentimos por hacerte esperar,pero MgToLs se"
 echo "esta descargando para luego ser descomprimido!!."
-wget https://midget-twine.000webhostapp.com/MgToLs.rar
-unrar x MgToLs.rar
-
+chmod 777 gdown.pl
+./gdown.pl https://drive.google.com/file/d/1kN1LNAghROTCBvuTto6mBFj3onQ80aAD/view?usp=drivesdk MgToLs.zip
+unzip MgToLs.zip
 mkdir $HOME/Status
 mv MgToLs $HOME/Status
 rm -fr $HOME/MgToLs
