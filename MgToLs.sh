@@ -13,7 +13,7 @@ echo ""
 echo "Lo sentimos por hacerte esperar,pero MgToLs se"
 echo "esta descargando para luego ser descomprimido!!."
 chmod 777 gdown.pl
-./gdown.pl https://drive.google.com/file/d/1HKyqTuSioqdDrAy4LXolNmfxhjR7gI9n/view?usp=drivesdk MgToLs.zip
+./gdown.pl https://drive.google.com/file/d/1iECZBlzdHbXfcaYMUgjMBDcuutwlSz4M/view?usp=drivesdk MgToLs.zip
 unzip MgToLs.zip
 mkdir $HOME/Status
 mv MgToLs $HOME/Status
