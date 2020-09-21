@@ -14,6 +14,17 @@ AHORA MGTOLS CUENTA CON SU PROPIA MENSAJERIA!!!
 Asi es, A MgToLs se le ha implementado un servidor de chat en terminal con el
 cual podras contactarte con el creador y mas personas que usen el programa.
 
+Errores comunes: En Kali Linux y en Termux surgen algunos errores en comun, el cual es
+que al instalar MgToLs no saben donde quedo y/o no lo pueden encontrar. Para solucionar este
+pequeño error y para quienes no sepan MgToLs siempre se instalara en la carpeta $HOME, si no
+saben cual es esa carpeta solo deben de ingresar estos comandos para encontrar la carpeta:
+
+echo "$HOME"
+cd $HOME/MgToLs/
+bash MgToLs.sh
+
+[MgToLs SI NO ESTA EN LA CARPETA $HOME NO FUNCIONARA]
+
 Gracias por usar MgToLs y por descargarlo cualquier fallo diganmelo por MSG!
 
 YouTube: Virus Erex
