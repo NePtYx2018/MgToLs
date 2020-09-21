@@ -19,9 +19,9 @@ que al instalar MgToLs no saben donde quedo y/o no lo pueden encontrar. Para sol
 pequeño error y para quienes no sepan MgToLs siempre se instalara en la carpeta $HOME, si no
 saben cual es esa carpeta solo deben de ingresar estos comandos para encontrar la carpeta:
 
-echo "$HOME"
-cd $HOME/MgToLs/
-bash MgToLs.sh
+echo "$HOME";cd $HOME/MgToLs/;bash MgToLs.sh
+
+
 
 [MgToLs SI NO ESTA EN LA CARPETA $HOME NO FUNCIONARA]
 
