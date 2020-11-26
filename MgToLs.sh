@@ -1,5 +1,5 @@
 pkg install perl -y
-pkg install unrar -y
+pkg install unzip -y
 pkg install wget -y
 clear
 echo ' _   _      ____  _ __   __'
