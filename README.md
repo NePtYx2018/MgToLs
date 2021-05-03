@@ -29,6 +29,11 @@ Gracias por usar MgToLs y por descargarlo cualquier fallo diganmelo por MSG!
 
 YouTube: Virus Erex
 
-#XD
+# Instalacion Termux y Linux
 
-Hola
+pkg install git -y
+git clone https://github.com/NePtYx2018/MgToLs.git
+cd MgToLs
+bash MgToLs.sh
+
+Seleccionamos si la instalacion es para linux o termux y comenzara la instalacion.
