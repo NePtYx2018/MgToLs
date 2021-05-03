@@ -28,3 +28,7 @@ echo "$HOME";cd $HOME/MgToLs/;bash MgToLs.sh
 Gracias por usar MgToLs y por descargarlo cualquier fallo diganmelo por MSG!
 
 YouTube: Virus Erex
+
+#XD
+
+Hola
