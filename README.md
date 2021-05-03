@@ -9,9 +9,9 @@ Ahora con la actualizacion 5.1 tenemos nuevos script por los cuales podremos
 desarrollar diversas actividades nuevas, tales como ataque via diccionario, creacion de
 apk malicioso indetectable, encriptacion de archivos, etc.
 
-AHORA MGTOLS CUENTA CON SU PROPIA MENSAJERIA!!!
+# AHORA MGTOLS CUENTA CON SU PROPIA MENSAJERIA!!!
 
-Asi es, A MgToLs se le ha implementado un servidor de chat en terminal con el
+Asi es, a MgToLs se le ha implementado un servidor de chat en terminal con el
 cual podras contactarte con el creador y mas personas que usen el programa.
 
 Errores comunes: En Kali Linux y en Termux surgen algunos errores en comun, el cual es
@@ -19,11 +19,11 @@ que al instalar MgToLs no saben donde quedo y/o no lo pueden encontrar. Para sol
 pequeño error y para quienes no sepan MgToLs siempre se instalara en la carpeta $HOME, si no
 saben cual es esa carpeta solo deben de ingresar estos comandos para encontrar la carpeta:
 
-echo "$HOME";cd $HOME/MgToLs/;bash MgToLs.sh
+> echo "$HOME";cd $HOME/MgToLs/;bash MgToLs.sh
 
 
 
-[MgToLs SI NO ESTA EN LA CARPETA $HOME NO FUNCIONARA]
+> [MgToLs SI NO ESTA EN LA CARPETA $HOME NO FUNCIONARA]
 
 Gracias por usar MgToLs y por descargarlo cualquier fallo diganmelo por MSG!
 
@@ -32,8 +32,11 @@ YouTube: Virus Erex
 # Instalacion Termux y Linux
 
 pkg install git -y
+
 git clone https://github.com/NePtYx2018/MgToLs.git
+
 cd MgToLs
+
 bash MgToLs.sh
 
 Seleccionamos si la instalacion es para linux o termux y comenzara la instalacion.
