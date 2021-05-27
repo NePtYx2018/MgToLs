@@ -1,6 +1,9 @@
 pkg install perl -y
 pkg install unzip -y
 pkg install wget -y
+apt-get install perl -y
+apt-get install zip -y
+apt-get install wget -y
 clear
 echo ' _   _      ____  _ __   __'
 echo '| \ | | ___|  _ \| |\ \ / /_  __'
@@ -33,4 +36,9 @@ echo ""
 echo "Gracias por descargar MgToLs pasate por"
 echo "mi canal ayi subo cosas interesantes:"
 echo "[https://youtu.be/UrOBPSU6u-8]"
+echo ""
+echo "En LINUX:"
+echo ""
+echo "Si ejecutaste MgToLs en modo root MgToLs"
+echo "quedara en la carpeta root."
 echo ""
