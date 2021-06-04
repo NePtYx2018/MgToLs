@@ -1,4 +1,4 @@
-<img src="https://xbzsfz6z5afc8ux1oyxqmq-on.drv.tw/banner.png" alt="Koa middleware framework for nodejs"/>
+<img src="https://xbzsfz6z5afc8ux1oyxqmq-on.drv.tw/banner.png" alt="MgToLs Termux"/>
 # MgToLs
 MgToLs programado nativamente en bash cada herramienta es independiente
 por lo que cada herramienta tiene su propia carpeta debido a esto para mover
