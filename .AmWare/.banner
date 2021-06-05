@@ -1,0 +1,36 @@
+
+
+# Leer Variables
+
+bb=$(cat .fc)
+date=$(date +'%m-%d')
+
+# Terminos de Variables
+
+
+# Inicio de comparativos
+
+
+if [ "$bb" = "$date" ]; then
+clear
+echo -e "\e[38;5;82m"
+echo "                   ============================================================"
+echo "                   =      Estado Seguro: Sin alertas todo como debe estar     ="
+echo "                   ============================================================"
+echo ""
+cat .cl
+echo ""
+else
+clear
+echo -e "\e[38;5;226m"
+echo "                   ============================================================"
+echo "                   =      Estado Critico: No has analizado tu equipo hoy      ="
+echo "                   ============================================================"
+echo ""
+d=$(echo "$date" |& tee .fc)
+cat .cl
+echo ""
+fi
+
+# Fin de comparativos
+

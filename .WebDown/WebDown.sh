@@ -1,0 +1,21 @@
+echo " _ _ _     _   ____"
+echo "| | | |___| |_|    \ ___ _ _ _ ___"
+echo "| | | | -_| . |  |  | . | | | |   |"
+echo "|_____|___|___|____/|___|_____|_|_|"
+echo "==========="
+echo "by=WebDown="
+echo "==========="
+echo ""
+echo "Introduce la web que deseas descargar:"
+read input
+echo ""
+clear
+echo " _ _ _     _   ____"
+echo "| | | |___| |_|    \ ___ _ _ _ ___"
+echo "| | | | -_| . |  |  | . | | | |   |"
+echo "|_____|___|___|____/|___|_____|_|_|"
+echo "==========="
+echo "by=WebDown="
+echo "==========="
+echo "Descargando $input"
+wget -p $input

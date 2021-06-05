@@ -1,0 +1,25 @@
+clear
+echo " _              _"
+echo "|_) _ __  _  | | \ _  |  |"
+echo "|_)(_|| |(_  |<|_/(_) |  |"
+echo "=========="
+echo "by=NePtYx="
+echo "=========="
+echo ""
+echo "Ingresa su rut:"
+read input
+echo ""
+echo "Cuantos intentos deseas hacer?:"
+echo "================="
+echo "1)Passwords(10) ="
+echo "2)Passwords(100)="
+echo "================="
+read input1
+echo ""
+echo "================="
+echo "Rut:$input      ="
+echo "======================"
+echo "Contraseñas posibles:="
+echo "======================"
+echo ""
+python .$input1.py

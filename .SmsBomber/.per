@@ -1,0 +1,42 @@
+bash .banner
+echo "Introduce tu mensaje porfavor no mas de 250 letras:"
+read pal
+
+# Si no funciona registrarse en www.altaria.net
+
+
+# Inicio de variables
+
+pass=$(cat .pass)
+gm=$(cat .gm)
+id=$(cat .id)
+num=$(cat .num)
+
+# Fin de variables
+
+# Peticion de envio
+
+function envia_sms()
+{
+MENSAJE_SMS="$1"
+COMANDO="cmd=sendsms&domainId=$id&login=$gm&passwd=$pass&dest=$num&msg=$MENSAJE_SMS"
+/usr/bin/curl -d "${COMANDO}" http://www.altiria.net/api/http -post
+}
+ASUNTO="$pal"
+envia_sms "$ASUNTO"
+
+dat=$(cat st)
+
+if [ "OK dest:$num" = "$dat" ]; then
+bash .banner
+echo "Mensaje se ha enviado correctamente!!"
+read sig
+bash SmsBomber.sh
+else
+bash .banner
+echo "Lo sentimos no se ha podido enviar el mensaje..."
+read sig
+bash SmsBomber.sh
+fi
+
+# Fin de peticion de envio

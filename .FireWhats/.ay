@@ -1,0 +1,6 @@
+bash .banner
+cat Readme.txt
+echo ""
+echo "Presiona una tecla para continuar..."
+read pause
+bash FireWhats.sh

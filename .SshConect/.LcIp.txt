@@ -1,0 +1,22 @@
+Starting Nmap 7.70 ( https://nmap.org ) at 2019-04-06 19:28 -03
+Stats: 0:00:47 elapsed; 0 hosts completed (0 up), 254 undergoing Ping Scan
+Ping Scan Timing: About 33.46% done; ETC: 19:30 (0:01:33 remaining)
+Stats: 0:00:48 elapsed; 0 hosts completed (0 up), 254 undergoing Ping Scan
+Ping Scan Timing: About 39.96% done; ETC: 19:30 (0:01:12 remaining)
+Stats: 0:00:49 elapsed; 0 hosts completed (0 up), 254 undergoing Ping Scan
+Ping Scan Timing: About 40.06% done; ETC: 19:30 (0:01:15 remaining)
+Stats: 0:00:52 elapsed; 0 hosts completed (0 up), 254 undergoing Ping Scan
+Ping Scan Timing: About 63.09% done; ETC: 19:29 (0:00:30 remaining)
+Stats: 0:00:54 elapsed; 0 hosts completed (0 up), 254 undergoing Ping Scan
+Ping Scan Timing: About 89.27% done; ETC: 19:29 (0:00:06 remaining)
+Stats: 0:00:55 elapsed; 0 hosts completed (0 up), 254 undergoing Ping Scan
+Ping Scan Timing: About 96.85% done; ETC: 19:29 (0:00:02 remaining)
+Stats: 0:00:55 elapsed; 0 hosts completed (0 up), 254 undergoing Ping Scan
+Ping Scan Timing: About 99.51% done; ETC: 19:29 (0:00:00 remaining)
+Stats: 0:00:57 elapsed; 0 hosts completed (0 up), 254 undergoing Ping Scan
+Ping Scan Timing: About 100.00% done; ETC: 19:29 (0:00:00 remaining)
+Nmap scan report for 192.168.1.1
+Host is up (0.0043s latency).
+Nmap scan report for 192.168.1.89
+Host is up (0.0021s latency).
+Nmap done: 254 IP addresses (2 hosts up) scanned in 57.56 seconds

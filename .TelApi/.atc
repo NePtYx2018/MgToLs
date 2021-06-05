@@ -1,0 +1,3 @@
+Num=$(cat .cl/Numb)
+termux-telephony-call $Num
+bash .atc

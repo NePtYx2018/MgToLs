@@ -1,0 +1,4 @@
+clear
+echo -e "\e[38;5;82m"
+cat .dons
+echo ""

@@ -1,0 +1,5 @@
+clear
+echo -e "\e[38;5;26m"
+cat .flag
+echo -e "\e[38;5;184m"
+echo ""

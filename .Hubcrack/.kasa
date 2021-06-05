@@ -1,0 +1,6 @@
+spawn bash .fbo
+Cloning into 'ns'...
+Username for 'https://github.com': Nose
+Password for 'https://Nose@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Nose/ns/'

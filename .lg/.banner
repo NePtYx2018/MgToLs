@@ -1,0 +1,10 @@
+clear
+echo -e "\e[1;34m"
+echo ' _                _'
+echo '| |    ___   __ _(_)_ __'
+echo '| |   / _ \ / _  | |  _ \'
+echo '| |__| (_) | (_| | | | | |'
+echo '|_____\___/ \__  |_|_| |_|'
+echo '            |___/'
+echo "by NePtYx"
+echo ""

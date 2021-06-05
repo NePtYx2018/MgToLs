@@ -1,0 +1,2 @@
+cp .3 24kb.txt
+echo "24kb.txt Creado"

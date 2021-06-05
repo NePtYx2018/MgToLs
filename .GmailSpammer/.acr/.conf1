@@ -1,0 +1,35 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+# Gmail Spammer
+# By NePtYx
+
+import smtplib
+
+f = open(".spamm.txt", "r")
+contenttt = f.read()
+
+f = open(".pwd1.txt", "r")
+contentt = f.read()
+
+f = open(".gmail1.txt", "r")
+content = f.read()
+
+fromaddr = (content)
+toaddrs  = (contenttt)
+msg = 'Spammer By NePtYx'
+
+
+# Datos de tu correo spam
+username = (content)
+password = (contentt)
+
+# Enviando el correo spam
+server = smtplib.SMTP('smtp.gmail.com:587')
+server.starttls()
+server.login(username,password)
+server.sendmail(fromaddr, toaddrs, msg)
+server.quit()
+f.close()
+f.close()
+f.close()

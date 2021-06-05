@@ -1,0 +1,345 @@
+body {
+	font-family: 'HN', 'Helvetica Neue', Helvetica, 'HN', Arial, sans-serif;
+}
+
+.top.home {
+	background: url('https://www-cdn.whatsapp.net/img/m2/background.png') top center no-repeat;
+}
+
+.bar {
+	background: url('https://www-cdn.whatsapp.net/img/m2/bg-bar-lq.png') top left repeat-x;
+}
+
+.bar .logo {
+	background: url('https://www-cdn.whatsapp.net/img/m2/divider-bar.png') top right no-repeat;
+}
+
+.bar .logo a {
+	background: url('https://www-cdn.whatsapp.net/img/m2/logo-whatsapp.png?v2') center center no-repeat;
+}
+
+.bar .nav {
+	background: url('https://www-cdn.whatsapp.net/img/m2/divider-bar.png') top left no-repeat;
+}
+
+.bar .nav a {
+	background: url('https://www-cdn.whatsapp.net/img/m2/btn-nav-lq.png') center center no-repeat;
+}
+
+.bar .nav a:active, .bar .nav a:hover {
+	background: url('https://www-cdn.whatsapp.net/img/m2/btn-nav-active-lq.png') top left no-repeat;
+}
+
+.nav.close a, .preloadcloselq {
+	background: url('https://www-cdn.whatsapp.net/img/m2/btn-nav-close-lq.png') top left no-repeat;
+}
+
+.nav.close a:active, .nav.close a:hover {
+	background: url('https://www-cdn.whatsapp.net/img/m2/btn-nav-close-active-lq.png') top left no-repeat;
+}
+
+.top h1 {
+	font-family: 'HN', 'Helvetica Neue', Helvetica, 'HN', Arial, sans-serif;
+	/*font-family: 'HN', 'HelveticaNeue-Light', "Helvetica Neue Light", "Helvetica Neue", 'HN', Helvetica, Arial, "Lucida Grande", sans-serif;*/
+}
+
+.california {
+	background: url('https://www-cdn.whatsapp.net/img/m2/california-lq.png') top left no-repeat;
+}
+
+.content h2 {
+	font-family: 'HN', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, 'HN', Arial, 'Lucida Grande', sans-serif;
+}
+
+.s1 .icon {
+	background: url('https://www-cdn.whatsapp.net/img/m2/icon-platforms-lq.png') center center no-repeat;
+}
+
+.s2 .icon {
+	background: url('https://www-cdn.whatsapp.net/img/m2/icon-multimedia-lq.png') center center no-repeat;
+}
+
+.s3 .icon {
+	background: url('https://www-cdn.whatsapp.net/img/m2/icon-chat-lq.png') center center no-repeat;
+}
+
+.s4 .icon {
+	background: url('https://www-cdn.whatsapp.net/img/m2/icon-texting-lq.png') center center no-repeat;
+}
+
+.menu.faq a {
+	background: url('https://www-cdn.whatsapp.net/img/m2/arrow.png') center right no-repeat;
+}
+
+.faq h2 {
+	font-family: 'HN', 'Helvetica Neue Bold', "HNBold", Helvetica, Arial, sans-serif;
+}
+
+#menu-inner {
+	/*
+	-webkit-transform: ;
+	   -moz-transform: ;
+	    -ms-transform: ;
+	     -o-transform: ;
+	        transform: ;
+*/
+}
+
+#menu-inner.active {
+	/*-webkit-transform: ;
+	   -moz-transform: ;
+	    -ms-transform: ;
+	     -o-transform: ;
+	        transform: ;*/
+}
+
+#menu-inner ul li {
+	/* 	font-family: 'HN', 'Helvetica Neue', "HN", Helvetica, sans-serif; */
+}
+
+.btn1 a {
+	background: url('https://www-cdn.whatsapp.net/img/m2/btn-twitter-lq.png') top left no-repeat;
+}
+
+.btn2 a {
+	background: url('https://www-cdn.whatsapp.net/img/m2/btn-facebook-lq.png') top left no-repeat;
+}
+
+.btn3 a {
+	background: url('https://www-cdn.whatsapp.net/img/m2/btn-googleplus-lq.png') top left no-repeat;
+}
+
+.footer {
+	background: url('https://www-cdn.whatsapp.net/img/m2/bg-footer.png') repeat;
+}
+
+#btm-menu .home-link {
+	background: url('https://www-cdn.whatsapp.net/img/m2/logo-whatsapp-footer-lq.png') center center no-repeat;
+}
+
+#footer .btn1 a {
+	background: url('https://www-cdn.whatsapp.net/img/m2/btn-footer-twitter-lq.png') top left no-repeat;
+}
+
+#footer .btn2 a {
+	background: url('https://www-cdn.whatsapp.net/img/m2/btn-footer-facebook-lq.png') top left no-repeat;
+}
+
+#footer .btn3 a {
+	background: url('https://www-cdn.whatsapp.net/img/m2/btn-footer-googleplus-lq.png') top left no-repeat;
+}
+
+#screens h2 {
+	font-weight: 200;
+}
+
+.screenshot.android.screen1 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/android-scr01.jpg')!important;
+}
+
+.screenshot.android.screen2 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/android-scr02.jpg')!important;
+}
+
+.screenshot.android.screen3 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/android-scr03.jpg')!important;
+}
+
+.screenshot.android.screen4 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/android-scr04.jpg')!important;
+}
+
+.screenshot.android.screen5 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/android-scr05.jpg')!important;
+}
+
+.screenshot.android.screen6 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/android-scr06.jpg')!important;
+}
+
+.screenshot.iphone.screen1 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/iphone-scr01.jpg')!important;
+}
+
+.screenshot.iphone.screen2 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/iphone-scr02.jpg')!important;
+}
+
+.screenshot.iphone.screen3 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/iphone-scr03.jpg')!important;
+}
+
+.screenshot.iphone.screen4 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/iphone-scr04.jpg')!important;
+}
+
+.screenshot.iphone.screen5 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/iphone-scr05.jpg')!important;
+}
+
+.screenshot.iphone.screen6 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/iphone-scr06.jpg')!important;
+}
+
+.screenshot.bb.screen1 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/bb-scr01.png')!important;
+}
+
+.screenshot.bb.screen2 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/bb-scr02.png')!important;
+}
+
+.screenshot.bb.screen3 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/bb-scr03.png')!important;
+}
+
+.screenshot.bb.screen4 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/bb-scr04.png')!important;
+}
+
+.screenshot.bb.screen5 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/bb-scr05.png')!important;
+}
+
+.screenshot.bb.screen6 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/bb-scr06.png')!important;
+}
+
+.screenshot.wp.screen1 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/wp-scr01.png')!important;
+}
+
+.screenshot.wp.screen2 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/wp-scr02.png')!important;
+}
+
+.screenshot.wp.screen3 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/wp-scr03.png')!important;
+}
+
+.screenshot.wp.screen4 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/wp-scr04.png')!important;
+}
+
+.screenshot.wp.screen5 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/wp-scr05.png')!important;
+}
+
+.screenshot.wp.screen6 {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/screenshots/wp-scr06.png')!important;
+}
+
+#screenslider div .overlay {
+	background: url('https://www-cdn.whatsapp.net/img/m2/bg-overlay.png');
+}
+
+#tweets h2 a {
+	background: url('https://www-cdn.whatsapp.net/img/m2/icon-twitter-lq.png') center center no-repeat;
+}
+
+.tweet-list section {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/icon-tweet-lq.png');
+}
+
+#lang_select .icon {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/icon-lang-switch-lq.png');
+}
+
+#btm_lang_select .icon {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/icon-lang-switch-btm-lq.png');
+}
+
+#lang_select select {
+	font-family: 'HN', 'Helvetica Neue', Helvetica, 'HN', Arial, sans-serif;
+}
+
+.search .btn-go input {
+	background: url('https://www-cdn.whatsapp.net/img/m2/btn-search-lq.png') center center no-repeat;
+}
+
+#icon-search {
+	background: url('https://www-cdn.whatsapp.net/img/m2/icon-search-lq.png') center center no-repeat;
+}
+
+#topbar {
+	background: url('https://www-cdn.whatsapp.net/img/m2/bg-footer.png');
+}
+
+#query {
+	font-family: 'HN', 'Helvetica Neue', Helvetica, 'HN', Arial, sans-serif;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+
+.bar {
+	background-color: #283c3e;
+	background: url('https://www-cdn.whatsapp.net/img/m2/bg-bar-hq.png') top left repeat-x;
+}
+.bar .logo a  {
+    background-image: url('https://www-cdn.whatsapp.net/img/m2/logo-whatsapp-hq.png?v2');
+}
+
+.s1 .icon { background: url('https://www-cdn.whatsapp.net/img/m2/icon-platforms.png') center center no-repeat; }
+.s2 .icon { background: url('https://www-cdn.whatsapp.net/img/m2/icon-multimedia.png') center center no-repeat; }
+.s3 .icon { background: url('https://www-cdn.whatsapp.net/img/m2/icon-chat.png') center center no-repeat; }
+.s4 .icon { background: url('https://www-cdn.whatsapp.net/img/m2/icon-texting.png') center center no-repeat; }
+
+.california {
+	background: url('https://www-cdn.whatsapp.net/img/m2/california.png') top left no-repeat!important;
+}
+
+.bar .nav a {
+	background: url('https://www-cdn.whatsapp.net/img/m2/btn-nav.png') top left no-repeat;
+	background-size: contain;
+}
+
+.nav a:active, .nav a:hover {
+	background: url('https://www-cdn.whatsapp.net/img/m2/btn-nav-active.png') top left no-repeat!important;
+	background-size: contain;
+}
+
+.nav.close a, .preloadclose {
+	background: url('https://www-cdn.whatsapp.net/img/m2/btn-nav-close.png') top left no-repeat;
+	background-size: contain!important;
+}
+
+.nav.close a:active, .nav.close a:hover {
+	background: url('https://www-cdn.whatsapp.net/img/m2/btn-nav-close-active.png') top left no-repeat!important;
+	background-size: contain!important;
+}
+
+.btn1 a { background: url('https://www-cdn.whatsapp.net/img/m2/btn-twitter.png') top left no-repeat; }
+.btn2 a { background: url('https://www-cdn.whatsapp.net/img/m2/btn-facebook.png') top left no-repeat; }
+.btn3 a { background: url('https://www-cdn.whatsapp.net/img/m2/btn-googleplus.png') top left no-repeat; }
+
+#btm-menu .home-link {
+	background: url('https://www-cdn.whatsapp.net/img/m2/logo-whatsapp-footer.png') center center no-repeat;
+}
+
+#footer .btn1 a { background: url('https://www-cdn.whatsapp.net/img/m2/btn-footer-twitter.png') top left no-repeat; }
+#footer .btn2 a { background: url('https://www-cdn.whatsapp.net/img/m2/btn-footer-facebook.png') top left no-repeat; }
+#footer .btn3 a { background: url('https://www-cdn.whatsapp.net/img/m2/btn-footer-googleplus.png') top left no-repeat; }
+
+#tweets h2 a {
+	background: url('https://www-cdn.whatsapp.net/img/m2/icon-twitter.png') center center no-repeat;
+}
+
+#icon-search {
+	background: url('https://www-cdn.whatsapp.net/img/m2/icon-search.png') center center no-repeat;
+	background-size: contain;
+}
+
+#lang_select .icon {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/icon-lang-switch.png');
+}
+
+#btm_lang_select .icon {
+	background-image: url('https://www-cdn.whatsapp.net/img/m2/icon-lang-switch-btm.png');
+}
+
+.search .btn-go input {
+  background: url('https://www-cdn.whatsapp.net/img/m2/btn-search-hq.png') center center no-repeat;
+	background-size: contain !important;
+}
+
+}

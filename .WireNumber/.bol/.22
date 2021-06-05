@@ -1,0 +1,11 @@
+clear
+sh .banner
+echo "Localizado en:"
+echo "##############"
+echo "Bolivia-------"
+echo "LaPaz---------"
+echo "##############"
+echo ""
+echo "Continuar..."
+read input
+sh WireNumber.sh

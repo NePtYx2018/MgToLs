@@ -1,0 +1,8 @@
+bash .banner
+echo "Mostrando resultados, para salir presiona CTRL + C:"
+echo ""
+cat .st/cel.txt
+echo ""
+echo "Cargando.."
+sleep 10
+bash .vu

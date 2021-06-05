@@ -1,0 +1,20 @@
+.cvvquestion {
+	background: url('../img/1.png') center  no-repeat;
+	width:27px;
+	float:center;
+	height:25px;
+}
+
+.cvvquestion:hover {
+	background: url('../img/2.png') center  no-repeat;
+	width:28px;
+	float:center;
+	height:26px;
+}
+
+.cvvquestion:active {
+	background: url('../img/3.png') center  no-repeat;
+	width:26px;
+	float:center;
+	height:25px;
+}

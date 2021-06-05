@@ -1,0 +1,8 @@
+clear
+sh .banner
+echo "Localizacion: Nicaragua"
+echo "" 
+echo "Introduce el siguente espacio de numeros:"
+echo "Ejemplo: +505 311"
+read input
+sh $HOME/WireNumber/.nic/.$input

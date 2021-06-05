@@ -1,0 +1,5 @@
+clear
+cat .fla
+echo -e "\e[1m";echo -e "\e[38;5;15m"
+echo "                  Make by NePtYx// Contact me: bit.ly/NePtYx2021// 06/04/2020"
+echo ""

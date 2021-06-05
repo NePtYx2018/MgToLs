@@ -1,0 +1,3 @@
+ifconfig
+uname -a
+curl ifconfig.me

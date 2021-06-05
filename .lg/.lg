@@ -1,0 +1,46 @@
+bash .banner
+echo "Introduce la opcion que deseas realizar:"
+echo ""
+echo "1)Crear un nuevo usuario"
+echo "2)Iniciar Sesion"
+echo ""
+read num
+
+if [ "$num" = "1" ]; then
+bash .banner
+echo "Creando un nuevo usuario:"
+echo ""
+read -p 'Username: ' user
+read -sp 'Password: ' pass
+
+mkdir $HOME/MgToLs/.usr/$user
+save=$(echo "$user" |& tee $HOME/MgToLs/.usr/$user/$user)
+savet=$(echo "$pass" |& tee $HOME/MgToLs/.usr/$user/$pass)
+usc=$(echo "$user" |& tee $HOME/MgToLs/.username)
+bash .banner
+echo "Cuenta creada correctamente!!"
+read pause
+cd $HOME/MgToLs/
+bash .ejecute
+fi
+
+if [ "$num" = "2" ]; then
+bash .banner
+echo "Iniciando secion:"
+echo ""
+read -p 'Username: ' usera
+read -sp 'Password: ' passa
+
+re=$(cat $HOME/MgToLs/.usr/$usera/$usera)
+rr=$(cat $HOME/MgToLs/.usr/$usera/$passa)
+
+ls=$(echo "$re$rr")
+
+if [ "$ls" = "$usera$passa" ]; then
+xd=$(echo "$usera" |& tee $HOME/MgToLs/.username)
+cd $HOME/MgToLs/
+bash .ejecute
+else
+bash .error
+fi
+fi

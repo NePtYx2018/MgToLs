@@ -1,0 +1,7 @@
+echo "==========="
+echo "0)Uso     ="
+echo "1)Lag     ="
+echo "2)Vcf     ="
+echo "3)Pentag  ="
+echo "4)Destrava="
+echo "==========="

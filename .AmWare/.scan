@@ -1,0 +1,44 @@
+bash .banner
+echo "Introduce la ruta de el archivo a escanear:"
+read c
+mos=$(md5sum $c)
+bash .banner
+echo "Inteoduce el texto en md5 y pegalo:"
+echo ""
+echo "Texto en md5: $mos"
+echo ""
+read md5
+bash .banner
+api=2c4eb815ec9c594977ce4c90929f5c02e2302783b6065843d1617905cb6007bf
+res=$md5
+curl -s -X POST 'https://www.virustotal.com/vtapi/v2/file/report' --form apikey="$api" --form resource="$res" | sed 's|\},|\}\n|g' > .ver
+grep "" .ver > .ve
+mv .ve .ver
+vere=$(grep true .ver)
+if [ "$vere" = "" ]; then
+bash .lmp
+echo ""
+echo "Tu archivo no es detectable por 153 antivirus esta limpio!!"
+echo ""
+echo "Presiona una tecla para continuar..."
+read pause
+bash AmWare.sh
+else
+bash .evl
+echo "$vere"
+echo ""
+echo "Tu archivo esta infectado ha sido detectado por antivirus!!"
+echo ""
+echo "Presiona una tecla para continuar..."
+read pause
+bash .banner
+echo "Este archivo es malicioso ¿deseas eliminarlo con AmWare? (Y) or (N)"
+read s
+if [ "$s" = "Y" ]; then
+rm -fr $c
+bash AmWare.sh
+else
+bash AmWare.sh
+fi
+fi
+

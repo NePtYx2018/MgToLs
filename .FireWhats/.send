@@ -1,0 +1,39 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+# Gmail WhatsApp
+# By NePtYx
+
+import smtplib
+
+f = open(".lam", "r")
+contenttt = f.read()
+
+f = open(".msg", "r")
+mymsg = f.read()
+
+f = open(".ksa", "r")
+contentt = f.read()
+
+f = open(".ks", "r")
+content = f.read()
+
+fromaddr = (content)
+toaddrs  = (contenttt)
+msg = (mymsg)
+
+
+# Datos de tu correo spam
+username = (content)
+password = (contentt)
+
+# Enviando el correo spam
+server = smtplib.SMTP('smtp.gmail.com:587')
+server.starttls()
+server.login(username,password)
+server.sendmail(fromaddr, toaddrs, msg)
+server.quit()
+f.close()
+f.close()
+f.close()
+f.close()

@@ -1,0 +1,11 @@
+clear
+sh .banner
+echo "Localizado en:"
+echo "##############"
+echo "Mexico--------"
+echo "Villahermosa--"
+echo "##############"
+echo ""
+echo "Continuar..."
+read input
+sh WireNumber.sh

@@ -1,0 +1,22 @@
+bash .banner
+echo "Instalando Metasploit..."
+cd $HOME/
+ins=$(curl -LOs https://github.com/termux/termux-packages/files/3995119/metasploit_5.0.65-1_all.deb.gz)
+insa=$(gunzip metasploit_5.0.65-1_all.deb.gz)
+inso=$(dpkg -i metasploit_5.0.65-1_all.deb)
+as=$(apt -f install -y)
+cd $HOME/MgToLs/
+bash .banner
+echo "[+] Metasploit Framework ha sido instalado correctamente!" |pv -qL 6
+echo ""
+echo "[?] Deseas abrir una sesion de Metasploit [Y/N]:"
+read pas
+
+if [ "$pas" = "Y" ]; then
+bash .banner
+echo "Ejecutando Metasploit Framework -----> OK" |pv -qL 6
+echo ""
+msfconsole
+else
+bash .ejecute
+fi

@@ -1,0 +1,14 @@
+pkg install zip
+bash .banner
+echo "Introdusca el nombre de la carpeta a comprimir:"
+echo ""
+ls
+read input
+bash .banner
+echo "Comprimiendo..."
+zip -r9 $input.zip $input
+bash .banner
+echo "Su Remoteduck a sido comprimido exitosamente..."
+echo "Precione una tecla para continuar..."
+read input1
+bash Remoteduck.sh

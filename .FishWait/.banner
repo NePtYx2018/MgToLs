@@ -1,0 +1,3 @@
+echo -e "\e[31m"
+clear
+cat .csr

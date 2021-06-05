@@ -1,0 +1,1 @@
+sed 's%tuurlaqui%https://cjjdjs.hdhxhw.run%g' .temp > .tempo ;mv .tempo .temp

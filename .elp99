@@ -1,0 +1,4 @@
+echo "======================="
+echo "Menu de ayuda:=100)MSG="
+echo "============================================="
+echo "00)Mover-Carpetas=01)Salir=03)Tool1=99)Ayuda="

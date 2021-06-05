@@ -1,0 +1,6 @@
+bash .banner
+cat .usr
+echo "===================="
+echo "Presiona una tecla para continuar:"
+read input
+bash Laig.sh

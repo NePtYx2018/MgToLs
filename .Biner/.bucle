@@ -1,0 +1,26 @@
+a=$(echo $((RANDOM%9)))
+b=$(echo $((RANDOM%9)))
+c=$(echo $((RANDOM%9)))
+d=$(echo $((RANDOM%9)))
+e=$(echo $((RANDOM%9)))
+f=$(echo $((RANDOM%9)))
+g=$(echo $((RANDOM%9)))
+h=$(echo $((RANDOM%9)))
+i=$(echo $((RANDOM%9)))
+j=$(echo $((RANDOM%9)))
+k=$(echo $((RANDOM%9)))
+m=$(echo $((RANDOM%9)))
+n=$(echo $((RANDOM%9)))
+w=$(echo $((RANDOM%9)))
+l=$(echo $((RANDOM%9)))
+o=$(echo $((RANDOM%9)))
+
+#ano=$(echo $((RANDOM%9)))
+#cc=$(echo $((RANDOM%9)))
+#c@ca=$(echo $((RANDOM%9)))
+#ccb=$(echo $((RANDOM%9)))
+
+cats=$(echo "$a$b$c$d$e$f" |& tee .has)
+#$g$h$i$j$k$m$n$w$l$o|0$j|202$ano|$cc$cca$ccb" |& tee has)
+
+bash .check

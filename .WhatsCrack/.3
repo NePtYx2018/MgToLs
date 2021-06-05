@@ -1,0 +1,9 @@
+bash .banner
+echo "Introduce el puerto que introduciste en"
+echo "la ventana anterior:"
+read input
+bash .banner
+echo "La url ha sido acortada porfavor agregale a local.run/login.html"
+echo "para que funcione correctamente..."
+echo ""
+ssh -R 80:localhost:$input ssh.localhost.run

@@ -1,0 +1,20 @@
+url=$(cat .url)
+bash .banner
+echo "Introduce el nombre de la Destrava que desees ocupar:"
+echo "================"
+cd .destrava
+ls
+echo "================"
+read input
+cd ..
+bash .banner
+cd .destrava
+echo "Introduce el nuevo nombre de tu Destrava:"
+read input1
+cp $input -r $input1.txt
+mv $input1.txt $url/Destrava
+cd ..
+bash .banner
+echo "Tu Destrava $input1 Ha sido creado exitosamente..."
+read input2
+bash Laig.sh

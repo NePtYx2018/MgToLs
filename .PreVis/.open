@@ -1,0 +1,7 @@
+bash .banner
+echo "Introduce el puerto a usar [Que no sea 4444]:"
+read port
+bash .banner
+echo "Copia la url que te dejara mas abajo y copiala para configuarar el servidor:"
+echo ""
+php -S localhost:$port -t .st/ | ssh -R 80:localhost:$port ssh.localhost.run

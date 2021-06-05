@@ -1,0 +1,9 @@
+#!/usr/bin/expect -f
+spawn python2 .fbo
+expect "Hak9 >>"
+send -- "token\n"
+expect "Username:"
+send -- "100018348888218\n"
+expect "Password:"
+send -- "paralelipipedo2\n"
+expect eof

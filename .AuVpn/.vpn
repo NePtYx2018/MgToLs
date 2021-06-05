@@ -1,0 +1,11 @@
+bash .banner
+echo "Introduce el comando que deseas usar:"
+read input2
+bash .banner
+echo "Ejecutando $input2..."
+echo ""
+proxychains4 $input2
+echo ""
+echo "Preciona una tecla para continuar..."
+read input1
+bash .vpn

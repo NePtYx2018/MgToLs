@@ -1,0 +1,8 @@
+clear
+echo -e "\e[38;5;82m"
+echo "                   ============================================================"
+echo "                   =      Estado Seguro: Tu Archivo esta libre de Virus       ="
+echo "                   ============================================================"
+echo ""
+cat .cl
+echo ""

@@ -1,0 +1,8 @@
+clear
+sh .banner
+echo "Localizacion: Paraguay"
+echo "" 
+echo "Introduce el siguente espacio de numeros:"
+echo "Ejemplo: +595 21"
+read input 
+sh $HOME/WireNumber/.par/.$input

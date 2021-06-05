@@ -1,0 +1,47 @@
+kda=$(cat .play)
+if [ "$kda" = "1" ]; then
+bin=$(cat .has)
+a=$(w3m -dump https://ccbins.pro/?bins=$bin)
+b=$(echo "$a" > .b)
+c=$(grep BIN: .b)
+d=$(grep Country: .b)
+e=$(grep Vendor: .b)
+f=$(grep Type: .b)
+g=$(grep Level: .b)
+h=$(grep Bank: .b)
+
+hfa=$(cat .pai)
+
+if [ "$d" = "Country:   $hfa" ]; then
+echo "$b" >> $HOME/MgToLs/Biner/Generadas.txt
+echo "$c" >> $HOME/MgToLs/Biner/Generadas.txt
+echo "$d" >> $HOME/MgToLs/Biner/Generadas.txt
+echo "$e" >> $HOME/MgToLs/Biner/Generadas.txt
+echo "$f" >> $HOME/MgToLs/Biner/Generadas.txt
+echo "$g" >> $HOME/MgToLs/Biner/Generadas.txt
+echo "$h" >> $HOME/MgToLs/Biner/Generadas.txt
+echo "================" >> $HOME/MgToLs/Biner/Generadas.txt
+fi
+
+
+bash .banner
+
+echo "Las tarjetas generadas quedan guardadas en un txt en $HOME/MgToLs/Biner/Generadas.txt"
+echo ""
+echo "$c"
+echo "$d"
+echo "$e"
+echo "$f"
+echo "$g"
+echo "$h"
+echo ""
+bash .bucle
+else
+
+bash .banner
+echo "Introduce el pais o sitio web que deseas encontrar un bin:"
+read pais
+jf=$(echo "$pais" > .pai)
+iaf=$(echo "1" > .play)
+bash .bucle
+fi

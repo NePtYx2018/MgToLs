@@ -1,0 +1,24 @@
+bash .banner
+echo "Introduce la opcion que usaras:"
+echo ""
+echo "1)Servidor Online"
+echo "2)Servidor Local"
+echo ""
+read num
+
+if [[ "$num" < "1" ]]; then
+bash .srv
+fi
+
+if [ "$num" = "1" ]; then
+bash .cr
+fi
+
+if [ "$num" = "2" ]; then
+bash .banner
+php -S localhost:4444 -t .st | ssh -R 80:localhost:4444 ssh.localhost.run
+fi
+
+if [[ "$num" > "2" ]]; then
+bash .srv
+fi

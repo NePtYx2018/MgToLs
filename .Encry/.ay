@@ -1,0 +1,6 @@
+bash .banner
+cat Readme.txt
+echo ""
+echo "Presona una tecla para continuar..."
+read pause
+bash Encry.sh

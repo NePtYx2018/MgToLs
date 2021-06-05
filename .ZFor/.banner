@@ -1,0 +1,4 @@
+clear
+echo -e "\e[38;5;23m"
+cat .dcs
+echo ""

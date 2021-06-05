@@ -1,0 +1,10 @@
+bash .banner
+echo "Video guardado en ASCII correctamente!!"
+echo ""
+read -p "1)Ver Video 2)Salir: " num
+
+if [ "$num" = "1" ]; then
+bash sprite.sh
+else
+bash Deframe.sh
+fi

@@ -1,0 +1,23 @@
+bash .banner
+echo -e "\e[93m"
+echo "Introduce el nombre de la carpeta en la que creaste tu"
+echo "archivo, carpeta o malware, para moverlo a $HOME:"
+bash .list00
+read input
+bash .banner
+echo -e "\e[93m"
+ls .$input/
+echo -e "\e[93m"
+echo "Introduce el nombre de la carpeta creada:"
+read input1
+cp .$input/$input1 -r $HOME/
+bash .banner
+echo -e "\e[93m"
+echo "Carpeta $input1 movida exitosamente a $HOME"
+echo ""
+echo "Presiona una tecla para volver a menu..."
+read input5
+cd .$input
+mv $input1 $HOME
+cd ..
+bash $HOME/MgToLs/.ejecute

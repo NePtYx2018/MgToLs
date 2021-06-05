@@ -1,0 +1,6 @@
+bash .banner
+echo "Error ninguna coincidencia"
+echo ""
+echo "Presiona una tecla para continuar..."
+read pause
+bash FBrute.sh

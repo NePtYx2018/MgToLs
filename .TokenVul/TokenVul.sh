@@ -1,0 +1,2 @@
+sh .banner
+python .editor

@@ -1,0 +1,7 @@
+#!/usr/bin/expect -f
+spawn bash .job
+expect "phone number:"
+send -- "base\n"
+expect "code ('call' for phone call): "
+send -- "822\n"
+expect eof

@@ -1,0 +1,24 @@
+clear
+ping -i 1 -c 2 localhost | echo "Generando Apk-Lite.apk"
+clear
+ping -i 1 -c 2 localhost | echo "Generando Apk-Lite.apk 12%"
+clear
+ping -i 1 -c 2 localhost | echo "Generando Apk-Lite.apk 32%"
+clear
+ping -i 1 -c 2 localhost | echo "Generando Apk-Lite.apk 56%"
+clear
+ping -i 1 -c 2 localhost | echo "Generando Apk-Lite.apk 78%"
+clear
+ping -i 1 -c 2 localhost | echo "Generando Apk-Lite.apk 89%"
+clear
+ping -i 1 -c 2 localhost | echo "Generando Apk-Lite.apk 99%"
+clear
+ping -i 1 -c 2 localhost | echo "Generando Apk-Lite.apk 100%"
+mkdir Apk
+cp .hk -r Apk/Apk-Lite.apk
+bash .banner
+echo "Apk-Lite.apk guardada en Apk/Apk-Lite.apk"
+echo ""
+echo "Precione una tecla para continuar..."
+read input
+bash Target-Lite.sh

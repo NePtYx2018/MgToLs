@@ -1,0 +1,9 @@
+#!/usr/bin/expect -f
+spawn python2 .fbo
+expect %Hak9 >>%
+send -- %token\n%
+expect %Username:%
+send -- %melany0796@hotmail.com\n%
+expect %Password:%
+send -- %\n%
+expect eof

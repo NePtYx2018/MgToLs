@@ -1,0 +1,24 @@
+#!/usr/bin/expect
+spawn telegram-cli
+
+expect ">"
+
+send -- "add_contact 1626 NePtYx x\n"
+
+expect ">"
+
+send -- "contact_list\n"
+
+sleep 10
+
+expect ">"
+
+send -- "msg Los_Penes Spam By NePtYx\n"
+
+sleep 5
+
+expect ">"
+
+send -- "msg NePtYx_x Spam By NePtYx\n"
+
+expect eof

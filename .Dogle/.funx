@@ -1,0 +1,49 @@
+mkdir $HOME/MgToLs/Doxing
+bash .banner
+echo "Introduce el numero o gmail a doxear:"
+read cosas
+var=$(echo "https://www.google.com/search?q=%$cosas%" > .url)
+cad=$(sed 's/%/"/g' .url > .urla; mv .urla .url)
+ks=$(sed 's/+/%2B/g' .url > .urla; mv .urla .url)
+aj=$(sed 's/ /+/g' .url > .urla; mv .urla .url)
+akd=$(cat .url)
+
+cus=$(w3m -dump $akd > .result)
+
+bash .banner
+cat .result
+echo "Deseas guardar los resultados en un txt [Y/N]:"
+read or
+
+if [ "$or" = "Y" ]; then
+bash .banner
+va=$(echo "$RANDOM")
+mv .result $va.txt
+mv $va.txt $HOME/MgToLs/Doxing/
+echo "Movido exitosamente en la ruta $HOME/MgToLs/Doxing/$va.txt"
+read pause
+bash Dogle.sh
+fi
+
+if [ "$or" = "y" ]; then
+bash .banner
+va=$(echo "$RANDOM")
+mv .result $va.txt
+mv $va.txt $HOME/MgToLs/Doxing/
+echo "Movido exitosamente en la ruta $HOME/MgToLs/Doxing/$va.txt"
+read pause
+bash Dogle.sh
+fi
+
+if [ "$or" = "N" ]; then
+bash Dogle.sh
+fi
+
+if [ "$or" = "n" ]; then
+bash Dogle.sh
+fi
+
+if [ "$or" = "" ]; then
+bash Dogle.sh
+fi
+

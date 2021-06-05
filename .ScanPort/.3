@@ -1,0 +1,6 @@
+bash .banner
+echo "A continuacion se veran todos tus puertos abiertos,"
+echo "deseas verlos?:"
+read input
+netstat -l |& tee Puertos.txt
+bash ScanPort.sh

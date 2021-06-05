@@ -1,0 +1,54 @@
+/* resources/css/partials.css */
+
+/* PARTIALS FOR THE DEDICATED / DESKTOP CHANNEL */
+
+/* ================== */
+
+/*hero*/
+.hero-bg .editorial {
+    min-height: 530px;
+}
+.hero-bg .editorial-container {
+    height: 530px;
+    line-height: 530px;
+}
+.hero-bg.dark .editorial-container {
+    height: 25.71428571428571em;/* 360px/14 */
+    line-height: 25.71428571428571em;/* 360px/14 */
+}
+.hero-bg img {
+    vertical-align: bottom;
+}
+
+/* ----- panel ------ */
+.editorial {
+    min-height: 37.85714285714286em;
+}
+.editorial-container {
+    height: 37.85714285714286em;
+    line-height: 37.85714285714286em;
+}
+/* COMMON styles */
+/* Special style for marketing to add more space on the grid */
+.four-panel .span3 {
+    padding-right: 2%;
+}
+.hero-bg, .editorial {
+    min-width: 71.71428571428571em;
+}
+
+/*LAYOUTS COLORS*/
+/* creates a blue background with white text */
+.lightContent {
+    background: #333;
+}
+.lightContent,
+.lightContent h1,
+.lightContent h3, 
+.lightContent h2, 
+.lightContent h3, 
+.lightContent h4,
+.lightContent p {
+    color: #fff;
+}
+

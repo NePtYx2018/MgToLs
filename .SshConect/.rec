@@ -1,0 +1,5 @@
+apt upgrade
+apt update
+pkg in dropbear
+pkg in openssh
+nmap -sP 192.168.1.1-254 |& tee .LcIp.txt

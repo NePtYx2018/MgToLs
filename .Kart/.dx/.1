@@ -1,0 +1,27 @@
+bash .banner
+echo "Introduce el nombre de la web en que deseas doxear:"
+read input1
+bash .banner
+echo "Introduce que tipos de archivos deseas buscar (txt/pdf/etc):"
+read input2
+bash .banner
+echo "Introduce que quieres que contengan esos archivos (@gmail.com/Direccion):"
+read input3
+bash .banner
+echo "Doxeando $input1..."
+cd ..
+web=$(echo "https://www.google.com/search?q=site%3Ayoutube.com+OR+site%3Afacebook.com+OR+site%3Atwitter.com+OR+site%3Ainstagram.com+OR+site%3Asnapchat.com+OR+site%3A$input1+filetype%3A$input2+$input3&oq=site%3Ayoutube.com+OR+site%3Afacebook.com+OR+site%3Atwitter.com+OR+site%3Ainstagram.com+OR+site%3Asnapchat.com+OR+site%3A$input1+filetype%3A$input2+$input3&aqs=chrome..69i57j69i58.705j0j9&client=ms-android-lge&sourceid=chrome-mobile&ie=UTF-8")
+mkdir Kart
+who=$(whois $input1)
+res=$(lynx -dump $web)
+echo "$who $res" |& tee Kart/$input1.txt
+cd .dx
+bash .banner
+echo "Web $input1 Doxeada correctamente..."
+echo ""
+echo "$who $res"
+echo ""
+echo "Preciona una tecla para continuar..."
+read input
+cd ..
+bash Kart.sh

@@ -1,0 +1,6 @@
+clear
+echo -e "\e[38;5;48m"
+cat .fire
+echo "                                <-----By-NePtYx----->"
+echo "                                  bit.ly/NePtYx2020"
+echo ""

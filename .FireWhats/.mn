@@ -1,0 +1,78 @@
+bash .banner
+echo "Introduce la opcion que deseas realizar:"
+echo ""
+echo "1)Quemar SMS"
+echo "2)Quemar LLAMADA"
+echo "3)Saber MCC y MNC"
+echo "4)Saber Compañia"
+echo "5)Enviar Gmail"
+echo ""
+read num
+
+if [ "$num" = "1" ]; then
+bash .sp
+fi
+
+if [ "$num" = "2" ]; then
+bash .spp
+fi
+
+if [ "$num" = "3" ]; then
+bash .banner
+cat .list
+echo ""
+echo "Presiona una tecla para continuar..."
+read pause
+bash .mn
+fi
+
+if [ "$num" = "4" ]; then
+bash .gn
+fi
+
+if [ "$num" = "5" ]; then
+bash .banner
+echo "Introduce la opcion que deseas usar:"
+echo ""
+echo "1)Desde Gmail Publico"
+echo "2)Gmail Personal"
+echo ""
+read gm
+
+if [ "$gm" = "1" ]; then
+bash .banner
+echo "Introduce el numero que enviaras a soporte:"
+read support
+
+# myspace variable
+
+losw=$(echo "Robado/extraviado suspender mi cuenta $support" |& tee .msg)
+bash .banner
+python .send
+bash .banner
+echo "Mensaje enviado correctamente a support@support.whatsapp.com"
+echo ""
+echo "Presiona una tecla para continuar..."
+read pause
+bash FireWhats.sh
+
+# fin variable
+
+fi
+
+if [ "$gm" = "2" ]; then
+bash .banner
+echo "Introduce el numero que enviaras a soporte:"
+read support
+bash .banner
+echo "Envia este correo como vez aqui:"
+echo ""
+echo "Destinatario: support@support.whatsapp.com"
+echo "Asunto: Suspendan mi cuenta"
+echo "Cuerpo: Robado/extraviado suspender mi cuenta $support"
+echo ""
+read pause
+bash FireWhats.sh
+fi
+
+fi

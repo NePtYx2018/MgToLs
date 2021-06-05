@@ -1,0 +1,6 @@
+clear
+bash .banner
+echo -e "\e[93m"
+echo "Gracias por ocupar MgToLs Sigueme en Youtube como"
+echo "   Virus Erex: [https://youtu.be/o731VMFjMNw]"
+echo ""

@@ -1,0 +1,20 @@
+pre=$(echo "0" > .nm)
+
+valor=p
+
+leer=$(cat .nmp)
+
+suma=$(expr $leer + 1 |& tee .nmp)
+
+line=$(sed -n $suma$valor Users.txt)
+
+save=$(echo "$line" > .usr)
+
+
+if [ "$line" = "" ]; then
+bash .banner
+echo "Error ninguna coincidencia"
+exit
+else
+bash .vcc
+fi

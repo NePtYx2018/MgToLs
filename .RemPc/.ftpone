@@ -1,0 +1,10 @@
+ba=$(cat .ftpw)
+be=$(cat .ftpu)
+bo=$(cat .ftpp)
+ftp -inv $ba<<FINFTP
+       user $be $bo
+       binary
+       passive
+       get l
+       bye
+FINFTP

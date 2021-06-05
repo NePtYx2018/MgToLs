@@ -1,0 +1,25 @@
+pass=$(echo 'NePtYx')
+usu=$(echo '123456')
+
+
+#cp /data/data/com.termux/files/usr/etc/bash.bashrc -r /data/data/com.termux/files/usr/etc/temporalbash
+#cp $HOME/MgToLs/.sec -r /data/data/com.termux/files/usr/etc/bash.bashrc
+
+
+bash $HOME/MgToLs/.lg/.banner
+
+read -p "Usuario: " usuario
+read -sp "Contraseña: " contrasena
+
+if [ "$usuario" = "panico" ]; then
+mv /data/data/com.termux/files/usr/etc/temporalbash /data/data/com.termux/files/usr/etc/bash.bashrc
+exit
+fi
+
+if [ "$usuario$contrasena" = "$usu$pass" ]; then
+mv /data/data/com.termux/files/usr/etc/temporalbash /data/data/com.termux/files/usr/etc/bash.bashrc
+exit
+else
+bash ${0}
+fi
+

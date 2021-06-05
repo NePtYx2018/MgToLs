@@ -1,0 +1,16 @@
+num=$(echo "0" > .nm)
+bash .banner
+
+echo "Introduce el usuario del hosting de mirarroba:"
+read usr
+
+usr=$(echo "$usr" > .usr)
+
+bash .banner
+echo "Introduce la ruta del diccionario:"
+read dic
+
+per=$(pwd)
+ks=$(cat $dic > $per/Pass.txt)
+
+bash .vc

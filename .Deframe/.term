@@ -1,0 +1,35 @@
+premade=$(ls -ur *.jpg > .lista)
+leyendo=$(cat .lista)
+base=$(echo "0")
+#caca=$(echo "0")
+CONTADOR=$(echo "0")
+fin=$(echo "99999999")
+while [  $CONTADOR -lt $fin ]; do
+#xd=$(expr $caca + 1)
+#lolca=$(grep -o $xd.jpg .lista)
+# Inicio
+
+valor=p
+leer=$(echo "$base")
+suma=$(expr $leer + 1)
+line=$(sed -n $suma$valor .lista)
+save=$(echo "$line")
+base=$(echo "$suma")
+
+if [ "$line" = "" ]; then
+echo "Terminado "
+exit
+else
+#echo "$base"
+echo "clear" >> sprite.sh
+echo "cat sprite/$line " >> sprite.sh
+#echo "cat sprite/$line ; sleep 0.035" >> sprite.sh
+
+fi
+
+# Fin
+
+#lol=$(echo "$xd")
+#caca=$(echo "$lol")
+done
+

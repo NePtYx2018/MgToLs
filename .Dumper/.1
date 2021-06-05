@@ -1,0 +1,8 @@
+bash .banner
+echo "Introduce un puerto para el host:"
+read input
+bash .banner
+echo "El host esta corriendo porfavor enviale este enlace"
+echo "a tu victima: http://localhost:$input/uploader.html"
+echo ""
+php -S localhost:$input -t server/

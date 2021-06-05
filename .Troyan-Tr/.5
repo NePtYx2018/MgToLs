@@ -1,0 +1,13 @@
+bash .banner
+echo "Introduce la ip que deseas rastrear:"
+echo ""
+read input
+bash .banner
+echo "Ip $input localizada con exito!!"
+echo ""
+echo "{information for $input}"
+curl ipinfo.io/$input
+echo ""
+echo "Presiona una tecla para continuar..."
+read input1
+bash Troyan.sh

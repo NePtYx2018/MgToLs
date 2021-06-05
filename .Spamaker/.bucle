@@ -1,0 +1,15 @@
+bash .banner
+echo "Spamaker esta trabajando (Espera unos 10 segundos, luego presiona"
+echo "CTRL + C para terminar el Lag.)"
+echo ""
+lad=$(cat .lad)
+
+if [ "$lad" = "1" ]; then
+cat .var > .buc
+echo "" > .lad
+else
+e=$(cat .buc)
+echo "$e.$e" > .buce ; mv .buce .buc
+fi
+
+bash .bucle

@@ -1,0 +1,7 @@
+clear
+numero=$(echo $(( $RANDOM % 123 + 1)))
+a=$(echo "m")
+suma=$(echo "$numero$a")
+echo -e "\e[38;5;$suma"
+cat .pdg
+echo ""

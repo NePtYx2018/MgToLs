@@ -1,0 +1,250 @@
+date=$(date +'%m-%d')
+userm=$(cat .username)
+ipx=$(ip route get 1.2.3.4 | awk '{print $7}')
+#ip=$(curl -s ifconfig.me)
+#cax=$(echo "$ip" |& tee .ddx)
+model=$(uname)
+fecha=$(date)
+numero=$(echo $(( $RANDOM % 17 + 1 )))
+#actualizacion=$(lynx -dump https://midget-twine.000webhostapp.com/version.txt)
+#actual=$(cat .version)
+
+if [ "$numero" = "1" ];then
+clear
+echo -e "\e[35m"
+echo "#     #        #######        #"
+echo "##   ##  ####     #     ####  #        ####"
+echo "# # # # #    #    #    #    # #       #"
+echo "#  #  # #         #    #    # #        ####"
+echo "#     # #  ###    #    #    # #            #"
+echo "#     # #    #    #    #    # #       #    #"
+echo "#     #  ####     #     ####  #######  ####"
+echo -e "\e[31m==========\e[0m"
+echo -e "\e[31mby=NePtYx=\e[0m"
+echo -e "\e[31m==========\e[0m \e[35m"
+echo ""
+fi
+
+if [ "$numero" = "2" ];then
+clear
+echo -e "\e[93m"
+echo '           __________'
+echo '          |  MgToLs  |           __________'
+echo '          |__________|          /  NePtYx  \'
+echo '         ___|_______|___        \__________/'
+echo '        |       |       |           \___/'
+echo '        |  ¤ ¤  |  ¤ ¤  |'
+echo '        |       |       |'
+echo "        |  ¤ ¤  |  ¤ ¤  |   Kernel: $model Ip: $ipx"
+echo '        |       |       |'
+echo "        |  ¤ ¤  |  ¤ ¤  |   Fecha: $fecha"
+echo '        |       |       |    ___________________'
+echo '        |  ¤ ¤  |  ¤ ¤  |   |      Comands      |'
+echo '        |       |       |   |___________________|'
+echo '        |  ¤ ¤  |  ¤ ¤  |   |>help >exit >banner|'
+echo '        |       __      |   |___________________|'
+echo '        |______|__|_____|      |             |'
+echo ""
+fi
+
+if [ "$numero" = "3" ];then
+clear
+echo -e "\e[96m"
+cat $HOME/MgToLs/.cow
+fi
+
+if [ "$numero" = "4" ];then
+clear
+echo -e "\e[94m"
+cat $HOME/MgToLs/.ghost
+fi
+
+if [ "$numero" = "5" ];then
+clear
+echo -e "\e[34m"
+cat $HOME/MgToLs/.bunny
+fi
+
+if [ "$numero" = "6" ]; then
+clear
+echo -e "\e[38;5;198m"
+echo -e "\e[1m"
+echo ""
+echo '                       _____________'
+echo '                      [ ___________ ]'
+echo '                      ||  COMANDS  ||'
+echo '                      ||-----------||'
+echo '   ____________       ||>help      ||'
+echo '  /   MgToLs   \  /.\ ||>exit      ||'
+echo '  \____________/ /  / ||___________||'
+echo '  /            \/  /  [_____________]'
+echo ' /  /\     /\   \ /   '
+echo '/   \/ ___ \/    \       by NePtYx'
+echo '\                /'
+echo ' \______________/'
+echo "  /    \  /    \  Kernel: $model Ip: $ipx "
+echo "  \____/  \____/  Fecha: $fecha"
+echo ""
+fi
+
+if [ "$numero" = "7" ]; then
+clear
+echo -e "\e[35;5;183m"
+cat $HOME/MgToLs/.hin
+echo ""
+fi
+
+if [ "$numero" = "8" ]; then
+clear
+echo "         Welcome $userm to MgToLs!!"
+cat $HOME/MgToLs/.hack
+echo -e "\e[35;5;167m"
+echo "    ============================== Fecha: $fecha"
+echo "    =      MgToLs by NePtYx!!    = Kernel: $model"
+echo "    ============================== Ip: $ipx"
+echo ""
+fi
+
+if [ "$numero" = "9" ]; then
+clear
+echo -e "\e[38;5;208m"
+cat $HOME/MgToLs/.girl
+echo ""
+fi
+
+if [ "$numero" = "10" ]; then
+clear
+echo -e "\e[38;5;197m"
+cat $HOME/MgToLs/.hunk
+echo ""
+fi
+
+if [ "$numero" = "11" ]; then
+clear
+cat $HOME/MgToLs/.girlcat
+echo -e "\e[38;5;245m"
+echo "========================================================="
+echo "= Created by NePtYx 2017 = Contact me bit.ly/NePtYx2021 ="
+echo "========================================================="
+echo "      Kernel: $model Ip: $ipx Fecha: $date"
+echo ""
+fi
+
+if [ "$numero" = "12" ]; then
+clear
+cat $HOME/MgToLs/.tet
+echo -e "\e[38;5;80m"
+echo "  ========================================================="
+echo "  = Created by NePtYx 2017 = Contact me bit.ly/NePtYx2021 ="
+echo "  ========================================================="
+echo "      Kernel: $model Ip: $ipx Fecha: $date"
+echo ""
+fi
+
+if [ "$numero" = "13" ]; then
+clear
+echo -e "\e[38;5;249m"
+cat .bends
+echo ""
+fi
+
+if [ "$numero" = "14" ]; then
+clear
+echo -e "\e[38;5;249m"
+cat .payloads
+echo ""
+fi
+
+if [ "$numero" = "15" ]; then
+clear
+echo -e "\e[38;5;48m"
+cat .cree
+echo ""
+fi
+
+if [ "$numero" = "16" ]; then
+clear
+cat $HOME/MgToLs/.myft
+echo -e "\e[38;5;90m"
+echo "  ========================================================="
+echo "  = Created by NePtYx 2017 = Contact me bit.ly/NePtYx2021 ="
+echo "  ========================================================="
+echo "      Kernel: $model Ip: $ipx Fecha: $date"
+echo ""
+fi
+
+if [ "$numero" = "17" ]; then
+clear
+echo -e "\e[38;5;182m"
+cat .kuis
+echo ""
+echo "  ========================================================="
+echo "  = Created by NePtYx 2017 = Contact me bit.ly/NePtYx2021 ="
+echo "  ========================================================="
+echo "      Kernel: $model Ip: $ipx Fecha: $date"
+echo ""
+fi
+
+date=$(date +'%m-%d')
+
+if [ "$date" = "12-12" ];then
+clear
+echo -e "\e[93m"
+echo ' __  __      _____     _             ____        ^  ^'
+echo '|  \/  | __ |_   _|__ | |    ___   _|  _ \      ^^^^^'
+echo '| |\/| |/ _  || |/ _ \| |   / __| (_) | | |    __||||_'
+echo '| |  | | (_| || | (_) | |___\__ \  _| |_| |   /       \'
+echo '|_|  |_|\__  ||_|\___/|_____|___/ (_)____/   |_________|'
+echo '        |___/                             HappyBirthday NePtYx'
+echo -e "\e[92m"
+fi
+
+if [ "$date" = "12-24" ];then
+echo -e "\e[91m"
+clear
+echo '_|      _|            _|_|_|_|_|          _|'
+echo '_|_|  _|_|    _|_|_|      _|      _|_|    _|          _|_|_|'
+echo '_|  _|  _|  _|    _|      _|    _|    _|  _|        _|_|'
+echo '_|      _|  _|    _|      _|    _|    _|  _|            _|_|'
+echo '_|      _|    _|_|_|      _|      _|_|    _|_|_|_|  _|_|_|'
+echo '                  _|    Marry Chrismas Users :D//by NePtYx'
+echo '              _|_|'
+echo -e "\e[96m"
+fi
+
+
+kista=$(cat .uflo)
+if [ "$date" = "$kista" ]; then
+lasufw=$(echo "hola")
+else
+akdoq=$(echo "$date" > .uflo)
+actualizacion=$(lynx -dump https://midget-twine.000webhostapp.com/version.txt)
+actual=$(cat .version)
+if [ "$actualizacion" = "$actual" ]; then
+echo ""
+else
+echo "MgToLs tiene una actualizacion:"
+echo ""
+echo "Tu version: $actual"
+echo "Version actual: $actualizacion"
+echo ""
+echo "[?] Deseas actualizar MgToLs [Y/N]:"
+read si
+
+# Parte one
+
+if [ "$si" = "Y" ]; then
+clear
+echo -e "\e[38;5;123m"
+cat .act
+echo ""
+cd $HOME/MgToLs/
+bash update.sh
+else
+clear
+echo -e "\e[38;5;52m"
+cat .act
+echo ""
+fi
+fi
+fi

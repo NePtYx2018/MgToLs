@@ -1,0 +1,247 @@
+###################################################################
+#                        Import Module
+import json , sys , hashlib , os , time , marshal, getpass
+###################################################################
+'''
+     Facebook Information
+'''
+###################################################################
+#                             COLOR
+if sys.platform in ["linux","linux2"]:
+        W = "\033[0m"
+        G = '\033[32;1m'
+        R = '\033[31;1m'
+else:
+        W = ''
+        G = ''
+        R = ''
+###################################################################
+#                      Exception
+try:
+        import requests
+except ImportError:
+        print R + '_     _'.center(44)
+        print "o' \.=./ `o".center(44)
+        print '(o o)'.center(44)
+        print 'ooO--(_)--Ooo'.center(44)
+        print W + ' '
+        print ('F B I').center(44)
+        print ' '
+        print "[!] Can't import module 'requests'\n"
+        sys.exit()
+####################################################################
+#                    Set Default encoding
+reload (sys)
+sys . setdefaultencoding ( 'utf8' )
+####################################################################
+#                       I don't know
+jml = []
+jmlgetdata = []
+n = []
+####################################################################
+#                        BANNER
+####################################################################
+#                        BANNER
+def baliho():
+        try:
+                token = open('cookie/token.log','r').read()
+                r = requests.get('https://graph.facebook.com/me?access_token=' + token)
+                a = json.loads(r.text)
+                name = a['name']
+                n.append(a['name'])
+
+        except (KeyError,IOError):
+
+                print R + '_     _'.center(44)
+                print "o' \.=./ `o".center(44)
+                print '(o o)'.center(44)
+                print 'ooO--(_)--Ooo'.center(44)
+                print ' ' + W
+                print ('F B I').center(44)
+                print (W + '     [' + G +'Facebook Information'+ W + ']')
+                print ' '
+####################################################################
+#                   Print In terminal
+def show_program():
+
+        print '''
+                    %sINFORMATION%s
+ ------------------------------------------------------
+
+    Author     Hak9
+    Name       Facebook Information
+    Version    Full Version
+    Date       08/04/2019
+    Jabber     xhak9x@jabber.de
+
+* if you find any errors or problems , please contact
+  author
+'''%(G,W)
+def info_ga():
+
+        print '''
+     %sCOMMAND                      DESCRIPTION%s
+  -------------       -------------------------------------
+
+   token                Get token to api
+
+  -------------       -------------------------------------
+'''%(G,W)
+def menu_reaction():
+        print '''
+   %sNumber                  INFO%s
+ ----------   ------------------------------------
+
+   [ 01 ]      like
+   [ 02 ]      reaction 'LOVE'
+   [ 03 ]      reaction 'WOW'
+   [ 04 ]      reaction 'HAHA'
+   [ 05 ]      reaction 'SAD'
+   [ 06 ]      reaction 'ANGRY'
+
+   [ 00 ]      back to menu bot
+'''%(G,W)
+####################################################################
+#                     GENERATE ACCESS TOKEN
+
+def get(data):
+        print '[*] Generate access token '
+
+        try:
+                os.mkdir('cookie')
+        except OSError:
+                pass
+
+        b = open('cookie/token.log','w')
+        try:
+                r = requests.get('https://api.facebook.com/restserver.php',params=data)
+                a = json.loads(r.text)
+
+                b.write(a['access_token'])
+                b.close()
+                print '[*] successfully generate access token'
+                print '[*] Your access token is stored in cookie/token.log'
+                exit()
+        except KeyError:
+                print '[!] Failed to generate access token'
+                print '[!] Check your connection / email or password'
+                os.remove('cookie/token.log')
+                main()
+        except requests.exceptions.ConnectionError:
+                print '[!] Failed to generate access token'
+                print '[!] Connection error !!!'
+                os.remove('cookie/token.log')
+                main()
+def id():
+        print '[*] login to your facebook account         ';id = raw_input('Username:');pwd = getpass.getpass('Password:');API_SECRET = '62f8ce9f74b12f84c123cc23437a4a32';data = {"api_key":"882a8490361da98702bf97a021ddc14d","credentials_type":"password","email":id,"format":"JSON", "generate_machine_id":"1","generate_session_cookies":"1","locale":"en_US","method":"auth.login","password":pwd,"return_ssl_resources":"0","v":"1.0"};sig = 'api_key=882a8490361da98702bf97a021ddc14dcredentials_type=passwordemail='+id+'format=JSONgenerate_machine_id=1generate_session_cookies=1locale=en_USmethod=auth.loginpassword='+pwd+'return_ssl_resources=0v=1.0'+API_SECRET
+        x = hashlib.new('md5')
+        x.update(sig)
+
+        data.update({'sig':x.hexdigest()})
+        get(data)
+#####
+def main():
+  global target_id
+
+  try:
+        cek = raw_input(R + 'Hak9' + W +' >> ')
+
+        if cek.lower() == 'get_data':
+                if len(jml) == 0:
+                        getdata()
+                else:
+                        print '[*] You have retrieved %s friends data'%(len(jml))
+                        main()
+        elif cek.lower() == 'get_info':
+                print '\n'+'[*] Information Gathering [*]'.center(44) + '\n'
+                search()
+        elif cek.lower() == 'bot':
+                menu_bot()
+                bot()
+        elif cek.lower() == "cat_token":
+                try:
+                        o = open('cookie/token.log','r').read()
+                        print '[*] Your access token !!\n\n' + o + '\n'
+                        main()
+                except IOError:
+                        print '[!] failed to open cookie/token.log'
+                        print "[!] type 'token' to generate access token"
+                        main()
+
+        elif cek.lower() == 'clear':
+                if sys.platform == 'win32':
+                        os.system('cls')
+                        baliho()
+                        main()
+                else:
+                        os.system('clear')
+                        baliho()
+                        main()
+
+        elif cek.lower() == 'token':
+                try:
+                        open('cookie/token.log')
+                        print '[!] an access token already exists'
+                        cek = raw_input('[?] Are you sure you want to continue [Y/N] ')
+                        if cek.lower() != 'y':
+                                print '[*] Canceling '
+                                bot()
+                except IOError:
+                        pass
+
+                print '\n' + '[*] Generate Access token facebook [*]'.center(44) + '\n'
+                print '[Warn] please turn off your VPN before using this feature !!!'
+                id()
+        elif cek.lower() == 'rm_token':
+                print '''
+[Warn] you must create access token again if
+       your access token is deleted
+'''
+                a = raw_input("[!] type 'delete' to continue : ")
+                if a.lower() == 'delete':
+                        try:
+                                os.system('rm -rf cookie/token.log')
+                                print '[*] Success delete cookie/token.log'
+                                main()
+                        except OSError:
+                                print '[*] failed to delete cookie/token.log'
+                                main()
+                else:
+                        print '[*] failed to delete cookie/token.log'
+                        main()
+        elif cek.lower() == 'about':
+                show_program()
+                main()
+        elif cek.lower() == 'exit':
+                print "[!] Exiting Program"
+                sys.exit()
+        elif cek.lower() == 'help':
+                info_ga()
+                main()
+        elif cek.lower() == 'dump_id':
+                dump_id()
+        elif cek.lower() == 'dump_phone':
+                dump_phone()
+        elif cek.lower() == 'dump_mail':
+                dump_mail()
+
+        if 'dump_' in cek.lower() and cek.lower().split('_')[2] == 'id':
+                target_id = cek.lower().split('_')[1]
+                dump_id_id()
+        else:
+                if cek == '':
+                        main()
+                else:
+                        print "[!] command '"+cek+"' not found"
+                        print '[!] type "help" to show command'
+                        main()
+  except KeyboardInterrupt:
+        main()
+  except IndexError:
+        print '[!] invalid parameter on command : ' + cek
+        main()
+#####
+if __name__ == '__main__':
+
+        baliho()
+        main()

@@ -1,0 +1,3 @@
+jsjs=$(pwd)
+cd $HOME/.mutt/cache/bodies/*/INBOX/
+grep "Received: from" * > $jsjs/.result

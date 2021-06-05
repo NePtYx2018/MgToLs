@@ -1,0 +1,2 @@
+clear
+echo "Saliendo..."

@@ -1,0 +1,491 @@
+CONTADOR=0
+fin=99999999999
+while [  $CONTADOR -lt $fin ]; do
+ci=$(cat $HOME/MgToLs/.username)
+read -p "$ci//mgt>" com
+vawl=$(echo "$com" | grep -o finder)
+
+#$com
+
+if [ "$vawl" = "finder" ]; then
+kslal=$(echo "nandemonae")
+else
+if [ "$com" = "imp" ]; then
+kdls=$(echo "nandemonaei")
+else
+$com
+fi
+fi
+
+
+lis=$(cat $HOME/MgToLs/.liss)
+los=$(echo "$lis" | grep -o "$com")
+
+if [ "$los" = "" ]; then
+if [ "$vawl" = "finder" ]; then
+clin=$(echo "$com" | sed 's/finder //g')
+bc=$(cat .99 | sed 's/"//g' | sed 's/echo //g' | grep $clin)
+if [ "$bc" = "" ]; then
+echo "Error: Ninguna coincidencia"
+else
+echo "$bc"
+fi
+fi
+else
+cd $HOME/MgToLs/.$com;bash $com.sh
+# cd $HOME/MgToLs/.prog/.$com;bash $com.sh
+# bash $HOME/MgToLs/.$com/$com.sh
+fi
+
+
+if [ "$com" = "clear" ]; then
+bash $HOME/MgToLs/.banner
+fi
+if [ "$com" = "help" ]; then
+lis=$(cat $HOME/MgToLs/.liss)
+echo ""
+echo " Repositorios de MgToLs:"
+echo ""
+echo "$lis"
+echo ""
+echo " Comandos de MgToLs:"
+echo ""
+echo "move: Mueve carpetas creadas por repositorios."
+echo "help -r: Ayuda con repositorios."
+echo "help: Ayuda general."
+echo "exit: Salir de la terminal."
+echo "log: Usuario y contraseña de la terminal."
+echo "msg: Chatea en linea con usuarios de todo el mundo."
+echo "banner: Cambia el banner principal a otro."
+echo "imp: Cual es tu ip publica."
+echo "update: Actualizar MgToLs."
+echo "finder + programa: Ayuda personalizada."
+echo "meta: Instala metasploit."
+echo "error: Solucion de errores."
+echo ""
+fi
+
+# if [ "$com" = "VirusCreator" ]; then
+# cd $HOME/;bash .1
+# fi
+
+# if [ "$com" = "EnlacesGen" ]; then
+# cd $HOME/;bash .2
+# fi
+
+# if [ "$com" = "LivuxCreator" ]; then
+# cd $HOME/;bash .3
+# fi
+
+# if [ "$com" = "RansomWAREM" ]; then
+# cd $HOME/;bash .4
+# fi
+
+# if [ "$com" = "RouterDevice" ]; then
+# cd $HOME/;bash .5
+# fi
+
+# if [ "$com" = "WpCrack" ]; then
+# cd $HOME/;bash .6
+# fi
+
+# if [ "$com" = "KeyLoggerMaker" ]; then
+# cd $HOME/;bash .7
+# fi
+
+# if [ "$com" = "LagWaths" ]; then
+# cd $HOME/;bash .8
+# fi
+
+# if [ "$com" = "SpammApi" ]; then
+# cd $HOME/;bash .9
+# fi
+
+# if [ "$com" = "WebDown" ]; then
+# cd $HOME/;bash .10
+# fi
+
+# if [ "$com" = "Fuxion" ]; then
+# cd $HOME/;bash .11
+# fi
+
+# if [ "$com" = "BinsGen" ]; then
+# cd $HOME/;bash .12
+# fi
+
+# if [ "$com" = "BanckDoll" ]; then
+# cd $HOME/;bash .13
+# fi
+
+# if [ "$com" = "HtmlBuilder" ]; then
+# cd $HOME/;bash .14
+# fi
+
+# if [ "$com" = "IpLocate" ]; then
+# cd $HOME/;bash .15
+# fi
+
+# if [ "$com" = "GmailSpammer" ]; then
+# cd $HOME/;bash .16
+# fi
+
+# if [ "$com" = "WireNumber" ]; then
+# cd $HOME/;bash .17
+# fi
+
+# if [ "$com" = "Spamaker" ]; then
+# cd $HOME/;bash .18
+# fi
+
+# if [ "$com" = "PhishBuild" ]; then
+# cd $HOME/;bash .19
+# fi
+
+# if [ "$com" = "TokenVul" ]; then
+# cd $HOME/;bash .20
+# fi
+
+# if [ "$com" = "SetWi# fi" ]; then
+# cd $HOME/;bash .21
+# fi
+
+# if [ "$com" = "Backux" ]; then
+# cd $HOME/;bash .22
+# fi
+
+# if [ "$com" = "MinerBot" ]; then
+# cd $HOME/;bash .23
+# fi
+
+# if [ "$com" = "HackFab" ]; then
+# cd $HOME/;bash .24
+# fi
+
+# if [ "$com" = "AcortUrl" ]; then
+# cd $HOME/;bash .25
+# fi
+
+# if [ "$com" = "TerArem" ]; then
+# cd $HOME/;bash .26
+# fi
+
+# if [ "$com" = "PishIp" ]; then
+# cd $HOME/;bash .27
+# fi
+
+# if [ "$com" = "ScanPort" ]; then
+# cd $HOME/;bash .28
+# fi
+
+# if [ "$com" = "Msgme" ]; then
+# cd $HOME/;bash .29
+# fi
+
+# if [ "$com" = "Serlo" ]; then
+# cd $HOME/;bash .30
+# fi
+
+# if [ "$com" = "SshConect" ]; then
+# cd $HOME/;bash .31
+# fi
+
+# if [ "$com" = "Laig" ]; then
+# cd $HOME/;bash .32
+# fi
+
+# if [ "$com" = "Dixmak" ]; then
+# cd $HOME/;bash .33
+# fi
+
+# if [ "$com" = "Sedox" ]; then
+# cd $HOME/;bash .34
+# fi
+
+# if [ "$com" = "Iping" ]; then
+# cd $HOME/;bash .35
+# fi
+
+# if [ "$com" = "Chaster" ]; then
+# cd $HOME/;bash .36
+# fi
+
+# if [ "$com" = "Troyan" ]; then
+# cd $HOME/;bash .37
+# fi
+
+# if [ "$com" = "Dolds" ]; then
+# cd $HOME/;bash .38
+# fi
+
+# if [ "$com" = "Remoteduck" ]; then
+# cd $HOME/;bash .39
+# fi
+
+# if [ "$com" = "TelApi" ]; then
+# cd $HOME/;bash .40
+# fi
+
+# if [ "$com" = "WhatsCrack" ]; then
+# cd $HOME/;bash .41
+# fi
+
+# if [ "$com" = "Gitinfect" ]; then
+# cd $HOME/;bash .42
+# fi
+
+# if [ "$com" = "PHPreverce" ]; then
+# cd $HOME/;bash .43
+# fi
+
+# if [ "$com" = "Troyan-Tr" ]; then
+# cd $HOME/;bash .44
+# fi
+
+# if [ "$com" = "Target-Lite" ]; then
+# cd $HOME/;bash .45
+# fi
+
+# if [ "$com" = "Decode" ]; then
+# cd $HOME/;bash .46
+# fi
+
+# if [ "$com" = "Dumper" ]; then
+# cd $HOME/;bash .47
+# fi
+
+# if [ "$com" = "AuVpn" ]; then
+# cd $HOME/;bash .48
+# fi
+
+# if [ "$com" = "Mac0s" ]; then
+# cd $HOME/;bash .49
+# fi
+
+# if [ "$com" = "Geonumb" ]; then
+# cd $HOME/;bash .50
+# fi
+
+# if [ "$com" = "Doxrut" ]; then
+# cd $HOME/;bash .51
+# fi
+
+# if [ "$com" = "Kart" ]; then
+# cd $HOME/;bash .52
+# fi
+
+# if [ "$com" = "Winmaker" ]; then
+# cd $HOME/;bash .53
+# fi
+
+# if [ "$com" = "Brute" ]; then
+# cd $HOME/;bash .54
+# fi
+
+# if [ "$com" = "SmsBomber" ]; then
+# cd $HOME/;bash .55
+# fi
+
+# if [ "$com" = "Tormex" ]; then
+# cd $HOME/;bash .56
+# fi
+
+# if [ "$com" = "# fishWait" ]; then
+# cd $HOME/;bash .57
+# fi
+
+# if [ "$com" = "Antaki" ]; then
+# cd $HOME/;bash .58
+# fi
+
+# if [ "$com" = "# fireWhats" ]; then
+# cd $HOME/;bash .59
+# fi
+
+# if [ "$com" = "AmWare" ]; then
+# cd $HOME/;bash .60
+# fi
+
+# if [ "$com" = "Scama" ]; then
+# cd $HOME/;bash .61
+# fi
+
+# if [ "$com" = "SDox" ]; then
+# cd $HOME/;bash .62
+# fi
+
+# if [ "$com" = "DeepClean" ]; then
+# cd $HOME/;bash .63
+# fi
+
+# if [ "$com" = "FtpCrack" ]; then
+# cd $HOME/;bash .64
+# fi
+
+# if [ "$com" = "Wi# fiCrack" ]; then
+# cd $HOME/;bash .65
+# fi
+
+# if [ "$com" = "PreVis" ]; then
+# cd $HOME/;bash .66
+# fi
+
+# if [ "$com" = "Encry" ]; then
+# cd $HOME/;bash .67
+# fi
+
+# if [ "$com" = "Dogle" ]; then
+# cd $HOME/;bash .68
+# fi
+
+# if [ "$com" = "ZFor" ]; then
+# cd $HOME/;bash .69
+# fi
+
+# if [ "$com" = "Biner" ]; then
+# cd $HOME/;bash .70
+# fi
+
+# if [ "$com" = "Ados" ]; then
+# cd $HOME/;bash .71
+# fi
+
+# if [ "$com" = "Stalk" ]; then
+# cd $HOME/;bash .72
+# fi
+
+# if [ "$com" = "UrlForce" ]; then
+# cd $HOME/;bash .73
+# fi
+
+# if [ "$com" = "Mpdown" ]; then
+# cd $HOME/;bash .74
+# fi
+
+# if [ "$com" = "ZipCrack" ]; then
+# cd $HOME/;bash .75
+# fi
+
+# if [ "$com" = "ShortUrl" ]; then
+# cd $HOME/;bash .76
+# fi
+
+# if [ "$com" = "HtmlView" ]; then
+# cd $HOME/;bash .77
+# fi
+
+# if [ "$com" = "Emaip" ]; then
+# cd $HOME/;bash .78
+# fi
+
+# if [ "$com" = "Seep" ]; then
+# cd $HOME/;bash .79
+# fi
+
+# if [ "$com" = "FBrute" ]; then
+# cd $HOME/;bash .80
+# fi
+
+# if [ "$com" = "PEdni" ]; then
+# cd $HOME/;bash .81
+# fi
+
+# if [ "$com" = "IMEGet" ]; then
+# cd $HOME/;bash .82
+# fi
+
+# if [ "$com" = "Neog" ]; then
+# cd $HOME/;bash .83
+# fi
+
+# if [ "$com" = "WPS-Gen" ]; then
+# cd $HOME/;bash .84
+# fi
+
+# if [ "$com" = "Hubcrack" ]; then
+# cd $HOME/;bash .85
+# fi
+
+# if [ "$com" = "RemPc" ]; then
+# cd $HOME/;bash .86
+# fi
+
+# if [ "$com" = "Zoler" ]; then
+# cd $HOME/;bash .87
+# fi
+
+# if [ "$com" = "GWhats" ]; then
+# cd $HOME/;bash .88
+# fi
+
+# if [ "$com" = "Telespam" ]; then
+# cd $HOME/;bash .89
+# fi
+
+# if [ "$com" = "Domain" ]; then
+# cd $HOME/;bash .90
+# fi
+
+# if [ "$com" = "DirectLnk" ]; then
+# cd $HOME/;bash .91
+# fi
+
+# Comandos
+
+if [ "$com" = "help -r" ]; then
+cd $HOME/MgToLs/;bash .99
+fi
+
+if [ "$com" = "update" ]; then
+bash $HOME/MgToLs/update.sh
+fi
+
+if [ "$com" = "msg" ]; then
+cd $HOME/MgToLs/;bash .100
+fi
+
+if [ "$com" = "move" ]; then
+cd $HOME/MgToLs/;bash .00
+fi
+
+if [ "$com" = "bash MgToLs.sh" ]; then
+echo "Ya estas dentro de MgToLs!!"
+fi
+
+if [ "$com" = "log" ]; then
+cd $HOME/MgToLs/;bash MgToLs.sh
+fi
+
+if [ "$com" = "banner" ]; then
+cd $HOME/MgToLs/;bash .banner
+fi
+
+if [ "$com" = "imp" ]; then
+ip=$(curl -s ifconfig.me)
+echo "Your ip is $ip"
+fi
+
+if [ "$com" = "meta" ]; then
+cd $HOME/MgToLs/;bash .msfconsole
+fi
+
+if [ "$com" = "error" ]; then
+cd $HOME/MgToLs/;bash .sas
+fi
+
+# Search
+
+#vawl=$(echo "$com" | grep -o finder)
+
+#if [ "$vawl" = "finder" ]; then
+#clin=$(echo "$com" | sed 's/finder //g')
+#bc=$(cat .99 | sed 's/"//g' | sed 's/echo //g' | grep $clin)
+#if [ "$bc" = "" ]; then
+#echo "Error: Ninguna coincidencia"
+#else
+#echo "$bc"
+#fi
+#fi
+
+#$com
+
+done

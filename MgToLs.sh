@@ -1,0 +1,2 @@
+cd .lg
+bash .lg

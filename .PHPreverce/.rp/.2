@@ -1,0 +1,5 @@
+bash .banner
+echo "Introduce el puerto que introduciste anteriormente:"
+read input
+bash .banner
+ssh -R 80:localhost:$input localhost.ssh

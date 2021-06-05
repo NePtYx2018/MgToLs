@@ -1,0 +1,36 @@
+bash .banner
+echo "Introduce la opcion que deseas usar:"
+echo ""
+echo "1)Abrir Servidor"
+echo "2)Crear Ransomware"
+echo "3)Ocultar Ransomware en Word"
+echo "4)Credenciales"
+echo "5)Ayuda"
+echo "6)Salir"
+echo ""
+read num
+
+if [ "$num" = "1" ]; then
+bash .srv
+fi
+
+if [ "$num" = "2" ]; then
+bash .cr
+fi
+
+if [ "$num" = "3" ]; then
+bash .mcr
+fi
+
+if [ "$num" = "4" ]; then
+bash .terminal
+fi
+
+if [ "$num" = "5" ]; then
+bash .ay
+fi
+
+if [ "$num" = "6" ]; then
+bash .banner
+echo "            Gracias por usar Encry!"
+fi

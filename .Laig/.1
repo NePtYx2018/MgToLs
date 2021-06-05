@@ -1,0 +1,21 @@
+url=$(cat .url)
+bash .banner
+echo "Introduce el nombre de el Lag que desees ocupar:"
+echo "================"
+cd .lag
+ls
+echo "================"
+read input
+cd ..
+bash .banner
+cd .lag
+echo "Introduce el nuevo nombre de tu Lag:"
+read input1
+cp $input -r $input1.txt
+mv $input1.txt $url/Lag/
+read pause
+cd ..
+bash .banner
+echo "Tu Lag $input1 Ha sido creado exitosamente..."
+read input2
+bash Laig.sh

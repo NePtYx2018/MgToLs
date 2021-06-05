@@ -1,0 +1,8 @@
+clear
+sh .banner
+echo "Localizacion: Panama"
+echo "" 
+echo "Introduce el siguente espacio de numeros:"
+echo "Ejemplo: +507 2"
+read input 
+sh $HOME/WireNumber/.pan/.$input

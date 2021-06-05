@@ -1,0 +1,17 @@
+bash .banner
+echo "Introduce el nombre de tu archivo:"
+read input
+#Crecion de la codificacion
+mkdir 1$input
+cp .ci2 -r 1$input/$input.sh
+var=$(base64 $input)
+echo "$var" |& tee .usex
+vara=$(base64 .usex)
+echo "$vara" |& tee .usex
+mv .usex 1$input/.usex
+bash .banner
+echo "Encryptado correctamente!!"
+echo ""
+echo "Presiona una tecla para continuar..."
+read input
+bash Decode.sh

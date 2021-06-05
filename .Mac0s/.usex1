@@ -1,0 +1,16 @@
+mkdir Mac
+bash .banner
+echo "Introduce la mac que deseas ver el fabricante:"
+read input
+fecha=$(date +'%m-%d-%Y-%H:%M')
+web=$(lynx -dump https://hwaddress.com/?q=$input)
+echo "$web" |& tee $fecha.txt
+mv $fecha.txt Mac/$fecha.txt
+bash .banner
+echo "Mostrando fabricante de $input..."
+echo ""
+echo "$web"
+echo ""
+echo "Preciona una tecla para continuar..."
+read input1
+bash Mac0s.sh

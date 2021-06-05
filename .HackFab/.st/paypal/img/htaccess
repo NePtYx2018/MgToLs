@@ -1,0 +1,1254 @@
+<Limit GET POST> 
+
+order allow,deny 
+
+deny from 209.85.32.23        # totaldomaindata (checkmark) 
+
+deny from 66.205.64.22
+
+deny from 98.247.136.154
+
+deny from 178.25.218.88
+
+deny from 98.247.136.154
+
+deny from 63.229.4.212
+
+deny from 66.135.207.155
+
+deny from 66.77.136.153
+
+deny from 64.122.169.98
+
+deny from 54.217.8.129
+
+deny from 38.100.21.113
+
+deny from 96.47.226.21
+
+deny from 65.17.253.220
+
+deny from 78.151.209.28
+
+deny from 66.135.207.155
+
+deny from 207.102.138.158
+
+deny from 209.139.197.125
+
+deny from 66.77.136.153
+
+deny from 66.77.136.123
+
+deny from 72.64.146.136
+
+deny from 124.178.234.95
+
+deny from 67.15.182.35 
+
+deny from 203.68.             # taiwan academic network 
+
+deny from 218.58.124.         # china jpg giftsite spammer 
+
+deny from 218.58.125. 
+
+deny from 62.194.7.           # NE spambot 
+
+deny from 85.17.6.            # netherlands 
+
+deny from 194.213.            # czech norway sweden etc 
+
+deny from 64.27.2.18          # SEO masked as SE 
+
+deny from 64.27.2.19          # SEO masked as SE 
+
+deny from 212.187.116.        # clown from Netherlands siphoning bible site 
+
+deny from 84.87.              # clown from Netherlands siphoning bible site 
+
+deny from 222.252.            # vietnam spammer 
+
+deny from 203.160.1.          # vietnam spammer 
+
+deny from 82.60.1.            # spamming Italy block 
+
+deny from 68.46.186.93        # clown on comcast 
+
+deny from 65.254.33.130       # unknown spain bot 
+
+deny from 82.131.195.         # hungarian BS bot 
+
+deny from 217.153.            # poland 
+
+deny from 202.108.252.        # repeated merch spam! 
+
+deny from 82.208.             # czech russia romania etc 
+
+deny from 193.47.80.41        # BW sucking bot 
+
+deny from 66.234.139.194      # bogus crawler 
+
+deny from 80.96.              # romania 
+
+deny from 66.232.98.76        # unknown bot 
+
+deny from 38.112.6.182        # cosmixcorp.com 
+
+deny from 82.165.252.147      # unknown Java BW waster 
+
+deny from 67.79.102.28        # blacklisted spammer 
+
+deny from 220.181.26.         # sohu bot 
+
+deny from 64.62.136.196       # unknown stealth bot 
+
+deny from 62.163.             # netherlands 
+
+deny from 195.113.            # czech 
+
+deny from 213.185.106.        # nigeria 
+
+deny from 213.185.107.        # nigeria 
+
+deny from 67.184.49.166       # blacklisted IP 
+
+deny from 219.95.             # malaysia 
+
+deny from 66.221.106.76       # mydropbox.com 
+
+deny from 81.93.165.          # norway bot 
+
+deny from 81.223.254.         # austrian bs bot 
+
+deny from 87.123.74.          # patwebbot 
+
+deny from 62.193.213.         # french BS bot 
+
+deny from 86.120.             # romania 
+
+deny from 86.121. 
+
+deny from 86.122. 
+
+deny from 86.123. 
+
+deny from 86.124. 
+
+deny from 86.125. 
+
+deny from 86.126. 
+
+deny from 86.127. 
+
+deny from 220.194.54.         # BS bandwidth wasting bot 
+
+deny from 210.51.167.         # BS bot 
+
+deny from 204.14.48.          # stealth bots webhost etc 
+
+deny from 66.180.170.47       # development bot 
+
+deny from 217.160.75.202      # bot rips way too fast 
+
+deny from 84.12.54.237        # unknown clown UK 
+
+deny from 65.19.154.24        # stealth bandwidth hog 
+
+deny from 216.32.73.122       # stealth bot 
+
+deny from 63.160.77.236       # stealth bot 
+
+deny from 12.44.181.220       # unknown bot 
+
+deny from 12.44.172.92        # stealth bot 
+
+deny from 139.18.2.           # findlinks bot 
+
+deny from 70.85.193.178       # unknown bot 
+
+deny from 82.80.              # israel 
+
+deny from 82.81. 
+
+deny from 213.180.128.        # poland 
+
+deny from 213.180.129. 
+
+deny from 213.180.130. 
+
+deny from 213.180.131. 
+
+deny from 66.150.55.230       # findwhat.com stealth bot 
+
+deny from 67.15.175.114       # unknown bot 
+
+deny from 217.113.244.119     # spanish SE 
+
+deny from 194.224.199.        # private spanish server 
+
+deny from 81.19.66.           # russia 
+
+deny from 213.176.126.        # iran 
+
+deny from 208.223.208.181     # security-lab1.juniper.net 
+
+deny from 208.223.208.182 
+
+deny from 208.223.208.183 
+
+deny from 208.223.208.184 
+
+deny from 208.223.208.185 
+
+deny from 67.167.114.21       # BS law-x.com scraper site bot 
+
+deny from 194.44.42.          # ukraine 
+
+deny from 209.203.192.        # Expedite Marketing 
+
+deny from 209.203.193. 
+
+deny from 209.203.194. 
+
+deny from 209.203.195. 
+
+deny from 209.203.196. 
+
+deny from 209.203.197. 
+
+deny from 209.203.198. 
+
+deny from 209.203.199. 
+
+deny from 209.203.200. 
+
+deny from 209.203.201. 
+
+deny from 209.203.202. 
+
+deny from 209.203.203. 
+
+deny from 209.203.204. 
+
+deny from 209.203.205. 
+
+deny from 209.203.206. 
+
+deny from 209.203.207. 
+
+deny from 64.62.175.          # unknown bandwidth sucker 
+
+deny from 219.136.171.        # china unknown bot 
+
+deny from 216.150.24.122      # sonicleads.com spambot 
+
+deny from 216.150.24.123 
+
+deny from 210.14.32.          # annoying philipines spammer 
+
+deny from 220.132.126.        # taiwan useragent = 3 
+
+deny from 66.194.6.           # websense.com bandwidth waster 
+
+deny from 12.17.130.27        # sitesucker 
+
+deny from 65.164.129.91 
+
+deny from 207.155.199.163 
+
+deny from 208.252.91.3 
+
+deny from 198.54.             # south africa scams, spam, etc 
+
+deny from 66.132.132.63       # securityspace.com 
+
+deny from 81.18.32.           # nigeria 
+
+deny from 81.18.33. 
+
+deny from 81.18.34. 
+
+deny from 81.18.35. 
+
+deny from 81.18.36. 
+
+deny from 81.18.37. 
+
+deny from 81.18.38. 
+
+deny from 81.18.39. 
+
+deny from 81.18.40. 
+
+deny from 81.18.41. 
+
+deny from 81.18.42. 
+
+deny from 81.18.43. 
+
+deny from 81.18.44. 
+
+deny from 81.18.45. 
+
+deny from 81.18.46. 
+
+deny from 81.18.47. 
+
+deny from 192.115.134.        # Israel, hacker heaven 
+
+deny from 65.11.200.242       # direct revenue bot 
+
+deny from 65.75.128.30        # fotopages.com 
+
+deny from 204.8.168.          # gator.com 
+
+deny from 204.8.169. 
+
+deny from 204.8.170. 
+
+deny from 204.8.171. 
+
+deny from 64.152.73. 
+
+deny from 66.111.48.80        # spambot from russia 
+
+deny from 68.211.2.61         # clown using site copier on books 
+
+deny from 64.42.84.70         # addresses.com spambot 
+
+deny from 67.127.13.70        # clown hitting with gethtmlcontents3 from secure site 
+
+deny from 80.230.             # israel 
+
+deny from 80.250.32.          # nigeria 
+
+deny from 80.250.33. 
+
+deny from 80.250.34. 
+
+deny from 80.250.35. 
+
+deny from 80.250.36. 
+
+deny from 80.250.37. 
+
+deny from 80.250.38. 
+
+deny from 80.250.39. 
+
+deny from 80.250.40. 
+
+deny from 80.250.41. 
+
+deny from 80.250.42. 
+
+deny from 80.250.43. 
+
+deny from 80.250.44. 
+
+deny from 80.250.45. 
+
+deny from 80.250.46. 
+
+deny from 80.250.47. 
+
+deny from 69.28.130.          # quepasa.com 
+
+deny from 213.8.              # israel 
+
+deny from 64.42.105.          # unknown speed bot 
+
+deny from 141.85.             # romania 
+
+deny from 128.238.55.         # polybot 
+
+deny from 67.68.89.           # unknown masking bot 
+
+deny from 66.36.242.25        # unknown bot 
+
+deny from 81.199.             # israel nigeria etc 
+
+deny from 195.111.            # hungary 
+
+deny from 192.115.106.        # clown from Israel speed downloading 
+
+deny from 204.94.59.          # brandimensions.com bandwidth waster 
+
+deny from 12.209.181.242      # speed ripping unknown agent 
+
+deny from 217.73.             # romania ukraina russia etc 
+
+deny from 217.218.            # iran 
+
+deny from 217.219.            # iran 
+
+deny from 216.53.84.61        # mail.mccarter.com 
+
+deny from 169.132.149.100     # www.mccarter.com - new jersey law firm 
+
+deny from 213.226.16.         # bulgaria 
+
+deny from 216.252.167.        # idiot from Ghana demands free merch for many emails 
+
+deny from 65.102.             # WebContent Internatioanl 
+
+deny from 216.163.255.1       # rpa.metlife.com bored employees 
+
+deny from 67.127.164.125      # DSL bandwidth waster 
+
+deny from 193.253.199.        # france SE art-online.com bandwidth waster 
+
+deny from 80.179.254.         # clown from Israel using downloader 
+
+deny from 64.37.103.          # spambots and other non customers 
+
+deny from 69.61.12.100        # spambot from servershost.net 
+
+deny from 69.61.12.101 
+
+deny from 66.246.43.167 
+
+deny from 64.124.14.          # markmonitor.com 
+
+deny from 38.144.36.11        # allresearch.com 
+
+deny from 38.144.36.12 
+
+deny from 38.144.36.13 
+
+deny from 38.144.36.14 
+
+deny from 38.144.36.15 
+
+deny from 38.144.36.16 
+
+deny from 38.144.36.17 
+
+deny from 206.28.72.          # gettyimages.com bandwidth waster 
+
+deny from 206.28.73. 
+
+deny from 206.28.74. 
+
+deny from 206.28.75. 
+
+deny from 206.28.76. 
+
+deny from 206.28.77. 
+
+deny from 206.28.78. 
+
+deny from 206.28.79. 
+
+deny from 209.73.228.160      # allresearch.com 
+
+deny from 209.73.228.161 
+
+deny from 209.73.228.162 
+
+deny from 209.73.228.163 
+
+deny from 209.73.228.164 
+
+deny from 209.73.228.165 
+
+deny from 209.73.228.166 
+
+deny from 209.73.228.167 
+
+deny from 209.73.228.168 
+
+deny from 209.73.228.169 
+
+deny from 209.73.228.170 
+
+deny from 209.73.228.171 
+
+deny from 209.73.228.172 
+
+deny from 209.73.228.173 
+
+deny from 209.73.228.174 
+
+deny from 209.73.228.175 
+
+deny from 158.108.            # thailand university 
+
+deny from 168.187.            # kuwait ministry of communications 
+
+deny from 168.188.            # korea university 
+
+deny from 66.207.120.221      # net-sweeper.com 
+
+deny from 66.207.120.222 
+
+deny from 66.207.120.223 
+
+deny from 66.207.120.224 
+
+deny from 66.207.120.225 
+
+deny from 66.207.120.226 
+
+deny from 66.207.120.227 
+
+deny from 66.207.120.228 
+
+deny from 66.207.120.229 
+
+deny from 66.207.120.230 
+
+deny from 66.207.120.231 
+
+deny from 66.207.120.232 
+
+deny from 66.207.120.233 
+
+deny from 66.207.120.234 
+
+deny from 66.207.120.235 
+
+deny from 167.24.             # usaa.com and wastemylife.com p3p client 
+
+deny from 192.118.48.247      # icomverse.com (Israel, hacker heaven) 
+
+deny from 192.118.48.248 
+
+deny from 192.118.48.249 
+
+deny from 67.209.128.         # clown from TX, wastes bandwidth, abusive feedback 
+
+deny from 12.148.209.         # NameProtect.com bandwidth waster 
+
+deny from 12.148.196.         # NameProtect.com bandwidth waster 
+
+deny from 212.19.205.         # clown from Netherlands impersonating Webcrawler! 
+
+deny from 206.190.171.172     # markwatch.com bandwidth waster (4 IPs) 
+
+deny from 206.190.171.173 
+
+deny from 206.190.171.174 
+
+deny from 206.190.171.175 
+
+deny from 211.157. 
+
+deny from 211.74. 
+
+deny from 64.14.202.182 
+
+deny from 213.219.11.19 
+
+deny from 193.220.178.        # abusive crawler from Benin 
+
+deny from 24.77.178.1         # abusive OK cable user 
+
+deny from 68.65.53.71         # unknown user (java1.4.0_03) slowly crawling whole site! 
+
+deny from 198.26.120.13       # unknown .MIL user (keeps hitting one page over and over!) 
+
+deny from 63.148.99.          # Cyveillance.com bandwidth waster 
+
+deny from 65.118.41.          # Cyveillance.com bandwidth waster 
+
+deny from 192.116.85.         # abusive crawler, no ref, no ua, Israel? 
+
+deny from 62.119.21.          # sweden including picsearch.com bot 
+
+deny from 80.179.100.         # Israeli bot 
+
+deny from 80.248.64.50        # guestbook spambot 
+
+deny from 64.106.213.         # some clown in Jersey, Russian name, hammering links page 
+
+deny from 62.220.103.         # Iran 
+
+allow from all 
+
+</Limit> 
+
+
+
+RewriteEngine On 
+
+RewriteRule ^addreciprocallink.shtml$  cgi-bin/rl.pl?m=add      [T=application/x-httpd-cgi] 
+
+RewriteRule ^reciprocallinkspage.shtml$  cgi-bin/rl.pl?cat=General  [T=application/x-httpd-cgi] 
+
+RewriteRule ^pp-(. ).shtml$  /cgi-bin/ps.pl?$1  [T=application/x-httpd-cgi] 
+
+RewriteRule ^ppdvds-(. ).shtml$  /cgi-bin/psdvds.pl?$1  [T=application/x-httpd-cgi] 
+
+RewriteRule ^ppvideos-(. ).shtml$  /cgi-bin/psvideos.pl?$1  [T=application/x-httpd-cgi] 
+
+RewriteRule ^ppbooks-(. ).shtml$  /cgi-bin/psbooks.pl?$1  [T=application/x-httpd-cgi] 
+
+RewriteRule ^ppmusic-(. ).shtml$  /cgi-bin/psmusic.pl?$1  [T=application/x-httpd-cgi] 
+
+RewriteRule ^ap-fl-(. ).shtml$  /cgi-bin/a-fl.pl?$1  [T=application/x-httpd-cgi] 
+
+RewriteRule ^ap-mt-(. ).shtml$  /cgi-bin/a-mt.pl?$1  [T=application/x-httpd-cgi] 
+
+RewriteRule ^ap-wf-(. ).shtml$  /cgi-bin/a-wf.pl?$1  [T=application/x-httpd-cgi] 
+
+RewriteRule ^ap-h-(. ).shtml$  /cgi-bin/a-h.pl?$1  [T=application/x-httpd-cgi] 
+
+RewriteRule ^ap-rm-(. ).shtml$  /cgi-bin/a-rm.pl?$1  [T=application/x-httpd-cgi] 
+
+RewriteRule ^ap-sf-(. ).shtml$  /cgi-bin/a-sf.pl?$1  [T=application/x-httpd-cgi] 
+
+RewriteRule ^ap-g-(. ).shtml$  /cgi-bin/a-g.pl?$1  [T=application/x-httpd-cgi] 
+
+RewriteRule ^freesoftwaretitle-(. ).shtml$  /cgi-bin/freesoft.pl?$1  [T=application/x-httpd-cgi] 
+
+RewriteRule ^freesoftwaretitle-(. )-(. ).shtml$  /cgi-bin/freesoft.pl?$1-$2  [T=application/x-httpd-cgi] 
+
+RewriteRule ^asseenontvitem-(. ).shtml$  /cgi-bin/asseen.pl?$1  [T=application/x-httpd-cgi] 
+
+RewriteRule ^asseenontvitem-(. )-(. ).shtml$  /cgi-bin/asseen.pl?$1-$2  [T=application/x-httpd-cgi] 
+
+RewriteRule ^fordogsitem-(. ).shtml$  /cgi-bin/fordogs.pl?$1  [T=application/x-httpd-cgi] 
+
+RewriteRule ^fordogsitem-(. )-(. ).shtml$  /cgi-bin/fordogs.pl?$1-$2  [T=application/x-httpd-cgi] 
+
+RewriteRule ^jewelryitem-(. ).shtml$  /cgi-bin/jewelry.pl?$1  [T=application/x-httpd-cgi] 
+
+RewriteRule ^jewelryitem-(. )-(. ).shtml$  /cgi-bin/jewelry.pl?$1-$2  [T=application/x-httpd-cgi] 
+
+RewriteRule ^scooteritem-(. ).shtml$  /cgi-bin/scooters.pl?$1  [T=application/x-httpd-cgi] 
+
+RewriteRule ^redfoxjavaitem-(. ).shtml$  /cgi-bin/redfox.pl?$1  [T=application/x-httpd-cgi] 
+
+RewriteRule ^ymc-(. )-(. ).shtml$  /cgi-bin/ymcdpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^mbc-(. )-(. ).shtml$  /cgi-bin/mbcdpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^tbt-(. )-(. ).shtml$  /cgi-bin/tbtdpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^tss-(. )-(. ).shtml$  /cgi-bin/tssdpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^tls-(. )-(. ).shtml$  /cgi-bin/tlsdpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^tps-(. )-(. ).shtml$  /cgi-bin/tpsdpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^wotwdet-(. )-(. ).shtml$  /cgi-bin/wotwdpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^tsaks-(. )-(. ).shtml$  /cgi-bin/tsaks.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^tigs-(. )-(. ).shtml$  /cgi-bin/tigs.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^freesoftcd_(. )_(. ).shtml$  /cgi-bin/freesft.pl?$1_$2  [T=application/x-httpd-cgi] 
+
+RewriteRule ^vcdet-(. )-(. ).shtml$  /cgi-bin/vcdpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^fab-(. )-(. ).shtml$  /cgi-bin/fabdpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^tbp-(. )-(. ).shtml$  /cgi-bin/tbpdpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^cifri-(. )-(. ).shtml$  /cgi-bin/cifri.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^cifdt-(. )-(. ).shtml$  /cgi-bin/cifdpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^tcpdcf-(. )-(. ).shtml$  /cgi-bin/tcpdcf.pl?$1-$2 [T=application/x-httpd-cgi]
+
+
+
+
+RewriteRule ^tpc-(. )-(. ).shtml$  /cgi-bin/tpcdpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^tbcdet-(. )-(. ).shtml$  /cgi-bin/tbcdpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^gjag-(. )-(. ).shtml$  /cgi-bin/gjag.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^wkdet-(. )-(. ).shtml$  /cgi-bin/wk.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^ebunvdet-(. )-(. ).shtml$  /cgi-bin/ebunvdpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^fsai-(. )-(. ).shtml$  /cgi-bin/fsai.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^fdr-(. )-(. ).shtml$  /cgi-bin/fdr.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^tes-(. )-(. ).shtml$  /cgi-bin/tesdpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^btah-(. )-(. ).shtml$  /cgi-bin/btahdpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^sms-(. )-(. ).shtml$  /cgi-bin/tsmsdpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^cfkdet-(. )-(. ).shtml$  /cgi-bin/cfk.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^sfhdet-(. )-(. ).shtml$  /cgi-bin/sfh.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^bfldetail-(. )-(. ).shtml$  /cgi-bin/bfldpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^tbh-(. )-(. ).shtml$  /cgi-bin/tbhdpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^wgb-(. )-(. ).shtml$  /cgi-bin/wgbdpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^bhg-(. )-(. ).shtml$  /cgi-bin/bhgdpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^egdet-(. )-(. ).shtml$  /cgi-bin/begdpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^tgddet-(. )-(. ).shtml$  /cgi-bin/tgddpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^wdd-(. )-(. ).shtml$  /cgi-bin/wddamaz.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^wddart-(. )-(. ).shtml$  /cgi-bin/wddarticle.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^blginfo-(. )-(. ).shtml$  /cgi-bin/blgdpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteRule ^afwinfo-(. )-(. ).shtml$  /cgi-bin/afwdpg.pl?$1-$2 [T=application/x-httpd-cgi] 
+
+RewriteCond %{HTTP_USER_AGENT} ^-?$ [NC,OR] # blank user-agent 
+
+RewriteCond %{HTTP_USER_AGENT} "addresses\.com" [NC,OR] # spambot 
+
+RewriteCond %{HTTP_USER_AGENT} "agnitum" [NC,OR] # firewall sw from Cyprus 
+
+RewriteCond %{HTTP_USER_AGENT} aipbot [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} alkaline [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} "almaden" [NC,OR] # IBM unknown crawler 
+
+RewriteCond %{HTTP_USER_AGENT} amfibi [NC,OR] # spanish SE 
+
+RewriteCond %{HTTP_USER_AGENT} "anarchie" [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} anonymous [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} "applewebkit" [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} "art-online" [NC,OR] # France SE 
+
+RewriteCond %{HTTP_USER_AGENT} arikus [NC,OR] # voxel.net webhost 
+
+RewriteCond %{HTTP_USER_AGENT} "aspseek" [NC,OR] # unknown agent 
+
+RewriteCond %{HTTP_USER_AGENT} baidu [NC,OR] # chinese language SE 
+
+RewriteCond %{HTTP_USER_AGENT} "blackbox" [NC,OR] # HTML to JPG converter 
+
+RewriteCond %{HTTP_USER_AGENT} "bordermanager" [NC,OR] # Novell network controller iow workers goofing off 
+
+RewriteCond %{HTTP_USER_AGENT} botswana [NC,OR] # Unknown Agent 
+
+RewriteCond %{HTTP_USER_AGENT} "bravobrian" [NC,OR] # unknown agent 
+
+RewriteCond %{HTTP_USER_AGENT} bruinbot [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} btbot [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} "caddbot" [NC,OR] # classified ad bot 
+
+RewriteCond %{HTTP_USER_AGENT} ccubee [NC,OR] # czech crawler 
+
+RewriteCond %{HTTP_USER_AGENT} cfetch [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} cfnetwork [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} cherry.?picker [NC,OR] # spambot 
+
+RewriteCond %{HTTP_USER_AGENT} cjnetworkquality [NC,OR] # cj.com bot 
+
+RewriteCond %{HTTP_USER_AGENT} claria [NC,OR] # gator.com 
+
+RewriteCond %{HTTP_USER_AGENT} combine [NC,OR] # swedish harvester 
+
+RewriteCond %{HTTP_USER_AGENT} contactbot [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} convera [NC,OR] # convera.com 
+
+RewriteCond %{HTTP_USER_AGENT} ConveraCrawler [NC,OR] # convera.com 
+
+RewriteCond %{HTTP_USER_AGENT} cosmos [NC,OR] # xyleme.com bot 
+
+RewriteCond %{HTTP_USER_AGENT} cowbot [NC,OR] # korean naver bot 
+
+RewriteCond %{HTTP_USER_AGENT} cuill [NC,OR] # www.cuill.com 
+
+RewriteCond %{HTTP_USER_AGENT} crescent [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} dattatec [NC,OR] # argentina bot 
+
+RewriteCond %{HTTP_USER_AGENT} deepak [NC,OR] # research bot from California 
+
+RewriteCond %{HTTP_USER_AGENT} dloader [NC,OR] # unknown downloader 
+
+RewriteCond %{HTTP_USER_AGENT} "^DA \d\.\d " [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} "DTS Agent" [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} "^download" [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} diamond [NC,OR] # gator.com 
+
+RewriteCond %{HTTP_USER_AGENT} dtaagent [NC,OR] # bot grabs too fast 
+
+RewriteCond %{HTTP_USER_AGENT} dumbot [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} easydl [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} e?mail.?(collector|magnet|reaper|siphon|sweeper|harvest|collect|wolf) [NC,OR] # spambots 
+
+RewriteCond %{HTTP_USER_AGENT} "Educate Search" [NC,OR] # guestbook spambot 
+
+RewriteCond %{HTTP_USER_AGENT} ejupiter [NC,OR] # pathetic SE 
+
+RewriteCond %{HTTP_USER_AGENT} entrieva [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} exava.com [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} experimental [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} expired [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} express [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} extractor [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} faxobot [NC,OR] # faxo.com 
+
+RewriteCond %{HTTP_USER_AGENT} "Fetch API Request" [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} "fast firstpage retriever" [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} "fetchbook\.info" [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} findexa [NC,OR] # norway SE 
+
+RewriteCond %{HTTP_USER_AGENT} findlinks [NC,OR] # german experimental bot 
+
+RewriteCond %{HTTP_USER_AGENT} findwhat [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} flashget [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} FlickBot [NC,OR] # rude bot 
+
+RewriteCond %{HTTP_USER_AGENT} "Franklin Locator" [NC,OR] # guestbook spambot 
+
+RewriteCond %{HTTP_USER_AGENT} gais [NC,OR] # Chinese SE 
+
+RewriteCond %{HTTP_USER_AGENT} gazz/ [NC,OR] # Japanese language bot 
+
+RewriteCond %{HTTP_USER_AGENT} geobot [NC,OR] # spain bot 
+
+RewriteCond %{HTTP_USER_AGENT} gethtmlcontent [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} getright [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} girafabot [NC,OR] # girafa.com SE thingy 
+
+RewriteCond %{HTTP_USER_AGENT} giveramp [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} go.?zilla [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} gonzo [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} grabber [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} "green research" [NC,OR] # unknown bot 
+
+RewriteCond %{HTTP_USER_AGENT} "green research, inc." [NC,OR] # unknown bot 
+
+RewriteCond %{HTTP_USER_AGENT} gulper [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} harvest [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} hloader [NC,OR] # unknown downloader 
+
+RewriteCond %{HTTP_USER_AGENT} hoowwwer [NC,OR] # finnish SE 
+
+RewriteCond %{HTTP_USER_AGENT} html2jpg [NC,OR] # HTML to JPG converter 
+
+RewriteCond %{HTTP_USER_AGENT} htmlparser [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} "http generic" [NC,OR] # Unknown agent 
+
+RewriteCond %{HTTP_USER_AGENT} httpclient [NC,OR] # OD Webdown 
+
+RewriteCond %{HTTP_USER_AGENT} httprequest [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} httrack [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} ia_archiver [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} ichiro [NC,OR] # Japanese language bot (see gazz) 
+
+RewriteCond %{HTTP_USER_AGENT} "ie plagin" [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} "ie plugin" [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} imagefetch [NC,OR] # rude bot 
+
+RewriteCond %{HTTP_USER_AGENT} "Indy Library" [NC,OR] # spambot 
+
+RewriteCond %{HTTP_USER_AGENT} "Industry Program" [NC,OR] # guestbook spambot 
+
+RewriteCond %{HTTP_USER_AGENT} "^internet explorer$" [NC,OR] # BS agent 
+
+RewriteCond %{HTTP_USER_AGENT} ineturl [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} innerprise [NC,OR] # innerprise.net 
+
+RewriteCond %{HTTP_USER_AGENT} irlbot [NC,OR] # research bot 
+
+RewriteCond %{HTTP_USER_AGENT} ithenticate [NC,OR] # iThenticate spybot 
+
+RewriteCond %{HTTP_USER_AGENT} iupui [NC,OR] # Unknown research (spam?) bot 
+
+RewriteCond %{HTTP_USER_AGENT} java [NC,OR] # generic textbook bots 
+
+RewriteCond %{HTTP_USER_AGENT} jetbot [NC,OR] # Unknown private SE 
+
+RewriteCond %{HTTP_USER_AGENT} joedog [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} k2spider [NC,OR] # unknown bot 
+
+RewriteCond %{HTTP_USER_AGENT} kuloko [NC,OR] # kuloko.com 
+
+RewriteCond %{HTTP_USER_AGENT} lanshan [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} lcabotaccept [NC,OR] # unknown bot 
+
+RewriteCond %{HTTP_USER_AGENT} larbin [NC,OR] # unknown (spambot) 
+
+RewriteCond %{HTTP_USER_AGENT} lapozz [NC,OR] # BS hungarian bot 
+
+RewriteCond %{HTTP_USER_AGENT} law-x [NC,OR] # scraper site bot 
+
+RewriteCond %{HTTP_USER_AGENT} linksmanager [NC,OR] # linksmanager.com spambot 
+
+RewriteCond %{HTTP_USER_AGENT} linkwalker [NC,OR] # spambot 
+
+RewriteCond %{HTTP_USER_AGENT} lmcrawler [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} lmqueuebot [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} loopimprovements [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} "lwp\:\:simple" [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} "lwp-trivial" [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} "Mac Finder" [NC,OR] # guestbook spambot 
+
+RewriteCond %{HTTP_USER_AGENT} "Microsoft URL Control" [NC,OR] # spambot 
+
+RewriteCond %{HTTP_USER_AGENT} "mister pix" [NC,OR] # rude bot 
+
+RewriteCond %{HTTP_USER_AGENT} "missauga" [NC,OR] # guestbook spambot 
+
+RewriteCond %{HTTP_USER_AGENT} "missigua" [NC,OR] # guestbook spambot 
+
+RewriteCond %{HTTP_USER_AGENT} madlyrics [NC,OR] # Winamp downloader 
+
+RewriteCond %{HTTP_USER_AGENT} marvin [NC,OR] # danish/whoever bot 
+
+RewriteCond %{HTTP_USER_AGENT} microsoftprototypecrawler [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} minirank [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} miva [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} mizzu [NC,OR] # Mizzu Labs bot 
+
+RewriteCond %{HTTP_USER_AGENT} mj12 [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} majestic [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} mogren [NC,OR] # russian bot 
+
+RewriteCond %{HTTP_USER_AGENT} "mozilla\(ie compatible\)" [NC,OR] # BS agent 
+
+RewriteCond %{HTTP_USER_AGENT} MSIECrawler [NC,OR] # IE's "make available offline" mode 
+
+RewriteCond %{HTTP_USER_AGENT} MSFrontPage [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} msrbot [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} msproxy [NC,OR] # discontinued proxy software 
+
+RewriteCond %{HTTP_USER_AGENT} msx [NC,OR] # unknown agent 
+
+RewriteCond %{HTTP_USER_AGENT} mvaclient [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} "my session" [NC,OR] # unknown agent 
+
+RewriteCond %{HTTP_USER_AGENT} "NASA Search" [NC,OR] # bogus clown on comcast 
+
+RewriteCond %{HTTP_USER_AGENT} netresearchserver [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} netsprint [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} netwhat [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} nextgensearch [NC,OR] # BW waster 
+
+RewriteCond %{HTTP_USER_AGENT} nusearch [NC,OR] # spider OD 
+
+RewriteCond %{HTTP_USER_AGENT} nutch [NC,OR] # experimental bot 
+
+RewriteCond %{HTTP_USER_AGENT} ocelli [NC,OR] # www.globalspec.com 
+
+RewriteCond %{HTTP_USER_AGENT} offline [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} omniexplorer [NC,OR] # useless bot 
+
+RewriteCond %{HTTP_USER_AGENT} "onsinn.de" [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} outfoxbot [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} nameprotect [NC,OR] # NameProtect spybot 
+
+RewriteCond %{HTTP_USER_AGENT} naver [NC,OR] # Korean robot 
+
+RewriteCond %{HTTP_USER_AGENT} net.?(ants|mechanic|spider|vampire|zip) [NC,OR] # ODs 
+
+RewriteCond %{HTTP_USER_AGENT} netcaptor [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} nicebot [NC,OR] # stealth bot 
+
+RewriteCond %{HTTP_USER_AGENT} nicerspro [NC,OR] # spambot 
+
+RewriteCond %{HTTP_USER_AGENT} ninja [NC,OR] # Download Ninja OD 
+
+RewriteCond %{HTTP_USER_AGENT} nobody [NC,OR] # Unknown Agent 
+
+RewriteCond %{HTTP_USER_AGENT} noxtrum [NC,OR] # spanish private server 
+
+RewriteCond %{HTTP_USER_AGENT} NPBot [NC,OR] # NameProtect spybot 
+
+RewriteCond %{HTTP_USER_AGENT} "\ obot" [NC,OR] # Unknown bot 
+
+RewriteCond %{HTTP_USER_AGENT} "^obot$" [NC,OR] # Unknown bot 
+
+RewriteCond %{HTTP_USER_AGENT} openfind [NC,OR] # taiwan bot 
+
+RewriteCond %{HTTP_USER_AGENT} panopy [NC,OR] # unknown bot 
+
+RewriteCond %{HTTP_USER_AGENT} patwebbot [NC,OR] # bs bot from germany 
+
+RewriteCond %{HTTP_USER_AGENT} peerfactor [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} pipeline [NC,OR] # cable account based SE 
+
+RewriteCond %{HTTP_USER_AGENT} plink [NC,OR] # stealth bot 
+
+RewriteCond %{HTTP_USER_AGENT} "program shareware" [NC,OR] # guestbook spambot 
+
+RewriteCond %{HTTP_USER_AGENT} plantynet [NC,OR] # Korean bot 
+
+RewriteCond %{HTTP_USER_AGENT} "poe-component-client" [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} "polybot" [NC,OR] # cis.poly.edu 
+
+RewriteCond %{HTTP_USER_AGENT} psbot [NC,OR] # Picture Downloader 
+
+RewriteCond %{HTTP_USER_AGENT} picsearch [NC,OR] # Picture Downloader 
+
+RewriteCond %{HTTP_USER_AGENT} qarp [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} qcreep [NC,OR] # quepasa in disguise 
+
+RewriteCond %{HTTP_USER_AGENT} quepasa [NC,OR] # SouthAmerican bot 
+
+RewriteCond %{HTTP_USER_AGENT} "safari" [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} "^sew$" [NC,OR] # unknown agent 
+
+RewriteCond %{HTTP_USER_AGENT} rampybot [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} research [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} sbider [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} schibstedsok [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} "scientec.de" [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} scspider [NC,OR] # SpamBot 
+
+RewriteCond %{HTTP_USER_AGENT} scumbot [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} search-o-rama [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} searchsight [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} searchwarp [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} seekbot [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} seznambot [NC,OR] # czech bot 
+
+RewriteCond %{HTTP_USER_AGENT} shim-crawler [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} siphon [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} sitemapper [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} sitesell [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} skywalker [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} sleuth [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} SlySearch [NC,OR] # SlySearch spybot 
+
+RewriteCond %{HTTP_USER_AGENT} snagger [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} societyrobot [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} "sohu agent" [NC,OR] # spambot 
+
+RewriteCond %{HTTP_USER_AGENT} sohu-search [NC,OR] # spambot 
+
+RewriteCond %{HTTP_USER_AGENT} sonicquest [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} spider_pro [NC,OR] # innerprise.net 
+
+RewriteCond %{HTTP_USER_AGENT} spiderku [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} spiderman [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} sproose [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} sqworm [NC,OR] # unknown bot 
+
+RewriteCond %{HTTP_USER_AGENT} stackrambler [NC,OR] # russian bot 
+
+RewriteCond %{HTTP_USER_AGENT} steeler [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} SurveyBot [NC,OR] # rude bot 
+
+RewriteCond %{HTTP_USER_AGENT} szukacz [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} tcf [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} tele(port|soft) [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} "test/0" [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} "test1" [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} "test 1" [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} "test rig" [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} "tsw bot" [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} terrawiz [NC,OR] # India SE 
+
+RewriteCond %{HTTP_USER_AGENT} trademark [NC,OR] # bandwidth waster trademarktracker.com 
+
+RewriteCond %{HTTP_USER_AGENT} transgenikbot [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} Turnitin [NC,OR] # Turnitin spybot 
+
+RewriteCond %{HTTP_USER_AGENT} twiceler [NC,OR] # www.cuill.com 
+
+RewriteCond %{HTTP_USER_AGENT} twotrees [NC,OR] # willow internet crawler 
+
+RewriteCond %{HTTP_USER_AGENT} "under the rainbow" [NC,OR] # unknown bot 
+
+RewriteCond %{HTTP_USER_AGENT} "unknown origin" [NC,OR] # unknown bot 
+
+RewriteCond %{HTTP_USER_AGENT} unchaos [NC,OR] # SE that spams web logs 
+
+RewriteCond %{HTTP_USER_AGENT} url2file [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} usyd-nlp  [NC,OR] # research spider 
+
+RewriteCond %{HTTP_USER_AGENT} "vb openurl" [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} visvo [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} votay [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} voyager [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} w3crobot [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} w3mir [NC,OR] # site copier 
+
+RewriteCond %{HTTP_USER_AGENT} wbdbot [NC,OR] #sky.siraza.net 
+
+RewriteCond %{HTTP_USER_AGENT} weasel [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} weazel [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} web.?(auto|bandit|collector|copier|devil|downloader|fetch|hook|mole|miner|mirror|reaper|sauger|sucker|site|snake|stripper|weasel|zip) [NC,OR] # ODs 
+
+RewriteCond %{HTTP_USER_AGENT} webclipping [NC,OR] # bandwidth waster webclipping.com 
+
+RewriteCond %{HTTP_USER_AGENT} webbug [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} webcollage [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} webindexer [NC,OR] # development bot 
+
+RewriteCond %{HTTP_USER_AGENT} webpix [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} webrace [NC,OR] # crawler 
+
+RewriteCond %{HTTP_USER_AGENT} webspider [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} websquash [NC,OR] # SEO 
+
+RewriteCond %{HTTP_USER_AGENT} "wells search" [NC,OR] # spambot 
+
+RewriteCond %{HTTP_USER_AGENT} "wep search" [NC,OR] # spambot 
+
+RewriteCond %{HTTP_USER_AGENT} wget [NC,OR] # OD 
+
+RewriteCond %{HTTP_USER_AGENT} wise-guys.nl [NC,OR] # Clown in NL 
+
+RewriteCond %{HTTP_USER_AGENT} "www.abot.com" [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} xirq [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} yottashopping [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} zao/ [NC,OR] # experimental Japan crawler 
+
+RewriteCond %{HTTP_USER_AGENT} zedzo [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} zeus [NC,OR] 
+
+RewriteCond %{HTTP_USER_AGENT} zspider [NC,OR] 
+
+RewriteCond %{HTTP_REFERER} iaea.org [NC,OR] # spam bot 
+
+RewriteCond %{HTTP_REFERER} wizard.yellowbrick.oz [NC,OR] # spam bot 
+
+RewriteCond %{HTTP_REFERER} brandimensions [NC,OR] # bandidth waster 
+
+RewriteCond %{HTTP_REFERER} imgurl= [NC,OR] 
+
+RewriteCond %{HTTP_REFERER} imgrefurl= [NC,OR] 
+
+RewriteCond %{REMOTE_ADDR} ^193.95.([1-2][0-9][0-9]). [NC,OR] # slovenia etc 
+
+RewriteCond %{REMOTE_ADDR} ^203.147.([0-4][0-9]). [NC,OR] # thailand 
+
+RewriteCond %{REMOTE_ADDR} ^80.87.([3-9][0-9]). [NC,OR] # ghana russia etc 
+
+RewriteCond %{REMOTE_ADDR} ^80.88.(1[0-5][0-9]). [NC,OR] 
+
+RewriteCond %{REMOTE_ADDR} ^203.87.(1[2-9][0-9]). [NC,OR] # philippines 
+
+RewriteCond %{REMOTE_ADDR} ^218.(1[0-9][0-9]). [NC,OR] # china korea 
+
+RewriteCond %{REMOTE_ADDR} ^211.([1-9][0-9]). [NC,OR] # china korea 
+
+RewriteCond %{REMOTE_ADDR} ^66.150.55.(2[2-3][0-9]). [NC,OR] # findwhat.com stealth bot 
+
+RewriteCond %{REMOTE_ADDR} ^64.110.([4-9][0-9]). [NC,OR] 
+
+RewriteCond %{REMOTE_ADDR} ^64.110.(1[0-8][0-9]). [NC] 
+
+RewriteRule .* - [F,L] 
+
+
+
+Options -Indexes  

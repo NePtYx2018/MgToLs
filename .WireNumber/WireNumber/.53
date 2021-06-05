@@ -1,0 +1,8 @@
+clear
+sh .banner
+echo "Localizacion: Cuba"
+echo "" 
+echo "Introduce el siguente espacio de numeros:"
+echo "Ejemplo: +53 7"
+read input 
+sh $HOME/WireNumber/.cub/.$input

@@ -1,0 +1,18 @@
+mkdir .carpeta
+num=$(echo "0" > .nm)
+bash .banner
+
+echo "Introduce la ruta de tu archivo zip:"
+read usr
+
+ausr=$(echo "elzip.zip" > .usr)
+move=$(mv $usr ./.carpeta/elzip.zip)
+
+bash .banner
+echo "Introduce la ruta del diccionario:"
+read dic
+
+per=$(pwd)
+vay=$(cat $dic | sed 's/ /\n/g' > $per/Pass.txt)
+
+bash .vc

@@ -1,0 +1,4 @@
+clear
+echo -e "\e[38;5;195m"
+cat .owlsa
+echo ""

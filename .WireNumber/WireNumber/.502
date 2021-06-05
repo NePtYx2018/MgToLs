@@ -1,0 +1,8 @@
+clear
+sh .banner
+echo "Localizacion: Guatemala"
+echo "" 
+echo "Introduce el siguente espacio de numeros:"
+echo "Ejemplo: +502 2"
+read input 
+sh $HOME/WireNumber/.gua/.$input

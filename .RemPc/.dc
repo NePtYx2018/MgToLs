@@ -1,0 +1,12 @@
+bash .banner
+echo "Introduce el texto que llego a tu Gmail:"
+read texto
+pa=$(echo "$texto" > .texto)
+bash .banner
+echo "Tu texto decifrado esta aca:"
+echo ""
+base64 -d .texto
+echo ""
+echo "Preciona una tecla para continuar..."
+read pause
+bash RemPc.sh

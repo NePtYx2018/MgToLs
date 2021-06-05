@@ -1,0 +1,8 @@
+clear
+sh .banner
+echo "Localizacion: Uruguay"
+echo "" 
+echo "Introduce el siguente espacio de numeros:"
+echo "Ejemplo: +598 42"
+read input 
+sh $HOME/WireNumber/.uru/.$input

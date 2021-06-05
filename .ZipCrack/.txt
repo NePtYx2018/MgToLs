@@ -1,0 +1,7 @@
+Connected to ftp.webcindario.com.
+220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------
+220-You are user number 87 of 500 allowed.
+220-Local time is now 04:44. Server port: 21.
+220-This is a private system - No anonymous login
+220 You will be disconnected after 3 minutes of inactivity.
+331 User loscanasteros OK. Password required

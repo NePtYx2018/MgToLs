@@ -1,0 +1,7 @@
+#!/usr/bin/expect -f
+spawn bash .fbo
+expect %Username%
+send -- %Nose\n%
+expect %Password%
+send -- %\n%
+expect eof

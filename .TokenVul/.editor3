@@ -1,0 +1,4 @@
+echo "Introduce el nombre de la carpeta que contendran"
+echo "los archivos:"
+read input
+cp .tk -r $input

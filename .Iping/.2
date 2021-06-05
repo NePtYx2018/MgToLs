@@ -1,0 +1,12 @@
+bash .banner
+ifconfig wlan0
+echo ""
+echo "Introduce tu Ip:"
+read input1
+bash .banner
+echo "Introduce el puerto que esta el servidor:"
+echo "(Si es phosible 8080)"
+read input2
+bash .banner
+ssh -R 80:$input1:$input2 serveo.net
+

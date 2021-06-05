@@ -1,0 +1,21 @@
+bash .banner
+echo "Introduce la web que buscaste:"
+read input
+bash .banner
+echo "Aqui resultados de $input:"
+echo ""
+cat Kart/$input.txt
+echo ""
+echo "Escribe la url que deseas descargar (Despues de related):"
+read input1
+bash .banner
+echo "Ahora introduce un nombre para el archivo:"
+read input2
+bash .banner
+curl $input1 -o $input2
+bash .banner
+echo "Url descargada correctamente!!"
+echo ""
+echo "Presiona una tecla para continuar..."
+read input3
+bash Kart.sh

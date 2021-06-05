@@ -1,0 +1,146 @@
+clear
+echo '  .--.            .--.'
+echo ' ( (`\\."--``--".//`) )'
+echo '  `-.   __   __    .-`'
+echo '   /   /__\ /__\   \'
+echo '  |    \ 0/ \ 0/    |'
+echo '  \     `/   \`     /'
+echo '   `-.  /-"""-\  .-`  Advertencia: Este programa esta hecho'
+echo '     /  `.___.`  \    para ser usado en entornos controlados,'
+echo '     \     I     /    no me hago responsable de su mal uso.'
+echo '      `;--```--;`'
+echo '        `.___.`'
+sleep 10
+clear
+echo '          Welcome to MgToLs!'
+echo ''
+echo '          ____          ____'
+echo '         |oooo|        |oooo|'
+echo '         |oooo| .----. |oooo|'
+echo '         |Oooo|/\_||_/\|oooO|'
+echo '          ----  / __ \  ---- '
+echo '          / |#|/\/__\/\|#| \ '
+echo '        /  \|#|| |/\| ||#|/  \'
+echo '       / \_/|_|| |/\| ||_|\_/ \'
+echo '      |_\/    o\=----=/o    \/_|'
+echo '      <_>      |=\__/=|      <_>'
+echo '      <_>      |------|      <_>'
+echo '      | |   ___|======|___   | |'
+echo '     //\\  / |O|======|O| \  //\\'
+echo '     |  |  | |O+------+O| |  |  |'
+echo '     |\/|  \_+/        \+_/  |\/|'
+echo '     \__/  _|||        |||_  \__/'
+echo '           | ||        || |'
+echo '          [==|]        [|==]'
+echo '          [===]        [===]'
+echo '           >_<          >_<'
+echo '          || ||        || ||'
+echo '          || ||        || ||'
+echo '          || ||        || ||    -- NePtYx'
+echo '        __|\_/|__    __|\_/|__'
+echo '       /___n_n___\  /___n_n___\'
+echo ""
+echo "         Instalar MgToLs para:"
+echo ""
+echo "     1)Linux            2)Termux"
+echo ""
+read -p "          Ingresa la opcion: " num
+echo ""
+echo "INSTALANDO..."
+echo ""
+if [ "$num" = "1" ]; then
+
+cp $HOME/MgToLs/.auth -r /usr/bin/mgtols
+chmod 777 ./.lib/youtube-dl
+apt-get install nano -y
+apt-get install php -y
+apt-get install dropbear -y
+apt-get install openssh -y
+apt-get install python -y
+apt-get install python2 -y
+apt-get install mutt -y
+apt-get install sed -y
+apt-get install telegram-cli -y
+apt-get install figlet -y
+apt-get install jp2a -y
+apt-get install curl -y
+apt-get install ffmpeg -y
+apt-get install pv -y
+apt-get install termux-api -y
+apt-get install git -y
+apt-get install ruby -y
+apt-get install zip -y
+apt-get install nmap -y
+apt-get install pv -y
+apt-get install coreutils -y
+apt-get install gawk -y
+apt-get install imagemagick -y
+apt-get install lynx -y
+apt-get install expect -y
+apt-get install libcap -y
+apt-get install perl -y
+apt-get install busybox -y
+apt-get install tor -y
+apt-get install wget -y
+apt-get install proxychains-ng -y
+apt-get install ffmpeg -y
+apt-get install clang -y
+apt-get install w3m -y
+cp .lib/youtube-dl -r /usr/bin/youtube-dl
+gem install lolcat
+pip install requests
+pip2 install requests
+pip install yowsup
+pip install instabot
+cd $HOME/MgToLs/.lib/yowsup
+python setup.py install
+bash $HOME/MgToLs/.tr
+else
+
+cp $HOME/MgToLs/.auth -r /data/data/com.termux/files/usr/bin/mgtols
+chmod 777 /data/data/com.termux/files/usr/bin/mgtols
+chmod 777 ./.lib/youtube-dl
+pkg install nano -y
+pkg install php -y
+pkg install dropbear -y
+pkg install openssh -y
+pkg install python -y
+pkg install python2 -y
+pkg install mutt -y
+pkg install sed -y
+pkg install figlet -y
+pkg install curl -y
+pkg install ffmpeg -y
+pkg install pv -y
+pkg install termux-api -y
+pkg install git -y
+pkg install telegram-cli -y
+pkg install ruby -y
+pkg install zip -y
+pkg install jp2a -y
+pkg install nmap -y
+pkg install pv -y
+pkg install coreutils -y
+pkg install gawk -y
+pkg install imagemagick -y
+pkg install lynx -y
+pkg install libcap -y
+pkg install expect -y
+pkg install perl -y
+pkg install busybox -y
+pkg install tor -y
+pkg install wget -y
+pkg install proxychains-ng -y
+pkg install ffmpeg -y
+pkg install clang -y
+pkg install w3m -y
+cp .lib/youtube-dl -r /data/data/com.termux/files/usr/bin/youtube-dl
+gem install lolcat
+pip install requests
+pip2 install requests
+pip install yowsup
+pip install instabot
+cd $HOME/MgToLs/.lib/yowsup
+python setup.py install
+bash $HOME/MgToLs/.tr
+fi

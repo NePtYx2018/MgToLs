@@ -1,0 +1,13 @@
+mkdir Diccionario
+bash .banner
+echo "Introduce el path de tu diccionario:"
+read path
+mv $path Diccionario/Dix.txt
+bash .banner
+echo "Introduce cuantas palabras contiene tu diccionario:"
+read palabras
+pala=$(echo "$palabras" |& tee .p)
+bash .banner
+echo "Diccionario introducido exitosamente..."
+read re
+bash Brute.sh

@@ -1,0 +1,4 @@
+echo -e "\e[36m"
+clear
+cat .rule
+echo ""

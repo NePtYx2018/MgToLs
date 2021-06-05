@@ -1,0 +1,4 @@
+gmail=$(cat .gm)
+cd $HOME/.mutt/cache/bodies/*/INBOX/
+grep "Return-Path: <$gmail>" *
+#grep "        for <$gmail>" *

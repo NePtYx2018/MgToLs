@@ -1,0 +1,4 @@
+bash .banner
+bash .list1
+read input
+bash .$input

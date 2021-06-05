@@ -1,0 +1,4 @@
+clear
+echo -e "\e[38;5;76m"
+cat .ka6
+echo ""

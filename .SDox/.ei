@@ -1,0 +1,2 @@
+fe=$(cat .def)
+w3m -dump $fe

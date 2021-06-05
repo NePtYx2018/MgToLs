@@ -1,0 +1,195 @@
+			text-align: center;
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			font-size: 10px;
+			background: #ffffff;			
+		}
+
+		html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol,ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			outline: 0;
+			font-weight: inherit;
+			font-size: 100%;
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			vertical-align: baseline;
+		}
+		
+		a { text-decoration: none; }
+
+		ul { list-style: none; }
+		li { list-style-image: none; list-style-type: none; }
+		body, a {
+		    color: #333333;
+		}
+		a {
+		    text-decoration: none;
+		}
+
+		#side fieldset { 
+			background-color: #eeeeee;
+			padding-bottom: 6px;
+			padding-top: 6px;
+			position: relative;
+			min-height:300px;
+			height:430px;
+			width: 320px;
+
+		}
+		#side fieldset label { 
+			color: #666666;
+			display: block;
+			padding: 4px 4px 0 5px;
+			margin: 0;
+		}
+
+		#side fieldset input { 
+			border: 0;
+			height: 25px;
+			padding: 0px 0 0 5px;
+			margin-bottom: 6px;
+			font-size: 15px;
+			margin-left: 0;
+			border-radius: 8px 8px 8px 8px;
+			-moz-border-radius: 8px 8px 8px 8px;
+			-webkit-border-radius: 8px 8px 8px 8px;
+			border: 1px solid #aaaaaa;
+	        overflow: hidden;
+		}
+		#side fieldset p { 
+			clear:both;
+		}
+
+		#side h3 { 
+			background-color: #eeeeee;
+			height: 43px;
+			overflow: hidden;
+			font-size: 22px;
+			font-family: 'open_sanssemibold' Arial;
+			color:#666666;
+			line-height: 37px;
+			border-bottom:1px solid #cccccc;
+
+		}
+
+		#side{
+				
+				border: 0px;
+			    overflow: hidden;
+			}
+
+		#side fieldset label.opcionLogin {
+			float:left;
+			width:100px;
+			font-size:14px;
+			padding:0;
+			margin:0 0 20px 18px;
+			clear:none;
+			font-family: 'open_sansregular';
+			cursor: pointer;
+			height: 10px;
+		}
+		.tLg {
+			float:left;
+			width:200px;
+		   font-family: 'open_sansregular';
+			font-size:14px;
+			text-align:left;
+			color: #666666;
+			margin-left:15px;
+			line-height:25px;
+		}
+		#side fieldset input.frt { 
+			float:left;
+			width: 265px;
+			margin-left:15px;
+			height: 35px;
+		}
+		#side .campoOculto { 
+			display:none;
+		}
+
+		#side fieldset label.opcionLogin input { 
+			float:left;
+			margin:0;
+			border:0;
+			width:16px;
+			height:16px;
+		}
+		#side fieldset input.fcl { 
+			float:left;
+			width: 265px;
+			margin-left:15px;
+			height: 35px;
+		}
+		#side fieldset #enviar { 
+		    font-family: 'open_sansregular';
+			width: 269px;
+			height: 42px;
+			border: 0;
+			cursor: pointer;
+			background: #F49600;
+			color: #ffffff;
+			/*background:  url(../img/bot_ingresar_login.png);*/
+			/*text-indent: -9999px;
+			overflow: hidden;*/
+			position:relative;
+		    right: 29px;
+			top:12px;
+			float:right;
+			font-size:17px;
+		}
+		#side fieldset a { 
+			display: block;
+			text-decoration: none;
+			color: #D75E19;
+			text-align: center;
+			padding-top:24px;
+			margin-top: 8px;
+			text-decoration:underline;
+			   font-family: 'open_sansregular';
+			font-size:12px;
+		}
+		#side fieldset a img {    vertical-align: middle; padding-right:5px;}
+		.seleccione {color: #666666; font-size:14px;font-family: 'open_sansregular'; text-align:left; padding-left:18px; padding-bottom:5px;}
+
+
+		/*slider*/
+
+		#frmAction .clave { color: #D75E19 !important;}
+		fieldset #olvide_clave {color: #D75E19;}
+
+		
+
+
+
+/*llamada google font*/
+@font-face {
+	font-family: 'open_sanslight';
+	src: url('../doAccess/_font/opensans-light-webfont.eot');
+	src: url('../doAccess/_font/opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('../doAccess/_font/opensans-light-webfont.ttf') format('truetype'), url('../doAccess/_font/opensans-light-webfont.svg#open_sanslight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'open_sansregular';
+	src: url('../doAccess/_font/opensans-regular-webfont.eot');
+	src: url('../doAccess/_font/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../doAccess/_font/opensans-regular-webfont.ttf') format('truetype'), url('../doAccess/_font/opensans-regular-webfont.svg#open_sansregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'open_sanssemibold';
+	src: url('../doAccess/_font/opensans-semibold-webfont.eot');
+	src: url('../doAccess/_font/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../doAccess/_font/opensans-semibold-webfont.ttf') format('truetype'), url('../doAccess/_font/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'open_sansbold';
+	src: url('../doAccess/_font/opensans-bold-webfont.eot');
+	src: url('../doAccess/_font/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../doAccess/_font/opensans-bold-webfont.ttf') format('truetype'), url('../doAccess/_font/opensans-bold-webfont.svg#open_sansbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+

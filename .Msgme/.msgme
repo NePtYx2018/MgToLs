@@ -1,0 +1,22 @@
+bash .banner
+echo "Introduce tu numero de telefono del bot:"
+read input
+bash .banner
+echo "Introduce el mensaje que dira, cuando ocupes un"
+echo "espacio ocupa un %20 que significa un espacio pero en html:"
+read input1
+bash .banner
+echo "Tu enlace a sido creado, cuando te manden un mensaje, el bot ya"
+echo "listo deveria responder con binarios."
+echo ""
+echo "Presiona una tecla para continuar..."
+read input2
+echo "https://api.whatsapp.com/send?phone=$input&text=$input1" |& tee url.txt
+bash .banner
+echo "Para que tu enlace sea mas creible acortalo con este url:"
+echo ""
+echo "http://adf.ly/20875421/https://api.whatsapp.com/send?phone=$input&text=$input1"
+echo ""
+echo "Presiona una tecla para continuar..."
+read input3
+bash Msgme.sh

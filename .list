@@ -1,0 +1,13 @@
+bash .elp
+echo "===================================================="
+echo "1)VirusCreator  =11)Fuxion       =21)SetWifi       ="
+echo "2)EnlacesGen    =12)BinsGen      =22)Backux        ="
+echo "3)LivuxCreator  =13)BanckDoll    =23)MinerBot      ="
+echo "4)RansomWAREM   =14)HtmlBuilder  =24)HackFab       ="
+echo "5)RouterDevice  =15)IpLocate     =25)AcortUrl      ="
+echo "6)WpCrack       =16)GmailSpammer =26)TerArem       ="
+echo "7)KeyLoggerMaker=17)WireNumber   =27)PishIp        ="
+echo "8)LagWaths      =18)Spamaker     =28)ScanPort      ="
+echo "9)SpammApi      =19)PhishBuild   =29)Msgme         ="
+echo "10)WebDown      =20)TokenVul     =30)Serlo         ="
+echo "===================================================="

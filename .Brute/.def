@@ -1,0 +1,39 @@
+bash .banner
+echo "Escoge el servicio de smtp que usaras:"
+echo ""
+echo "1)Gmail"
+echo "2)Yahoo"
+echo "3)Hotmail"
+echo ""
+read num
+
+if [[ "$num" < "1" ]]; then
+bash .banner
+echo "   Seleccion incorrecta!"
+read s
+bash Brute.sh
+fi
+
+if [ "$num" = "1" ]; then
+br=$(echo "1" |& tee .id)
+bash .banner
+echo " Servicio seleccionado exitosamente!"
+fi
+
+if [ "$num" = "2" ]; then
+br=$(echo "2" |& tee .id)
+bash .banner
+echo " Servicio seleccionado exitosamente!"
+fi
+
+if [ "$num" = "3" ]; then
+br=$(echo "3" |& tee .id)
+echo " Servicio seleccionado exitosamente!"
+fi
+
+if [[ "$num" > "3" ]]; then
+bash .banner
+echo "   Seleccion incorrecta!"
+read s
+bash Brute.sh
+fi

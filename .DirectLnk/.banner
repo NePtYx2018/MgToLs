@@ -1,0 +1,4 @@
+clear
+echo -e "\e[38;5;202m"
+cat .ocul
+echo ""

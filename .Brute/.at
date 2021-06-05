@@ -1,0 +1,38 @@
+bash .banner
+echo "Introduce tu gmail:"
+read gm
+gmail=$(echo "$gm" |& tee .rec)
+bash .banner
+echo "Introduce el gmail que deseas hackear:"
+read afect
+afectado=$(echo "$afect" |& tee .afect)
+bash .banner
+echo "Introduce la opcion que deseas hacer:"
+echo ""
+echo "1)Atacar"
+echo "2)Salir"
+echo ""
+read num
+
+if [[ "$num" < "1" ]]; then
+bash .banner
+echo "   Seleccion incorrecta!"
+read s
+bash Brute.sh
+fi
+
+if [ "$num" = "1" ]; then
+bash .rt
+fi
+
+if [ "$num" = "2" ]; then
+bash .banner
+echo "Gracias por usar Brute!!"
+fi
+
+if [[ "$num" > "2" ]]; then
+bash .banner
+echo "   Seleccion incorrecta!"
+read s
+bash Brute.sh
+fi

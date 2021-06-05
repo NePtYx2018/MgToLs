@@ -1,0 +1,149 @@
+#!/data/data/com.termux/files/usr/bin/sh
+#set -e -u
+ayu=$(cat $HOME/MgToLs/.liss)
+casita=$(echo "$HOME/MgToLs/")
+#casita=$(echo "$HOME/MgToLs/.prog")
+comando=$(echo "$2")
+
+show_help() {
+
+	echo 'Usos: mgtols command [argumentos]'
+	echo ''
+	echo 'Una herramienta para la gestión de programas. Comandos:'
+	echo ''
+	echo '  --help'
+	echo '  --finder <program>'
+	echo '  --open <program>'
+	echo '  --check-update'
+	echo '  --check-list'
+	echo '  --terminal'
+	echo '  --imp'
+	echo ''
+	echo 'Ejemplo: mgtols --open DirectLnk'
+	exit 1
+}
+
+check_list() {
+
+	echo "Lista de todos los programas a tu uso:"
+        echo ""
+	echo "$ayu"
+}
+
+check_update() {
+
+        pro=$(cat $casita.version)
+        por=$(lynx -dump https://midget-twine.000webhostapp.com/version.txt)
+        if [ "$por" != "$pro" ]; then
+        echo "MgToLs actualmente esta actualmente en la version $pro, sin embargo posee"
+        echo "una actualizacion a la version $pro. ¿Deseas actualizar?"
+        echo ""
+        read -p "Actualizar (Y/N): " neos
+
+        if [ "$neos" = "y" ] && [ "$neos" = "Y" ] && [ "$neos" = "yes" ]; then
+        arg=$(echo "$casita""update.sh"); bash $arg
+        else
+        echo "MgToLs no se actualizo. Version actual: $pro"
+	fi
+        else
+        echo "MgToLs esta actualizado. Version actual: $pro"
+        fi
+
+}
+
+finder() {
+
+        bc=$(cat $HOME/MgToLs/.99 | sed 's/"//g' | sed 's/echo //g' | grep "$comando")
+        if [ "$bc" != "" ]; then
+        echo "$bc"
+        else
+        echo "Error: El programa $comando no se encuentra en la lista de programas."
+        fi
+
+}
+
+open() {
+
+	proceso=$(echo "$ayu" | grep -o "$comando")
+        if [ "$proceso" != "" ]; then
+        cd $casita.$comando; bash $comando.sh
+        else
+        echo "Error: El programa $comando no se encuentra en la lista de programas."
+        fi
+
+}
+
+imp() {
+
+	ip=$(curl -s ifconfig.me)
+	echo "Tu ip es $ip"
+
+}
+
+terminal() {
+
+	echo "MgToLs Console - MIT LICENSE ©"
+	echo ""
+	bash $HOME/MgToLs/.tr
+	exit
+}
+
+help() {
+
+	echo 'Usos: mgtols command [argumentos]'
+        echo ''
+        echo 'Una herramienta para la gestión de programas. Comandos:'
+        echo ''
+        echo '  --help // Ayuda avanzada.'
+        echo '  --finder <program> // Detalles del programa a usar.'
+        echo '  --open <program> // Abre el programa a usar.'
+        echo '  --check-update // Actualizaciones disponibles.'
+        echo '  --check-list // Programas disponibles para el uso.'
+        echo '  --terminal // Abre la terminal de MgToLs.'
+	echo '  --imp // Muestra tu ip publica.'
+        echo ''
+        echo 'Ejemplo: mgtols --open DirectLnk'
+        exit 1
+
+}
+
+
+if [ $# = 0 ]; then show_help ; fi
+
+CMD="$1"
+shift 1
+
+
+case "$CMD" in
+
+# Lista
+
+	--check-li*) check_list;;
+
+# Abrir programa
+
+	--ope*) open;;
+
+# Ayuda general
+
+	--hel*) help;;
+
+# Buscar en ayuda total
+
+	--find*) finder;;
+
+# Revisar actualizaciones
+
+	--check-up*) check_update;;
+
+# Terminal
+
+	--termin*) terminal;;
+
+# Muestra tu Ip
+
+	--im*) imp;;
+
+	*) echo "Comando erroneo: '$CMD' (ejecuta 'mgtols --help' para ver informacion como usar)"; exit 1;;
+
+esac

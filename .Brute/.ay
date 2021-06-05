@@ -1,0 +1,6 @@
+clear
+cat Readme.txt
+echo ""
+echo "Presiona una tecla para continuar..."
+read num
+bash Brute.sh

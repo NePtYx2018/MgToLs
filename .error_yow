@@ -1,0 +1,1 @@
+cd MgToLs; cd .lib; cd yowsup; pip install yowsup; python setup.py install

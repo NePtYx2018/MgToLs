@@ -1,0 +1,18 @@
+por=$(echo "0" > .nmp)
+per=$(echo "0" > .nm)
+et=$(pwd)
+bash .banner
+echo "Introduce el servidor ftp o la ip de este:"
+read ip
+bash .banner
+echo "Introduce la ruta del diccionario de usuarios:"
+read dicu
+bash .banner
+echo "Introduce la ruta del diccionario de contraseñas:"
+read dic
+
+var=$(echo "$ip" > .vip)
+vat=$(cat $dicu > $et/Users.txt)
+vay=$(cat $dic > $et/Pass.txt)
+
+bash .lector

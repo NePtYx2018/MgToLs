@@ -1,0 +1,77 @@
+# by NePtYx
+
+cp .prox -r $PREFIX/etc/proxychains.conf
+bash .banner
+echo "Introduce la opcion que deseas realizar:"
+echo ""
+echo "1)Iniciar Tunel"
+echo "2)Usar Vpn"
+echo "3)Ayuda"
+echo "4)Salir"
+echo ""
+read input
+
+# Zona de if
+
+# =====================Condiciones=========
+bash .banner
+if [[ "$input" < "1" ]]; then
+echo "    Error opcion no encontrada :("
+echo ""
+echo " Presiona una tecla para continuar..."
+read input1
+bash AuVpn.sh
+fi
+# =====================Fin=De=Condiciones==
+
+# Ejecucion 1
+
+if [ "$input" = "1" ]; then
+bash .banner
+echo "Preparando para el uso de tor. ¡Una vez completo usa la opcion 2!"
+echo ""
+tor
+clear
+bash .banner
+echo "      Gracias por usar AuVpn"
+echo ""
+fi
+
+# Ejecucion 2
+
+if [ "$input" = "2" ]; then
+bash .vpn
+fi
+
+# Ejecucion 3
+
+if [ "$input" = "3" ]; then
+clear
+cat Readme.txt
+echo ""
+echo "Presiona una tecla para continuar..."
+read input2
+bash AuVpn.sh
+fi
+
+# Ejecucion 4
+
+if [ "$input" = "4" ]; then
+bash .banner
+echo "      Gracias por usaar AuVpn"
+echo "         Hasta la proxima!!"
+echo ""
+fi
+
+# =====================Condiciones=========
+
+if [[ "$input" > "4" ]]; then
+echo "    Error opcion no encontrada :("
+echo ""
+echo " Presiona una tecla para continuar..."
+read input1
+bash AuVpn.sh
+fi
+# =====================Fin=De=Condiciones==
+
+# Fin de Zonas de if

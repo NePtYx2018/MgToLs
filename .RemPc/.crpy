@@ -1,0 +1,36 @@
+import subprocess
+
+f = open(".url", "r")
+url = f.read()
+f.close()
+
+f = open(".ftpu", "r")
+correo = f.read()
+f.close()
+
+f = open(".ftpp", "r")
+passo = f.read()
+f.close()
+
+f = open(".ftpw", "r")
+ftpurl = f.read()
+f.close()
+
+f = open(".base", "r")
+base = f.read()
+f.close()
+
+
+urll = url.replace('\n', '')
+correoo = correo.replace('\n', '')
+passoo = passo.replace('\n', '')
+bebe = base.replace('tuurlaqui', (urll))
+bobo = bebe.replace('tuusuario' , (correoo))
+baba = bobo.replace('tucontraseña', (passoo))
+beboa = baba.replace('tuftp', (ftpurl))
+
+f = open(".temp", "w")
+f.write(beboa)
+f.close()
+
+

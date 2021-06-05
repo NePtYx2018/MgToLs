@@ -1,0 +1,3 @@
+echo -e "\e[34m"
+clear
+cat .asc

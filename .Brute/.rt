@@ -1,0 +1,35 @@
+bash .banner
+
+# Inicio de variables
+
+leer=$(cat .n)
+leer1=$(expr $leer + 1)
+leer2=$(echo "$leer1" |& tee .n)
+leer3=$(cat .n)
+leer4=$(echo "p")
+leer5=$(sed -n $leer3$leer4 Diccionario/Dix.txt |& tee .pass)
+leer6=$(cat .p)
+leer7=$(cat .id)
+
+# Fin de variables
+
+echo "Intentando con: $leer5"
+
+
+if [ "$leer7" = "1" ]; then
+python .conf
+fi
+
+if [ "$leer7" = "2" ]; then
+python .confy
+fi
+
+if [ "$leer7" = "3" ]; then
+python .confh
+fi
+
+if [[ "$leer3" > "$leer6" ]]; then
+bash .lm
+else
+bash .rt
+fi

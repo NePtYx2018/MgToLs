@@ -1,0 +1,33 @@
+bash .banner
+echo "Introduce lo que deseas hacer:"
+echo ""
+echo "1)Chatear"
+echo "2)Salir"
+echo ""
+read num
+
+# Zona de If
+
+if [[ "$num" < "1" ]]; then
+bash .banner
+echo ""
+echo "Lo sentmos la opcion no es valida!"
+read pause
+bash .msgm
+fi
+
+if [ "$num" = "1" ]; then
+bash .msg
+fi
+
+if [ "$num" = "2" ]; then
+bash .ejecute
+fi
+
+if [[ "$num" > "2" ]]; then
+bash .banner
+echo ""
+echo "Lo sentmos la opcion no es valida!"
+read pause
+bash .msgm
+fi

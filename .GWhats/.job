@@ -1,0 +1,47 @@
+ca=$(ls $HOME/MgToLs/ | grep -o GWhats)
+if [ "$ca" = "" ]; then
+ksk=$(mkdir $HOME/MgToLs/GWhats)
+else
+a=$(echo "nadaxd")
+fi
+
+#python .generate > .enla
+#akdk=$(cat .enla | sed 's/ //g')
+#djs=$(echo "$akdk" |& tee .enla)
+
+caca=$(cat .cookie)
+
+CONTADOR=0
+fin=99999999999
+while [  $CONTADOR -lt $fin ]; do
+
+valor=p
+
+leer=$(cat .nm)
+
+suma=$(expr $leer + 1 |& tee .nm)
+
+line=$(sed -n $suma$valor .enla)
+
+save=$(echo "$line" > .pass)
+
+if [ "$line" = "" ] ; then
+echo "0" > .nm
+python $caca > .enla
+akdk=$(cat .enla | sed 's/ //g')
+djs=$(echo "$akdk" |& tee .enla)
+else
+w3m -dump $line > .temp
+
+cat .temp | grep -n "" > .temp1
+sd=$(grep 81: .temp1)
+
+if [ "$sd" = "81:WhatsApp Group Invite" ]; then
+
+echo -e "\e[31mNo funcional: $line\e[0m"
+else
+echo -e "\e[32mFuncional: $line\e[0m"
+js=$(echo "Funcional: $line" >> $HOME/MgToLs/GWhats/Funcionales.txt)
+fi
+fi
+done

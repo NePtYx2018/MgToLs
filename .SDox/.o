@@ -1,0 +1,2 @@
+leer=$(cat .url)
+lynx -nonumbers -dump $leer

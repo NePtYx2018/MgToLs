@@ -1,0 +1,36 @@
+a=$(python .1)
+b=$(python .2)
+c=$(python .3)
+d=$(python .4)
+ab=$(python .1)
+bb=$(python .2)
+cb=$(python .3)
+db=$(python .4)
+ac=$(python .1)
+bc=$(python .2)
+cc=$(python .3)
+dc=$(python .4)
+ad=$(python .1)
+bd=$(python .2)
+cd=$(python .3)
+dd=$(python .4)
+ae=$(python .1)
+be=$(python .2)
+ce=$(python .3)
+de=$(python .4)
+bash .banner
+echo "Introduce los primeros 6 dijitos de la tarjeta:"
+read input
+bash .banner
+echo "Generados exitosamente!!"
+echo ""
+echo "$input$a|$b|$c|$d"
+echo "$input$ab|$bb|$cb|$db"
+echo "$input$ac|$bc|$cc|$dc"
+echo "$input$ad|$bd|$cd|$dd"
+echo "$input$ae|$be|$ce|$de"
+echo ""
+echo "Presiona una tecla para continuar..."
+read input1
+cd ..
+bash Troyan.sh

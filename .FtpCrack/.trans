@@ -1,0 +1,15 @@
+per=$(pwd)
+bash .banner
+echo "Introduce la ruta del diccionario de contraseñas:"
+read dic
+bash .banner
+echo "Introduce la ruta del diccionario de usuarios:"
+read dicu
+vat=$(cat $dicu | sed 's/ /\n/g' > $per/Users.txt)
+vay=$(cat $dic | sed 's/ /\n/g' > $per/Pass.txt)
+bash .banner
+echo "Diccionarios editados!"
+echo ""
+echo "Presiona una tecla para continuar..."
+read pause
+bash FtpCrack.sh

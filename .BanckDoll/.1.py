@@ -1,0 +1,13 @@
+from random import randrange
+print(randrange(1000, 2025))
+print(randrange(1000, 2025))
+print(randrange(1000, 2025))
+print(randrange(1000, 2025))
+print(randrange(1000, 2025))
+print(randrange(1000, 2025))
+print(randrange(1000, 2025))
+print(randrange(1000, 2025))
+print(randrange(1000, 2025))
+print(randrange(1000, 2025))
+print ("")
+print ("Gracias por usar BanckDoll")

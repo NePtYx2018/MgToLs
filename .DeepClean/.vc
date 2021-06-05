@@ -1,0 +1,25 @@
+bash .banner
+echo "DeepCleaner esta trabajando porfavor espere..."
+echo ""
+valor=p
+
+leer=$(cat .nm)
+
+suma=$(expr $leer + 1 |& tee .nm)
+
+line=$(sed -n $suma$valor h)
+
+if [ "$leer" = "0" ]; then
+condition=$(echo "" > .list)
+fi
+
+factor=$(echo "$line/cache" >> .list)
+
+if [ "$line" = "" ]; then
+sed '$ d' .list > .tmp
+mv .tmp .list
+rm -fr h
+exit
+else
+bash .vc
+fi

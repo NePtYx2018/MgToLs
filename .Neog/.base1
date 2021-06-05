@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<WebView android:id="@id/webview1" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+	<TextView android:textSize="12.0sp" android:textColor="#ff000000" android:id="@id/textview1" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="GPS OFF" />
+	<TextView android:textSize="12.0sp" android:textColor="#ff000000" android:id="@id/textview2" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="GPS OFF" />
+	<TextView android:textSize="12.0sp" android:textColor="#ff000000" android:id="@id/textview3" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="GPS OFF" />
+	<TextView android:textSize="12.0sp" android:textColor="#ff000000" android:id="@id/textview4" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="tuurl" />
+	<TextView android:textSize="12.0sp" android:textColor="#ff000000" android:id="@id/textview5" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="nose" />
+	<WebView android:id="@id/webview2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>
+

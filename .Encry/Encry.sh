@@ -1,0 +1,1 @@
+bash .encry | lolcat

