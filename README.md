@@ -4,6 +4,8 @@
 <img src="https://xbzsfz6z5afc8ux1oyxqmq-on.drv.tw/banner.png" alt="MgToLs Termux"/>
 </center>
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Build Status](https://circleci.com/gh/unlock-protocol/unlock.svg?style=svg)](https://circleci.com/gh/unlock-protocol/unlock)
+
 MgToLs programado nativamente en bash cada herramienta es independiente
 por lo que cada herramienta tiene su propia carpeta debido a esto para mover
 las carpetas que el programa creo necesitas usar la opción 
