@@ -44,6 +44,7 @@ git clone https://github.com/NePtYx2018/MgToLs.git
 
 cd MgToLs
 
-bash MgToLs.sh
+bash requirements.txt
+
 ```
 Seleccionamos si la instalacion es para linux o termux y comenzara la instalacion.
