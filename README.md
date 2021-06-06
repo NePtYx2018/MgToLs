@@ -30,8 +30,13 @@ echo "$HOME";cd $HOME/MgToLs/;bash MgToLs.sh
 ```
 
 
-> [MgToLs SI NO ESTA EN LA CARPETA $HOME NO FUNCIONARA]
+> [MgToLs SI NO ESTA EN LA CARPETA $HOME NO FUNCIONA]
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 403885b09d2fd827ffd699bd3efe2deb865ff769
 # Instalacion Termux y Linux
 ```
 pkg install git -y
@@ -41,6 +46,10 @@ git clone https://github.com/NePtYx2018/MgToLs.git
 cd MgToLs
 
 bash requirements.txt
+<<<<<<< HEAD
+=======
+
+>>>>>>> 403885b09d2fd827ffd699bd3efe2deb865ff769
 ```
 Seleccionamos si la instalacion es para linux o termux y comenzara la instalacion.
 
