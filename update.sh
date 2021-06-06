@@ -6,4 +6,4 @@ cd $HOME
 rm -fr MgToLs
 git clone https://github.com/NePtYx2018/MgToLs.git
 cd MgToLs
-bash MgToLs.sh
+bash requirements.txt
