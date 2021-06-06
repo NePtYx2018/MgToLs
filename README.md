@@ -30,11 +30,9 @@ echo "$HOME";cd $HOME/MgToLs/;bash MgToLs.sh
 ```
 
 
-> [MgToLs SI NO ESTA EN LA CARPETA $HOME NO FUNCIONARA]
+> [MgToLs SI NO ESTA EN LA CARPETA $HOME NO FUNCIONA]
 
-Gracias por usar MgToLs y por descargarlo cualquier fallo diganmelo por MSG!
 
-YouTube: Virus Erex
 
 # Instalacion Termux y Linux
 ```
@@ -48,3 +46,26 @@ bash requirements.txt
 
 ```
 Seleccionamos si la instalacion es para linux o termux y comenzara la instalacion.
+
+# Como usar desde la terminal
+
+Para utilizar MgToLs es bastante facil. Aqui sus usos correspondientes:
+
+```
+mgtols --help: Muestra ayuda avanzada
+
+mgtols --open <program>: Abre un programa indicandole su nombre
+
+mgtols --check-list: Muestra la lista de programas a usar
+
+mgtols --check-update: Verefica si MgToLs tiene actualizaciones
+
+mgtols --imp: Muestra tu ip publica
+
+mgtols --terminal: Abre MgToLs en modo terminal
+
+mgtols --finder <program>: Muestra el uso de un programa con su nombre
+```
+Gracias por usar MgToLs y por descargarlo cualquier fallo diganmelo por MSG!
+
+YouTube: Virus Erex
