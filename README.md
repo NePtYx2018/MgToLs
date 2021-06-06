@@ -32,11 +32,7 @@ echo "$HOME";cd $HOME/MgToLs/;bash MgToLs.sh
 
 > [MgToLs SI NO ESTA EN LA CARPETA $HOME NO FUNCIONA]
 
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 403885b09d2fd827ffd699bd3efe2deb865ff769
 # Instalacion Termux y Linux
 ```
 pkg install git -y
