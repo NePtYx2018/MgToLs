@@ -4,7 +4,7 @@
 <img src="https://xbzsfz6z5afc8ux1oyxqmq-on.drv.tw/banner.png" alt="MgToLs Termux"/>
 </center>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Build Status](https://circleci.com/gh/unlock-protocol/unlock.svg?style=svg)](https://circleci.com/gh/unlock-protocol/unlock)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![Build Status](https://circleci.com/gh/unlock-protocol/unlock.svg?style=svg)](https://circleci.com/gh/unlock-protocol/unlock)
 
 MgToLs programado nativamente en bash cada herramienta es independiente
 por lo que cada herramienta tiene su propia carpeta debido a esto para mover
@@ -32,11 +32,7 @@ echo "$HOME";cd $HOME/MgToLs/;bash MgToLs.sh
 
 > [MgToLs SI NO ESTA EN LA CARPETA $HOME NO FUNCIONA]
 
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 403885b09d2fd827ffd699bd3efe2deb865ff769
 # Instalacion Termux y Linux
 ```
 pkg install git -y
@@ -46,10 +42,6 @@ git clone https://github.com/NePtYx2018/MgToLs.git
 cd MgToLs
 
 bash requirements.txt
-<<<<<<< HEAD
-=======
-
->>>>>>> 403885b09d2fd827ffd699bd3efe2deb865ff769
 ```
 Seleccionamos si la instalacion es para linux o termux y comenzara la instalacion.
 
