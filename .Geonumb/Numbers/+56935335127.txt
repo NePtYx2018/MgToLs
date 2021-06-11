@@ -1,0 +1,12 @@
+{
+  "valid":true,
+  "number":"56935335127",
+  "local_format":"935335127",
+  "international_format":"+56935335127",
+  "country_prefix":"+56",
+  "country_code":"CL",
+  "country_name":"Chile",
+  "location":"",
+  "carrier":"WOM SA",
+  "line_type":"mobile"
+}

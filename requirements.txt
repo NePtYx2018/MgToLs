@@ -94,6 +94,10 @@ pip install yowsup
 pip install instabot
 cd $HOME/MgToLs/.lib/yowsup
 python setup.py install
+clear
+bash .greats
+echo ""
+read -sp "Presiona una tecla para continuar..."
 bash $HOME/MgToLs/.tr
 else
 
@@ -142,5 +146,10 @@ pip install yowsup
 pip install instabot
 cd $HOME/MgToLs/.lib/yowsup
 python setup.py install
+clear
+bash .greats
+echo ""
+read -sp "Presiona una tecla para continuar..."
+xdg-open https://youtube.com/channel/UCgH0L6QovzU4TycPFN5XHWg
 bash $HOME/MgToLs/.tr
 fi

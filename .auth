@@ -2,7 +2,7 @@
 #set -e -u
 ayu=$(cat $HOME/MgToLs/.liss)
 casita=$(echo "$HOME/MgToLs/")
-#casita=$(echo "$HOME/MgToLs/.prog")
+#casita=$(echo "$HOME/MgToLs/.prog/")
 comando=$(echo "$2")
 
 show_help() {

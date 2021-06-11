@@ -1,0 +1,12 @@
+{
+  "valid":true,
+  "number":"59162528451",
+  "local_format":"062528451",
+  "international_format":"+59162528451",
+  "country_prefix":"+591",
+  "country_code":"BO",
+  "country_name":"Bolivia (Plurinational State of)",
+  "location":"",
+  "carrier":"",
+  "line_type":"mobile"
+}

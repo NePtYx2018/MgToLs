@@ -69,6 +69,7 @@ fi
 if [ "$num" = "5" ]; then
 bash .banner
 echo "       Gracias por usar ${0}!!"
+echo ""
 exit
 fi
 
