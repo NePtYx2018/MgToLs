@@ -218,8 +218,9 @@ if [ "$date" = "$kista" ]; then
 lasufw=$(echo "hola")
 else
 akdoq=$(echo "$date" > .uflo)
-actualizacion=$(lynx -dump https://midget-twine.000webhostapp.com/version.txt)
-actual=$(cat .version)
+
+actualizacion=$(lynx -dump https://github.com/NePtYx2018/MgToLs.git | grep Version- | sed 's% %%g')
+actual=$(cat README.md | grep Version-)
 if [ "$actualizacion" = "$actual" ]; then
 echo ""
 else

@@ -68,4 +68,4 @@ Gracias por usar MgToLs y por descargarlo cualquier fallo diganmelo por MSG!
 
 YouTube: Virus Erex
 
-Version-10.1
+Version-10.29
