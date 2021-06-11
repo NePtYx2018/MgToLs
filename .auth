@@ -35,8 +35,8 @@ check_update() {
 	re=$(echo "README.md")
 #        pro=$(cat $casita.version)
 #        por=$(lynx -dump https://midget-twine.000webhostapp.com/version.txt)
-	pro=$(cat $casita$re | grep Version:)
-        por=$(lynx -dump https://github.com/NePtYx2018/MgToLs.git | grep $pro)
+	pro=$(cat $casita$re | grep Version-)
+        por=$(lynx -dump https://github.com/NePtYx2018/MgToLs.git | grep Version- | sed 's% %%g')
         if [ "$por" != "$pro" ]; then
         echo "MgToLs actualmente esta en la $pro, sin embargo posee"
         echo "una actualizacion a la $pro. ¿Deseas actualizar?"
