@@ -67,3 +67,5 @@ mgtols --finder <program>: Muestra el uso de un programa con su nombre
 Gracias por usar MgToLs y por descargarlo cualquier fallo diganmelo por MSG!
 
 YouTube: Virus Erex
+
+Version:10.1
