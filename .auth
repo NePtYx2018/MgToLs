@@ -7,12 +7,21 @@ comando=$(echo "$2")
 
 show_help() {
 
+	echo 'Recordatorio: Este programa esta hecho con fines educativos'
+	echo 'e informativos. No nos hacemos responsable por su mal uso.'
+	echo ''
+	echo 'Referentes:'
+	echo ''
+	echo 'GitHub: http://bit.ly/GitHub-Refer'
+	echo 'YouTube: http://bit.ly/YouTube-Refer'
+	echo ''
 	echo 'Usos: mgtols command [argumentos]'
 	echo ''
 	echo 'Una herramienta para la gestión de programas. Comandos:'
 	echo ''
 	echo '  --help'
 	echo '  --finder <program>'
+	echo '  --search <string>'
 	echo '  --open <program>'
 	echo '  --check-update'
 	echo '  --check-list'
@@ -28,6 +37,16 @@ check_list() {
 	echo "Lista de todos los programas a tu uso:"
         echo ""
 	echo "$ayu"
+}
+
+search() {
+
+        bc=$(cat $HOME/MgToLs/.99 | sed 's/"//g' | sed 's/echo //g' | grep "$comando")
+        if [ "$bc" != "" ]; then
+        echo "$bc"
+        else
+        echo "Error: Palabra clave ($comando) no encontrada."
+	fi
 }
 
 check_update() {
@@ -93,12 +112,21 @@ terminal() {
 
 help() {
 
+	echo 'Recordatorio: Este programa esta hecho con fines educativos'
+        echo 'e informativos. No nos hacemos responsable por su mal uso.'
+        echo ''
+        echo 'Referentes:'
+        echo ''
+        echo 'GitHub: http://bit.ly/GitHub-Refer'
+        echo 'YouTube: http://bit.ly/YouTube-Refer'
+        echo ''
 	echo 'Usos: mgtols command [argumentos]'
         echo ''
         echo 'Una herramienta para la gestión de programas. Comandos:'
         echo ''
         echo '  --help // Ayuda avanzada.'
         echo '  --finder <program> // Detalles del programa a usar.'
+	echo '  --search <string> // Buscar herramientas con palabras claves.'
         echo '  --open <program> // Abre el programa a usar.'
         echo '  --check-update // Actualizaciones disponibles.'
         echo '  --check-list // Programas disponibles para el uso.'
@@ -118,6 +146,10 @@ shift 1
 
 
 case "$CMD" in
+
+# Search
+
+	--searc*) search;;
 
 # Lista
 

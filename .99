@@ -95,7 +95,6 @@ echo ""
 echo "Decode: Encriptacion de archivos en base64."
 echo ""
 read -p "Preciona una tecla para continuar..." input
-read input
 bash .banner
 echo -e "\e[96m"
 echo "================================"
@@ -197,6 +196,10 @@ echo ""
 echo "Userdox: Doxing de nicknames en internet."
 echo ""
 echo "SpamTe: Spam mediante telegram."
+echo ""
+echo "Sowo: Ingenieria social con Word."
+echo ""
+echo "BlueJump: Obtener conexiones bluetooth de la victima."
 echo ""
 read -p "Preciona una tecla para continuar..." input
 clear

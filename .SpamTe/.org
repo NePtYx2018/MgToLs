@@ -3,7 +3,7 @@ spawn telegram-cli
 
 expect ">"
 
-send -- "add_contact 1626 NePtYx x\n"
+send -- "add_contact +56998427954 NePtyx\n"
 
 expect ">"
 
@@ -13,12 +13,57 @@ sleep 10
 
 expect ">"
 
-send -- "msg Los_Penes Spam By NePtYx\n"
+send -- "msg NePtyx Spam By NePtYx\n"
 
 sleep 5
 
 expect ">"
 
-send -- "msg NePtYx_x Spam By NePtYx\n"
+send -- "msg NePtyx Spam By NePtYx\n"
+
+
+expect ">"
+
+send -- "msg NePtyx Spam By NePtYx\n"
+
+
+expect ">"
+
+send -- "msg NePtyx Spam By NePtYx\n"
+
+
+expect ">"
+
+send -- "msg NePtyx Spam By NePtYx\n"
+
+
+expect ">"
+
+send -- "msg NePtyx Spam By NePtYx\n"
+
+
+expect ">"
+
+send -- "msg NePtyx Spam By NePtYx\n"
+
+
+expect ">"
+
+send -- "msg NePtyx Spam By NePtYx\n"
+
+
+expect ">"
+
+send -- "msg NePtyx Spam By NePtYx\n"
+
+
+expect ">"
+
+send -- "msg NePtyx Spam By NePtYx\n"
+
+
+expect ">"
+
+send -- "msg NePtyx Spam By NePtYx\n"
 
 expect eof

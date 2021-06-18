@@ -91,11 +91,12 @@ gem install lolcat
 pip install requests
 pip2 install requests
 pip install yowsup
+pip install GrabzIt
 pip install instabot
 cd $HOME/MgToLs/.lib/yowsup
 python setup.py install
 clear
-bash .greats
+bash $HOME/MgToLs/.greats
 echo ""
 read -sp "Presiona una tecla para continuar..."
 bash $HOME/MgToLs/.tr
@@ -143,11 +144,12 @@ gem install lolcat
 pip install requests
 pip2 install requests
 pip install yowsup
+pip install GrabzIt
 pip install instabot
 cd $HOME/MgToLs/.lib/yowsup
 python setup.py install
 clear
-bash .greats
+bash $HOME/MgToLs/.greats
 echo ""
 read -sp "Presiona una tecla para continuar..."
 xdg-open https://youtube.com/channel/UCgH0L6QovzU4TycPFN5XHWg

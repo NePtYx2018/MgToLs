@@ -1,3 +1,4 @@
+rm -fr $HOME/.telegram-cli
 bash .banner
 echo "Introduce la opcion que deseas usar:"
 echo ""

@@ -1,0 +1,11 @@
+# Regustracion https://grabz.it/api/
+from GrabzIt import GrabzItClient
+
+f = open(".htmla", "r")
+leyendo = f.read()
+
+grabzIt = GrabzItClient.GrabzItClient("ODQ3ZGFkNjdiZGU3NGQ1ZThkM2M2ODhlNWVmZjVlNWE=", "P1o/HT8FMj8bP3QFPwo/UQc/Pyc/eT8/PxcePzo5Dj8=")
+grabzIt.HTMLToDOCX(leyendo) 
+grabzIt.SaveTo("result.docx") 
+
+f.close()

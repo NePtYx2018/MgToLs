@@ -1,0 +1,6 @@
+bash .banner
+echo "RESULTADOS: ACTUALIZANDO CADA 10 SEGUNDOS."
+echo ""
+cat .st/list.txt
+sleep 10
+bash .perm

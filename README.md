@@ -63,9 +63,11 @@ mgtols --imp: Muestra tu ip publica
 mgtols --terminal: Abre MgToLs en modo terminal
 
 mgtols --finder <program>: Muestra el uso de un programa con su nombre
+
+mgtols --search <string>: Busqueda avanzada de programas
 ```
 Gracias por usar MgToLs y por descargarlo cualquier fallo diganmelo por MSG!
 
 YouTube: Virus Erex
 
-Version-10.29
+Version-11.0
