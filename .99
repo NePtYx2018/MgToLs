@@ -191,6 +191,8 @@ Sowo: Ingenieria social con Word.
 BlueJump: Obtener conexiones bluetooth de la victima.
 
 MD5Force: Ataque de diccionario a llave md5.
+
+Sammy: Decifrado mediante ataque de diccionario a sha y md5.
 "
 read -sp "Presiona una tecla para continuar..." pause
 bash .ejecute
