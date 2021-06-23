@@ -41,7 +41,7 @@ check_list() {
 
 search() {
 
-        bc=$(cat $HOME/MgToLs/.99 | sed 's/"//g' | sed 's/echo //g' | grep "$comando")
+        bc=$(cat $HOME/MgToLs/.99 | grep -v '"' | grep -v bash | grep . | grep $comando)
         if [ "$bc" != "" ]; then
         echo "$bc"
         else
@@ -75,7 +75,7 @@ check_update() {
 
 finder() {
 
-        bc=$(cat $HOME/MgToLs/.99 | sed 's/"//g' | sed 's/echo //g' | grep "$comando")
+        bc=$(cat $HOME/MgToLs/.99 | grep -v '"' | grep -v bash | grep . | grep $comando)
         if [ "$bc" != "" ]; then
         echo "$bc"
         else

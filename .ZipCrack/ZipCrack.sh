@@ -24,7 +24,7 @@ fi
 
 if [ "$num" = "3" ]; then
 bash .banner
-echo "                    Gracias por usar FtpCrack!"
+echo "                    Gracias por usar ZipCrack!"
 echo ""
 fi
 

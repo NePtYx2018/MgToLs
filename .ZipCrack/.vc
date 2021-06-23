@@ -1,4 +1,9 @@
+juan=$(cd .carpeta ; unzip -oP error -q elzip.zip ; cd ..)
+peso=$(du -sh .carpeta/)
 usr=$(echo "elzip.zip")
+CONTADOR=0
+fin=99999999999
+while [ $CONTADOR -lt $fin ]; do
 
 # Inicio de diccionario
 
@@ -25,17 +30,17 @@ echo "Contraseña: $line"
 echo ""
 
 cd .carpeta
-unzip -P $line -q $usr
+unzip -oP $line -q $usr
 cd ..
 
-auth=$(ls .carpeta)
+auth=$(du -sh .carpeta/)
 
 if [ "$line" = "" ]; then
 exit
 fi
 
-if [ "$auth" = "elzip.zip" ]; then
-bash .vc
+if [ "$auth" = "$peso" ]; then
+pausfks=$(echo "")
 else
 bash .banner
 echo -e "\e[38;5;46m"
@@ -54,3 +59,4 @@ bash ZipCrack.sh
 exit
 fi
 
+done

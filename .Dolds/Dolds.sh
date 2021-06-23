@@ -1,5 +1,5 @@
 bash .banner
-echo "Introduce el peso de los paquetes de tu dos (10000-65507)"
+echo "Introduce el peso de los paquetes de tu dos (10000-65507):"
 read input
 bash .banner
 echo "Introduce la ip que deseas hacer Dos:"
